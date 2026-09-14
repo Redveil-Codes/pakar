@@ -1,0 +1,8 @@
+name: readline
+slug: readline
+version: 8.2
+description: GNU library for command-line editing
+homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+license: GPL-3.0
+maintainer: Chet Ramey
+dependencies:

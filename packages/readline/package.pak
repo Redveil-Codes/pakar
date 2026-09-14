@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://git.savannah.gnu.org/git/readline.git
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/readline
+BIN=./examples/rl
+LIB=./shlib/libreadline.so
+INSTALL_BIN=n
+INSTALL_LIB=y
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

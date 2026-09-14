@@ -1,0 +1,10 @@
+name: tmux
+slug: tmux
+version: 3.4
+description: terminal multiplexer
+homepage: https://github.com/tmux/tmux
+license: ISC
+maintainer: nicm
+dependencies:
+  - ncurses
+  - readline
