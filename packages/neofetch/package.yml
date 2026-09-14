@@ -1,0 +1,6 @@
+name: neofetch
+version: 7.1.0
+description: Command-line system information tool
+homepage: https://github.com/dylanaraps/neofetch
+license: MIT
+dependencies:

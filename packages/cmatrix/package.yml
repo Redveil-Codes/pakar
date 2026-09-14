@@ -1,0 +1,7 @@
+name: cmatrix
+version: 2.0
+description: Terminal based Matrix rain animation
+homepage: https://github.com/abishekvashok/cmatrix
+license: GPL-3.0
+dependencies:
+  - ncurses
