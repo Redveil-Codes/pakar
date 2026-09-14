@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/junegunn/fzf
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/fzf
+BIN=./bin/fzf
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

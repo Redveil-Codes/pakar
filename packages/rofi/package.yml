@@ -1,0 +1,8 @@
+name: rofi
+slug: rofi
+version: 1.7.5
+description: window switcher, application launcher, and dmenu replacement
+homepage: https://github.com/davatorium/rofi
+license: MIT
+maintainer: davatorium
+dependencies:

@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://git.suckless.org/st
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/st
+BIN=./st
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

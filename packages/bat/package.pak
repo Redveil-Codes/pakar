@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/sharkdp/bat
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/bat
+BIN=./target/release/bat
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

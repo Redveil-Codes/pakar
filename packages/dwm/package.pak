@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://git.suckless.org/dwm
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/dwm
+BIN=./dwm
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

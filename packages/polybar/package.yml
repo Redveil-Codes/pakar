@@ -1,0 +1,8 @@
+name: polybar
+slug: polybar
+version: 3.7.2
+description: fast and easy-to-use status bar for tiling window managers
+homepage: https://github.com/polybar/polybar
+license: MIT
+maintainer: polybar
+dependencies:

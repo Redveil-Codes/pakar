@@ -1,0 +1,14 @@
+CC=gcc
+SRC=https://github.com/polybar/polybar
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/polybar
+BIN=./build/bin/polybar
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

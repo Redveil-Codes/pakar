@@ -1,0 +1,8 @@
+name: dmenu
+slug: dmenu
+version: 5.2
+description: dynamic menu for X
+homepage: https://tools.suckless.org/dmenu/
+license: MIT
+maintainer: suckless.org
+dependencies:

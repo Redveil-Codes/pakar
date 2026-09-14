@@ -1,0 +1,8 @@
+name: picom
+slug: picom
+version: 12.4
+description: X11 compositor with animations, shadows, and blur
+homepage: https://github.com/yshui/picom
+license: MIT
+maintainer: yshui
+dependencies:

@@ -1,0 +1,8 @@
+name: bat
+slug: bat
+version: 0.24.0
+description: cat clone with syntax highlighting and git integration
+homepage: https://github.com/sharkdp/bat
+license: MIT OR Apache-2.0
+maintainer: sharkdp
+dependencies:

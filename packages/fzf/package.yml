@@ -1,0 +1,8 @@
+name: fzf
+slug: fzf
+version: 0.55.0
+description: command-line fuzzy finder
+homepage: https://github.com/junegunn/fzf
+license: MIT
+maintainer: junegunn
+dependencies:

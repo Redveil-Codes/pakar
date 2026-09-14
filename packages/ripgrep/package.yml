@@ -1,0 +1,8 @@
+name: ripgrep
+slug: ripgrep
+version: 14.1.0
+description: recursively search directories for a regex pattern, fast
+homepage: https://github.com/BurntSushi/ripgrep
+license: MIT OR Unlicense
+maintainer: BurntSushi
+dependencies:

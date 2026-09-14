@@ -1,0 +1,8 @@
+name: dwm
+slug: dwm
+version: 6.4
+description: dynamic window manager
+homepage: https://dwm.suckless.org
+license: MIT
+maintainer: suckless.org
+dependencies:

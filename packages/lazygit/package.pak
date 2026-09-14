@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/jesseduffield/lazygit
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/lazygit
+BIN=./lazygit
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o lazygit .
+)
