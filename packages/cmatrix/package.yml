@@ -1,4 +1,5 @@
 name: cmatrix
+slug: cmatrix
 version: 2.0
 description: Terminal based Matrix rain animation
 homepage: https://github.com/abishekvashok/cmatrix
