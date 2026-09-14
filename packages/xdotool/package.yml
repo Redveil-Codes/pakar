@@ -1,0 +1,8 @@
+name: xdotool
+slug: xdotool
+version: 3.20211022.1
+description: command-line x11 automation tool
+homepage: https://github.com/jordansissel/xdotool
+license: BSD-3-Clause
+maintainer: jordansissel
+dependencies:

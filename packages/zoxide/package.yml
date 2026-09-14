@@ -1,0 +1,8 @@
+name: zoxide
+slug: zoxide
+version: 0.9.6
+description: smarter cd command that learns your habits
+homepage: https://github.com/ajeetdsouza/zoxide
+license: MIT
+maintainer: ajeetdsouza
+dependencies:

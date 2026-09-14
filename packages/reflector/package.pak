@@ -1,0 +1,11 @@
+CC=
+SRC=https://gitlab.com/reflector/reflector
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/reflector
+BIN=./reflector
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

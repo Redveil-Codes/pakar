@@ -1,0 +1,8 @@
+name: reflector
+slug: reflector
+version: 2023.5
+description: retrieve and filter the latest pacman mirror list
+homepage: https://gitlab.com/reflector/reflector
+license: GPL-3.0
+maintainer: xyne
+dependencies:

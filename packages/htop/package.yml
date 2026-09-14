@@ -1,0 +1,9 @@
+name: htop
+slug: htop
+version: 3.5.3
+description: interactive process viewer
+homepage: https://github.com/htop-dev/htop
+license: GPL-2.0
+maintainer: htop-dev
+dependencies:
+  - ncurses

@@ -1,0 +1,8 @@
+name: starship
+slug: starship
+version: 1.21.1
+description: minimal, fast, and customizable prompt for any shell
+homepage: https://github.com/starship/starship
+license: ISC
+maintainer: starship
+dependencies:

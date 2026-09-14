@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/ajeetdsouza/zoxide
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/zoxide
+BIN=./target/release/zoxide
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

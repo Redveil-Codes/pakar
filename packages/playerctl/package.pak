@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/altdesktop/playerctl
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/playerctl
+BIN=./build/playerctl
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

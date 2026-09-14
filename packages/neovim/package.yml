@@ -1,0 +1,8 @@
+name: neovim
+slug: neovim
+version: 0.10.2
+description: vim-fork focused on extensibility and usability
+homepage: https://github.com/neovim/neovim
+license: Apache-2.0
+maintainer: neovim
+dependencies:

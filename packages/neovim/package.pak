@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://github.com/neovim/neovim
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/neovim
+BIN=./build/bin/nvim
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make CMAKE_BUILD_TYPE=Release
+)

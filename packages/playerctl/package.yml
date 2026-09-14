@@ -1,0 +1,8 @@
+name: playerctl
+slug: playerctl
+version: 2.4.1
+description: command-line utility for controlling mpris-enabled media players
+homepage: https://github.com/altdesktop/playerctl
+license: LGPL-2.1
+maintainer: altdesktop
+dependencies:

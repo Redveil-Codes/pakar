@@ -1,0 +1,8 @@
+name: btop
+slug: btop
+version: 1.4.0
+description: resource monitor that shows usage and stats for processor, memory, disks, network and processes
+homepage: https://github.com/aristocratos/btop
+license: Apache-2.0
+maintainer: aristocratos
+dependencies:

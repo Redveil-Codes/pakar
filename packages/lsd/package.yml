@@ -1,0 +1,8 @@
+name: lsd
+slug: lsd
+version: 1.1.5
+description: ls command with a lot of pretty colors and awesome icons
+homepage: https://github.com/lsd-rs/lsd
+license: Apache-2.0
+maintainer: lsd-rs
+dependencies:

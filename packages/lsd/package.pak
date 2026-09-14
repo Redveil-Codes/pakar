@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/lsd-rs/lsd
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/lsd
+BIN=./target/release/lsd
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

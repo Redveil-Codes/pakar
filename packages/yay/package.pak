@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/Jguer/yay
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/yay
+BIN=./yay
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o yay .
+)
