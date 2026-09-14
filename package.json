@@ -1,0 +1,12 @@
+{
+	"name": "pakar",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"lint": "node scripts/lint-packages.mjs"
+	},
+	"devDependencies": {
+		"js-yaml": "^4.1.0"
+	}
+}

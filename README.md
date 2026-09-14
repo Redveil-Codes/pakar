@@ -15,3 +15,5 @@ packagename/
 ```
 
 Scaffold a new one interactively with `./scripts/new-package.sh` (just bash, nothing to install).
+Field reference: [SCHEMA.md](./SCHEMA.md). Contributing: [CONTRIBUTING.md](./CONTRIBUTING.md).
+Licensed under [GPL-3.0](./LICENSE).
