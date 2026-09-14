@@ -1,0 +1,11 @@
+name: GNU Midnight Commander
+slug: mc
+version: 4.8.31
+description: GNU Midnight Commander, a terminal file manager
+homepage: https://midnight-commander.org
+license: GPL-3.0-or-later
+maintainer: GNU Midnight Commander team
+dependencies:
+  - autoconf
+  - gcc
+  - make

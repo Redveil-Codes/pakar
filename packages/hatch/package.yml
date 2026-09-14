@@ -1,0 +1,9 @@
+name: Hatch
+slug: hatch
+version: 1.13.0
+description: modern Python project manager
+homepage: https://github.com/pypa/hatch
+license: MIT
+maintainer: PyPA
+dependencies:
+  - python

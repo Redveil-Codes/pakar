@@ -1,0 +1,9 @@
+name: Bandit
+slug: bandit
+version: 1.7.10
+description: security linter for Python code
+homepage: https://github.com/PyCQA/bandit
+license: Apache-2.0
+maintainer: PyCQA
+dependencies:
+  - python

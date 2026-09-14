@@ -1,0 +1,9 @@
+name: nushell
+slug: nushell
+version: 0.101.0
+description: a new type of shell
+homepage: https://github.com/nushell/nushell
+license: MIT
+maintainer: nushell
+dependencies:
+  - rustup

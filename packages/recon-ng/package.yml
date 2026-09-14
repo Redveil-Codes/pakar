@@ -1,0 +1,8 @@
+name: Recon-ng
+slug: recon-ng
+version: 5.1.2
+description: full-featured web reconnaissance framework written in Python
+homepage: https://github.com/lanmaster53/recon-ng
+license: GPL-3.0
+maintainer: Tim Tomes (lanmaster53)
+dependencies:

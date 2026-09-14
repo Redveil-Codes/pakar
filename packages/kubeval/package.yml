@@ -1,0 +1,9 @@
+name: kubeval
+slug: kubeval
+version: 0.16.1
+description: validate your Kubernetes configuration files
+homepage: https://github.com/instrumenta/kubeval
+license: MIT
+maintainer: instrumenta
+dependencies:
+  - go

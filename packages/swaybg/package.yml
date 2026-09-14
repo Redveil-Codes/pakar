@@ -1,0 +1,11 @@
+name: swaybg
+slug: swaybg
+version: 1.2.1
+description: a wallpaper tool for Wayland compositors
+homepage: https://github.com/swaywm/swaybg
+license: MIT
+maintainer: SwayWM
+dependencies:
+  - gcc
+  - meson
+  - ninja

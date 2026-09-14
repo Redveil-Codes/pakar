@@ -1,0 +1,9 @@
+name: leftwm
+slug: leftwm
+version: 0.5.2
+description: a tiling window manager for adventurers, written in Rust
+homepage: https://github.com/leftwm/leftwm
+license: MIT
+maintainer: LeftWM Contributors
+dependencies:
+  - rustup

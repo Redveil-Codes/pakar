@@ -1,0 +1,11 @@
+name: jwm
+slug: jwm
+version: 2.4.6
+description: lightweight window manager for the X Window System
+homepage: https://github.com/joewing/jwm
+license: MIT
+maintainer: Joe Wingbermuehle
+dependencies:
+  - autoconf
+  - gcc
+  - make

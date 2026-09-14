@@ -1,0 +1,15 @@
+CC=
+SRC=https://github.com/gcc-mirror/gcc
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/gcc
+BIN=./build/gcc/xgcc
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./contrib/download_prerequisites
+    mkdir -p build
+    cd build
+    ../configure --disable-multilib --enable-languages=c,c++
+    make -j16
+)

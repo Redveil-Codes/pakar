@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/linrunner/TLP
-DEPENDENCIES=
+DEPENDENCIES=(make)
 BUILDDIR=/tmp/pak/imports/tlp
 BIN=./tlp
 LIB=0

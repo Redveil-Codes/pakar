@@ -1,0 +1,9 @@
+name: kustomize
+slug: kustomize
+version: 5.4.3
+description: Kubernetes native configuration management
+homepage: https://github.com/kubernetes-sigs/kustomize
+license: Apache-2.0
+maintainer: Kubernetes SIGs
+dependencies:
+  - go

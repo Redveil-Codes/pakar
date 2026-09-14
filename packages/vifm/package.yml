@@ -1,0 +1,10 @@
+name: vifm
+slug: vifm
+version: 0.13
+description: vim-like file manager
+homepage: https://vifm.info
+license: GPL-2.0-or-later
+maintainer: vifm
+dependencies:
+  - gcc
+  - make

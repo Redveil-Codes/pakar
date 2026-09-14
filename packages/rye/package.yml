@@ -1,0 +1,9 @@
+name: Rye
+slug: rye
+version: 0.44.0
+description: comprehensive project and package management for Python
+homepage: https://github.com/astral-sh/rye
+license: MIT
+maintainer: Astral
+dependencies:
+  - rustup

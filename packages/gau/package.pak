@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/lc/gau
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/gau
+BIN=./gau
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o gau ./cmd/gau
+)

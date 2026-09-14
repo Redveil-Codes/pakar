@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/gruntwork-io/terragrunt
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/terragrunt
+BIN=./terragrunt
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o terragrunt .
+)

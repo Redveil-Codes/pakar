@@ -1,0 +1,11 @@
+name: inkscape
+slug: inkscape
+version: 1.3.2
+description: professional vector graphics editor
+homepage: https://gitlab.com/inkscape/inkscape
+license: GPL-3.0
+maintainer: inkscape
+dependencies:
+  - cmake
+  - gcc
+  - make

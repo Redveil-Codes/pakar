@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/curl/curl
-DEPENDENCIES=
+DEPENDENCIES=(autoconf automake gcc make)
 BUILDDIR=/tmp/pak/imports/curl
 BIN=./src/curl
 LIB=0

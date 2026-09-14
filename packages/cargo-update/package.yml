@@ -1,0 +1,9 @@
+name: cargo-update
+slug: cargo-update
+version: 15.1.0
+description: checks for and installs newer versions of installed cargo binaries
+homepage: https://github.com/nabijaczleweli/cargo-update
+license: MIT
+maintainer: nabijaczleweli
+dependencies:
+  - rustup

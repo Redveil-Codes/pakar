@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/jaor/xmobar
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/xmobar
+BIN=./xmobar
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cabal build
+)

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/go-task/task
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/go-task
+BIN=./bin/task
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o bin/task ./cmd/task
+)

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/kubernetes/kubernetes
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/kubectl
+BIN=./kubectl
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o kubectl ./cmd/kubectl
+)

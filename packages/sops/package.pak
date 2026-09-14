@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/getsops/sops
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/sops
+BIN=./sops
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o sops ./cmd/sops
+)

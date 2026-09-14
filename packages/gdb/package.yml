@@ -1,0 +1,9 @@
+name: gdb
+slug: gdb
+version: 15.2
+description: the gnu project debugger
+homepage: https://sourceware.org/gdb/
+license: GPL-3.0
+maintainer: bminor
+dependencies:
+  - make

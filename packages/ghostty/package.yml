@@ -1,0 +1,9 @@
+name: ghostty
+slug: ghostty
+version: 1.1.0
+description: fast, feature-rich, cross-platform terminal emulator
+homepage: https://github.com/ghostty-org/ghostty
+license: MIT
+maintainer: Mitchell Hashimoto
+dependencies:
+  - zig

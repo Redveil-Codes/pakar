@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/bufbuild/buf
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/buf
+BIN=./bin/buf
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o bin/buf ./cmd/buf
+)

@@ -1,0 +1,10 @@
+name: hashcat
+slug: hashcat
+version: 6.2.6
+description: advanced password recovery and hash cracking utility
+homepage: https://github.com/hashcat/hashcat
+license: MIT
+maintainer: Jens Steube
+dependencies:
+  - gcc
+  - make

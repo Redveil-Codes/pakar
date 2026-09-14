@@ -1,0 +1,10 @@
+name: vis
+slug: vis
+version: 0.9
+description: a vim-like editor built on structural regular expressions
+homepage: https://github.com/martanne/vis
+license: ISC
+maintainer: martanne
+dependencies:
+  - gcc
+  - make

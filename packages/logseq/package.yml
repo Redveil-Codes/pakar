@@ -1,0 +1,9 @@
+name: Logseq
+slug: logseq
+version: 0.10.9
+description: local-first, privacy-first knowledge base and outliner
+homepage: https://github.com/logseq/logseq
+license: AGPL-3.0
+maintainer: logseq
+dependencies:
+  - pnpm

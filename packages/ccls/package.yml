@@ -1,0 +1,10 @@
+name: ccls
+slug: ccls
+version: 0.20230717
+description: C/C++/Objective-C language server
+homepage: https://github.com/MaskRay/ccls
+license: Apache-2.0
+maintainer: MaskRay
+dependencies:
+  - clang
+  - cmake

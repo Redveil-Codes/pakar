@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/est31/cargo-udeps
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/cargo-udeps
+BIN=./target/release/cargo-udeps
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

@@ -1,0 +1,9 @@
+name: waypoint
+slug: waypoint
+version: 0.11.3
+description: a tool that provides a modern workflow to build, deploy, and release applications
+homepage: https://github.com/hashicorp/waypoint
+license: MPL-2.0
+maintainer: HashiCorp
+dependencies:
+  - go

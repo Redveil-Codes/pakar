@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/ReFirmLabs/binwalk
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/binwalk
+BIN=./target/release/binwalk
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

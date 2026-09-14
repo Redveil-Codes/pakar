@@ -1,0 +1,9 @@
+name: navi
+slug: navi
+version: 2.24.0
+description: an interactive cheatsheet tool for the command-line
+homepage: https://github.com/denisidoro/navi
+license: Apache-2.0
+maintainer: denisidoro
+dependencies:
+  - rustup

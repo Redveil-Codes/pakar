@@ -1,0 +1,9 @@
+name: Katana
+slug: katana
+version: 1.7.0
+description: next-generation crawling and spidering framework
+homepage: https://github.com/projectdiscovery/katana
+license: MIT
+maintainer: ProjectDiscovery
+dependencies:
+  - go

@@ -1,0 +1,9 @@
+name: cargo-expand
+slug: cargo-expand
+version: 1.0.95
+description: show the result of macro expansion in Rust source
+homepage: https://github.com/dtolnay/cargo-expand
+license: MIT OR Apache-2.0
+maintainer: dtolnay
+dependencies:
+  - rustup

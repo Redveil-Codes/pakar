@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/golang/tools
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/gopls
+BIN=./gopls-bin
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o gopls-bin ./gopls
+)

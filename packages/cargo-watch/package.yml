@@ -1,0 +1,9 @@
+name: cargo-watch
+slug: cargo-watch
+version: 8.5.3
+description: watches over your cargo project's source for changes
+homepage: https://github.com/watchexec/cargo-watch
+license: CC0-1.0
+maintainer: watchexec
+dependencies:
+  - rustup

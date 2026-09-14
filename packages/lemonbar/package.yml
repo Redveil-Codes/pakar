@@ -1,0 +1,10 @@
+name: lemonbar
+slug: lemonbar
+version: 1.4
+description: a lightweight, xcb-based status bar for X11
+homepage: https://github.com/LemonBoy/bar
+license: MIT
+maintainer: LemonBoy
+dependencies:
+  - gcc
+  - make

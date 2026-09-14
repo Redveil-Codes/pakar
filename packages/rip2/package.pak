@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/MilesCranmer/rip2
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/rip2
+BIN=./target/release/rip
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

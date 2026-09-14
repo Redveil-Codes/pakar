@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/AdnanHodzic/auto-cpufreq
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/auto-cpufreq
+BIN=./auto_cpufreq/rust/target/release/auto-cpufreq
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd auto_cpufreq/rust
+    cargo build --release
+)

@@ -1,0 +1,8 @@
+name: SMBMap
+slug: smbmap
+version: 1.10.8
+description: handy SMB share enumeration tool
+homepage: https://github.com/ShawnDEvans/smbmap
+license: GPL-3.0
+maintainer: Shawn Evans (ShawnDEvans)
+dependencies:

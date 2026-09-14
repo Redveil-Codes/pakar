@@ -1,0 +1,11 @@
+name: waybar
+slug: waybar
+version: 0.11.0
+description: a highly customizable bar for wlroots based wayland compositors
+homepage: https://github.com/Alexays/Waybar
+license: MIT
+maintainer: Alexays
+dependencies:
+  - gcc
+  - meson
+  - ninja

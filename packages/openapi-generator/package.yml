@@ -1,0 +1,9 @@
+name: openapi-generator
+slug: openapi-generator
+version: 7.10.0
+description: generates api client libraries, server stubs, docs from openapi specs
+homepage: https://github.com/OpenAPITools/openapi-generator
+license: Apache-2.0
+maintainer: OpenAPITools
+dependencies:
+  - maven

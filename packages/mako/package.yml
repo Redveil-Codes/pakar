@@ -1,0 +1,11 @@
+name: mako
+slug: mako
+version: 1.9.0
+description: a lightweight notification daemon for Wayland
+homepage: https://github.com/emersion/mako
+license: MIT
+maintainer: Simon Ficarra (emersion)
+dependencies:
+  - gcc
+  - meson
+  - ninja

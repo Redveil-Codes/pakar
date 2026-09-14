@@ -1,0 +1,9 @@
+name: kompose
+slug: kompose
+version: 1.34.0
+description: a tool to convert docker-compose files into Kubernetes manifests
+homepage: https://github.com/kubernetes/kompose
+license: Apache-2.0
+maintainer: Kubernetes
+dependencies:
+  - go

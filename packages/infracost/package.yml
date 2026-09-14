@@ -1,0 +1,9 @@
+name: infracost
+slug: infracost
+version: 0.10.39
+description: cloud cost estimates for Terraform in pull requests
+homepage: https://github.com/infracost/infracost
+license: Apache-2.0
+maintainer: Infracost
+dependencies:
+  - go

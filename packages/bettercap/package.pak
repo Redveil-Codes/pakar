@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/bettercap/bettercap
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/bettercap
+BIN=./bettercap
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build
+)

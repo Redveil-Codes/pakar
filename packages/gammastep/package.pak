@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://gitlab.com/chinstrap/gammastep
+DEPENDENCIES=(autoconf gcc make)
+BUILDDIR=/tmp/pak/imports/gammastep
+BIN=./src/gammastep
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./autogen.sh
+    ./configure
+    make
+)

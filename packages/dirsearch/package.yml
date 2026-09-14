@@ -1,0 +1,9 @@
+name: dirsearch
+slug: dirsearch
+version: 0.5.0
+description: advanced web path brute-forcer and scanner
+homepage: https://github.com/maurosoria/dirsearch
+license: GPL-2.0-only
+maintainer: Mauro Soria
+dependencies:
+  - python

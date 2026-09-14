@@ -1,0 +1,10 @@
+name: imagemagick
+slug: imagemagick
+version: 7.1.1
+description: software suite to create, edit, compose, or convert bitmap images
+homepage: https://github.com/ImageMagick/ImageMagick
+license: ImageMagick
+maintainer: ImageMagick
+dependencies:
+  - gcc
+  - make

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/air-verse/air
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/air
+BIN=./bin/air
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o bin/air .
+)

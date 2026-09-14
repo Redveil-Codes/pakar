@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/89luca89/distrobox
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/distrobox
+BIN=./distrobox
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

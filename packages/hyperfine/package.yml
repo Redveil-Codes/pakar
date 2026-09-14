@@ -1,0 +1,9 @@
+name: hyperfine
+slug: hyperfine
+version: 1.19.0
+description: a command-line benchmarking tool
+homepage: https://github.com/sharkdp/hyperfine
+license: MIT OR Apache-2.0
+maintainer: sharkdp
+dependencies:
+  - rustup

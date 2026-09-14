@@ -1,0 +1,11 @@
+name: yersinia
+slug: yersinia
+version: 0.8.2
+description: a network protocol attack and testing framework
+homepage: https://github.com/tomac/yersinia
+license: GPL-2.0
+maintainer: tomac
+dependencies:
+  - autoconf
+  - gcc
+  - make

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/python-poetry/poetry
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/poetry
+BIN=./src/poetry/console/application.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

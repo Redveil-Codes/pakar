@@ -1,0 +1,8 @@
+name: gcc
+slug: gcc
+version: 14.2.0
+description: GNU Compiler Collection, supporting C, C++, and other languages
+homepage: https://gcc.gnu.org/
+license: GPL-3.0
+maintainer: GNU
+dependencies:

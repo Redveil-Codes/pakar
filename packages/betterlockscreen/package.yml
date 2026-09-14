@@ -1,0 +1,8 @@
+name: betterlockscreen
+slug: betterlockscreen
+version: 4.4.0
+description: a fancier i3lock/x based screen locker
+homepage: https://github.com/betterlockscreen/betterlockscreen
+license: MIT
+maintainer: betterlockscreen
+dependencies:

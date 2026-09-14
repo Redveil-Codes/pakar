@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://git.savannah.gnu.org/git/make.git
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/make
+BIN=./make
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./bootstrap
+    ./configure
+    ./build.sh
+)

@@ -1,0 +1,9 @@
+name: tailscale
+slug: tailscale
+version: 1.76.6
+description: a mesh VPN built on WireGuard
+homepage: https://github.com/tailscale/tailscale
+license: BSD-3-Clause
+maintainer: Tailscale Inc.
+dependencies:
+  - go

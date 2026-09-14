@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/npm/cli
+DEPENDENCIES=(nodejs)
+BUILDDIR=/tmp/pak/imports/npm
+BIN=./bin/npm-cli.js
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    node ./bin/npm-cli.js install --no-audit --no-fund
+)

@@ -1,0 +1,12 @@
+CC=clang++
+SRC=https://github.com/llvm/llvm-project
+DEPENDENCIES=(clang cmake)
+BUILDDIR=/tmp/pak/imports/clangd
+BIN=./build/bin/clangd
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cmake -S llvm -B build -G "Unix Makefiles" -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" -DCMAKE_BUILD_TYPE=Release
+    cmake --build build --target clangd
+)

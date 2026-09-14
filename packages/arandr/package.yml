@@ -1,0 +1,8 @@
+name: arandr
+slug: arandr
+version: 0.1.11
+description: a visual front end for the xrandr display configuration tool
+homepage: https://christian.amsuess.com/tools/arandr/
+license: GPL-3.0
+maintainer: Christian Amsüss
+dependencies:

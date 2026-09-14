@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/s0md3v/Arjun
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/arjun
+BIN=./arjun/__main__.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

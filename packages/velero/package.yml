@@ -1,0 +1,9 @@
+name: velero
+slug: velero
+version: 1.14.1
+description: backup and restore Kubernetes cluster resources and persistent volumes
+homepage: https://github.com/vmware-tanzu/velero
+license: Apache-2.0
+maintainer: VMware Tanzu
+dependencies:
+  - go

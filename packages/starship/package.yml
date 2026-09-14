@@ -6,3 +6,4 @@ homepage: https://github.com/starship/starship
 license: ISC
 maintainer: starship
 dependencies:
+  - rustup

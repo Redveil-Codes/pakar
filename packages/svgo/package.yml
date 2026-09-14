@@ -1,0 +1,9 @@
+name: svgo
+slug: svgo
+version: 3.3.2
+description: node.js tool for optimizing svg files
+homepage: https://github.com/svg/svgo
+license: MIT
+maintainer: svg
+dependencies:
+  - npm

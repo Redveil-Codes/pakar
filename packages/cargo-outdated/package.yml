@@ -1,0 +1,9 @@
+name: cargo-outdated
+slug: cargo-outdated
+version: 0.15.0
+description: a cargo subcommand for displaying outdated dependencies
+homepage: https://github.com/kbknapp/cargo-outdated
+license: MIT
+maintainer: kbknapp
+dependencies:
+  - rustup

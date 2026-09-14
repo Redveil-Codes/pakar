@@ -1,0 +1,12 @@
+CC=g++
+SRC=https://github.com/rui314/mold
+DEPENDENCIES=(cmake gcc)
+BUILDDIR=/tmp/pak/imports/mold
+BIN=./build/mold
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+    cmake --build build -j$(nproc)
+)

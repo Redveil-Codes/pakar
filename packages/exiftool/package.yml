@@ -1,0 +1,8 @@
+name: exiftool
+slug: exiftool
+version: 13.10
+description: perl library and command-line application for reading and writing meta information
+homepage: https://github.com/exiftool/exiftool
+license: Artistic-2.0
+maintainer: exiftool
+dependencies:

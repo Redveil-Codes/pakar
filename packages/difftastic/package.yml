@@ -1,0 +1,9 @@
+name: difftastic
+slug: difftastic
+version: 0.63.0
+description: a structural diff tool that understands syntax
+homepage: https://github.com/Wilfred/difftastic
+license: MIT
+maintainer: Wilfred
+dependencies:
+  - rustup

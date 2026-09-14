@@ -1,0 +1,11 @@
+CC=
+SRC=https://gitlab.freedesktop.org/pipewire/helvum
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/helvum
+BIN=./target/release/helvum
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

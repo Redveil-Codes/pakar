@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/TriliumNext/Notes
+DEPENDENCIES=(pnpm)
+BUILDDIR=/tmp/pak/imports/trilium
+BIN=./dist/trilium
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    pnpm install
+    pnpm run build
+)

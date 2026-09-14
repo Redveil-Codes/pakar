@@ -1,0 +1,10 @@
+name: xss-lock
+slug: xss-lock
+version: 0.5.0
+description: use an external locker as x screensaver
+homepage: https://github.com/xss-lock/xss-lock
+license: MIT
+maintainer: xss-lock
+dependencies:
+  - gcc
+  - make

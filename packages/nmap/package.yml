@@ -1,0 +1,10 @@
+name: nmap
+slug: nmap
+version: 7.95
+description: a free and open source utility for network discovery and security auditing
+homepage: https://nmap.org
+license: GPL-2.0
+maintainer: Gordon Lyon (Fyodor)
+dependencies:
+  - gcc
+  - make

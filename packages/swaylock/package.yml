@@ -1,0 +1,11 @@
+name: swaylock
+slug: swaylock
+version: 1.7
+description: a screen locker for Wayland
+homepage: https://github.com/swaywm/swaylock
+license: MIT
+maintainer: SwayWM
+dependencies:
+  - gcc
+  - meson
+  - ninja

@@ -1,0 +1,9 @@
+name: cpplint
+slug: cpplint
+version: 2.0.0
+description: style-check tool for C++ code following the Google style guide
+homepage: https://github.com/cpplint/cpplint
+license: BSD-3-Clause
+maintainer: cpplint contributors
+dependencies:
+  - python

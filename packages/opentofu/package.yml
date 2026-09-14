@@ -1,0 +1,9 @@
+name: opentofu
+slug: opentofu
+version: 1.8.4
+description: an open source, community-driven fork of Terraform for infrastructure as code
+homepage: https://opentofu.org/
+license: MPL-2.0
+maintainer: OpenTofu (Linux Foundation project)
+dependencies:
+  - go

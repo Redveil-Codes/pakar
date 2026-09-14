@@ -1,0 +1,9 @@
+name: isort
+slug: isort
+version: 5.13.2
+description: utility to sort Python imports
+homepage: https://github.com/PyCQA/isort
+license: MIT
+maintainer: PyCQA
+dependencies:
+  - python

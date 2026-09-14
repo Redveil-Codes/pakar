@@ -1,0 +1,9 @@
+name: air
+slug: air
+version: 1.61.5
+description: live reload for go apps during development
+homepage: https://github.com/air-verse/air
+license: MIT
+maintainer: air-verse
+dependencies:
+  - go

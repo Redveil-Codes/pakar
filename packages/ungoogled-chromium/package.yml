@@ -1,0 +1,10 @@
+name: ungoogled-chromium
+slug: ungoogled-chromium
+version: 152.0.7977.82
+description: a lightweight approach to removing google web service dependency from chromium
+homepage: https://github.com/ungoogled-software/ungoogled-chromium
+license: BSD-3-Clause
+maintainer: ungoogled-software
+dependencies:
+  - ninja
+  - python

@@ -1,0 +1,9 @@
+name: dasel
+slug: dasel
+version: 2.8.1
+description: query and update data structures like JSON, YAML, and TOML from the CLI
+homepage: https://github.com/TomWright/dasel
+license: MIT
+maintainer: Tom Wright
+dependencies:
+  - go

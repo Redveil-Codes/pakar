@@ -1,0 +1,9 @@
+name: helvum
+slug: helvum
+version: 0.6.1
+description: gtk patchbay for pipewire
+homepage: https://gitlab.freedesktop.org/pipewire/helvum
+license: GPL-3.0
+maintainer: pipewire
+dependencies:
+  - rustup

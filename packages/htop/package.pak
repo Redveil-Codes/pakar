@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/htop-dev/htop
-DEPENDENCIES=(ncurses)
+DEPENDENCIES=(autoconf gcc make ncurses)
 BUILDDIR=/tmp/pak/imports/htop
 BIN=./htop
 LIB=0

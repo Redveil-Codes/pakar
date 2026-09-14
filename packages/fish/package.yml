@@ -1,0 +1,11 @@
+name: fish
+slug: fish
+version: 3.7.1
+description: the friendly interactive shell
+homepage: https://github.com/fish-shell/fish-shell
+license: GPL-2.0
+maintainer: fish-shell
+dependencies:
+  - cmake
+  - gcc
+  - make

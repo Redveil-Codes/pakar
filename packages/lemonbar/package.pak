@@ -1,0 +1,12 @@
+CC=cc
+SRC=https://github.com/LemonBoy/bar
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/lemonbar
+BIN=./lemonbar
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+    cp bar lemonbar
+)

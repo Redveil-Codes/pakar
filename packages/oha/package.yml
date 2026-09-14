@@ -1,0 +1,9 @@
+name: oha
+slug: oha
+version: 1.6.0
+description: http load generator, inspired by rakyll/hey, with a tui
+homepage: https://github.com/hatoo/oha
+license: MIT
+maintainer: hatoo
+dependencies:
+  - rustup

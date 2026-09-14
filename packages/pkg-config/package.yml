@@ -1,0 +1,10 @@
+name: pkg-config
+slug: pkg-config
+version: 0.29.2
+description: helper tool used to retrieve information about installed libraries for compiling/linking
+homepage: https://gitlab.freedesktop.org/pkg-config/pkg-config
+license: GPL-2.0
+maintainer: freedesktop.org
+dependencies:
+  - gcc
+  - make

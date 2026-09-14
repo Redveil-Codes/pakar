@@ -1,0 +1,12 @@
+CC=cc
+SRC=https://github.com/i3/i3status
+DEPENDENCIES=(gcc meson ninja)
+BUILDDIR=/tmp/pak/imports/i3status
+BIN=./build/i3status
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

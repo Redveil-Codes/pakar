@@ -1,0 +1,9 @@
+name: Zim
+slug: zim
+version: 0.75.2
+description: desktop wiki and notebook application
+homepage: https://github.com/zim-desktop-wiki/zim-desktop-wiki
+license: GPL-2.0
+maintainer: zim-desktop-wiki
+dependencies:
+  - python

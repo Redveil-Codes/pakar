@@ -1,0 +1,9 @@
+name: Poetry
+slug: poetry
+version: 1.8.4
+description: Python packaging and dependency management
+homepage: https://github.com/python-poetry/poetry
+license: MIT
+maintainer: Poetry contributors
+dependencies:
+  - python

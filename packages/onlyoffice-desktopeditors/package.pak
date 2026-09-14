@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/ONLYOFFICE/DesktopEditors
+DEPENDENCIES=(cmake make)
+BUILDDIR=/tmp/pak/imports/onlyoffice-desktopeditors
+BIN=./build/bin/DesktopEditors
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cmake .
+    make
+)

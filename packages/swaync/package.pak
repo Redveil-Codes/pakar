@@ -1,0 +1,12 @@
+CC=g++
+SRC=https://github.com/ErikReider/SwayNotificationCenter
+DEPENDENCIES=(gcc meson ninja)
+BUILDDIR=/tmp/pak/imports/swaync
+BIN=./build/swaync
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

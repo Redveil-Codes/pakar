@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://github.com/jarun/nnn
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/nnn
+BIN=./nnn
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make O_CTX8=1
+)

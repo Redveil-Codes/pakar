@@ -1,0 +1,11 @@
+name: konsole
+slug: konsole
+version: 24.08.2
+description: KDE's terminal emulator
+homepage: https://github.com/KDE/konsole
+license: GPL-2.0
+maintainer: KDE
+dependencies:
+  - cmake
+  - gcc
+  - make

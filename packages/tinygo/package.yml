@@ -1,0 +1,9 @@
+name: tinygo
+slug: tinygo
+version: 0.34.0
+description: a go compiler for small places, microcontrollers, wasm, and command-line tools
+homepage: https://github.com/tinygo-org/tinygo
+license: BSD-3-Clause
+maintainer: tinygo-org
+dependencies:
+  - make

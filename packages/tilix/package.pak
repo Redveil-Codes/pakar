@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/gnunn1/tilix
+DEPENDENCIES=(meson ninja)
+BUILDDIR=/tmp/pak/imports/tilix
+BIN=./build/tilix
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

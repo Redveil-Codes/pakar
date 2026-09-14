@@ -1,0 +1,9 @@
+name: tre-command
+slug: tre-command
+version: 0.4.0
+description: tree command, improved
+homepage: https://github.com/dduan/tre
+license: MIT
+maintainer: dduan
+dependencies:
+  - rustup

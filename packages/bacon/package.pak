@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/Canop/bacon
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/bacon
+BIN=./target/release/bacon
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

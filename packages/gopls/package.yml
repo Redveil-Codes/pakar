@@ -1,0 +1,9 @@
+name: gopls
+slug: gopls
+version: 0.17.0
+description: official language server for the Go programming language
+homepage: https://github.com/golang/tools
+license: BSD-3-Clause
+maintainer: golang
+dependencies:
+  - go

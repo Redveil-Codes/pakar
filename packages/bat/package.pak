@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/sharkdp/bat
-DEPENDENCIES=
+DEPENDENCIES=(rustup)
 BUILDDIR=/tmp/pak/imports/bat
 BIN=./target/release/bat
 LIB=0

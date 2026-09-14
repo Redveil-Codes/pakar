@@ -1,0 +1,9 @@
+name: assetfinder
+slug: assetfinder
+version: 0.1.1
+description: find domains and subdomains related to a given domain
+homepage: https://github.com/tomnomnom/assetfinder
+license: MIT
+maintainer: Tom Hudson (tomnomnom)
+dependencies:
+  - go

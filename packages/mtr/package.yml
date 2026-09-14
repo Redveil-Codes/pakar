@@ -1,0 +1,11 @@
+name: mtr
+slug: mtr
+version: 0.95
+description: a network diagnostic tool combining traceroute and ping
+homepage: https://github.com/traviscross/mtr
+license: GPL-2.0
+maintainer: Matt Kimball
+dependencies:
+  - autoconf
+  - gcc
+  - make

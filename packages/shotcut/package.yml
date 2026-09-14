@@ -1,0 +1,11 @@
+name: shotcut
+slug: shotcut
+version: 24.11.28
+description: free, open source, cross-platform video editor
+homepage: https://github.com/mltframework/shotcut
+license: GPL-3.0
+maintainer: mltframework
+dependencies:
+  - cmake
+  - gcc
+  - make

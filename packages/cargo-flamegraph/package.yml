@@ -1,0 +1,9 @@
+name: cargo-flamegraph
+slug: cargo-flamegraph
+version: 0.6.5
+description: a cargo subcommand for generating flamegraphs of rust binaries
+homepage: https://github.com/flamegraph-rs/flamegraph
+license: MIT
+maintainer: flamegraph-rs
+dependencies:
+  - rustup

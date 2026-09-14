@@ -1,0 +1,9 @@
+name: kubectx
+slug: kubectx
+version: 0.9.5
+description: a fast way to switch between Kubernetes contexts
+homepage: https://github.com/ahmetb/kubectx
+license: Apache-2.0
+maintainer: ahmetb
+dependencies:
+  - go

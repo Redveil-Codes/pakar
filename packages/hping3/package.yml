@@ -1,0 +1,10 @@
+name: hping3
+slug: hping3
+version: 3.0.0-alpha
+description: network tool for crafting and sending custom TCP/IP packets
+homepage: https://github.com/antirez/hping
+license: GPL-2.0
+maintainer: Salvatore Sanfilippo (antirez)
+dependencies:
+  - gcc
+  - make

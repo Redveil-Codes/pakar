@@ -1,0 +1,10 @@
+name: pnpm
+slug: pnpm
+version: 9.15.2
+description: fast, disk space efficient package manager for JavaScript
+homepage: https://github.com/pnpm/pnpm
+license: MIT
+maintainer: pnpm
+dependencies:
+  - nodejs
+  - npm

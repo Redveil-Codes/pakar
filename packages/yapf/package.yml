@@ -1,0 +1,9 @@
+name: YAPF
+slug: yapf
+version: 0.40.2
+description: formatter for Python code
+homepage: https://github.com/google/yapf
+license: Apache-2.0
+maintainer: Google
+dependencies:
+  - python

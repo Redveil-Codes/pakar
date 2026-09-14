@@ -1,0 +1,11 @@
+name: GNU MAC Changer
+slug: macchanger
+version: 1.7.0
+description: utility for viewing and manipulating the MAC address of network interfaces
+homepage: https://github.com/alobbs/macchanger
+license: GPL-3.0
+maintainer: Alvaro Lopez Ortega (alobbs)
+dependencies:
+  - autoconf
+  - gcc
+  - make

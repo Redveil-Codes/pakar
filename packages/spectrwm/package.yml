@@ -1,0 +1,10 @@
+name: spectrwm
+slug: spectrwm
+version: 3.9.0
+description: a minimalist tiling window manager for X
+homepage: https://github.com/conformal/spectrwm
+license: ISC
+maintainer: conformal
+dependencies:
+  - gcc
+  - make

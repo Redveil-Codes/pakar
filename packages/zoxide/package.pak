@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/ajeetdsouza/zoxide
-DEPENDENCIES=
+DEPENDENCIES=(rustup)
 BUILDDIR=/tmp/pak/imports/zoxide
 BIN=./target/release/zoxide
 LIB=0

@@ -1,0 +1,11 @@
+name: mkvtoolnix
+slug: mkvtoolnix
+version: 90
+description: tools to create, alter, and inspect matroska files
+homepage: https://gitlab.com/mbunkus/mkvtoolnix
+license: GPL-2.0
+maintainer: mbunkus
+dependencies:
+  - gcc
+  - meson
+  - ninja

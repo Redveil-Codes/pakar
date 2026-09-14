@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://github.com/kovidgoyal/kitty
+DEPENDENCIES=(gcc python)
+BUILDDIR=/tmp/pak/imports/kitty
+BIN=./kitty/launcher/kitty
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    python3 setup.py build
+)

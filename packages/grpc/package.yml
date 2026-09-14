@@ -1,0 +1,10 @@
+name: grpc
+slug: grpc
+version: 1.68.2
+description: a high performance, open source universal rpc framework
+homepage: https://github.com/grpc/grpc
+license: Apache-2.0
+maintainer: grpc
+dependencies:
+  - cmake
+  - make

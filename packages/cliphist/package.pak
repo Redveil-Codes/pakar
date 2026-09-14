@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/sentriz/cliphist
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/cliphist
+BIN=./cliphist
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build
+)

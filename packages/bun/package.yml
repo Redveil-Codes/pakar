@@ -1,0 +1,8 @@
+name: bun
+slug: bun
+version: 1.1.42
+description: a fast all-in-one javascript runtime and toolkit
+homepage: https://github.com/oven-sh/bun
+license: MIT
+maintainer: oven-sh
+dependencies:

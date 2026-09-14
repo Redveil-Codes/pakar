@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/sharkdp/fd
-DEPENDENCIES=
+DEPENDENCIES=(rustup)
 BUILDDIR=/tmp/pak/imports/fd
 BIN=./target/release/fd
 LIB=0

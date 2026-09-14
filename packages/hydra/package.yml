@@ -1,0 +1,10 @@
+name: hydra
+slug: hydra
+version: 9.5
+description: parallelized login cracker supporting numerous protocols
+homepage: https://github.com/vanhauser-thc/thc-hydra
+license: AGPL-3.0
+maintainer: van Hauser / THC
+dependencies:
+  - gcc
+  - make

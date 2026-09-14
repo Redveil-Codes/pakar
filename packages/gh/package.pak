@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/cli/cli
-DEPENDENCIES=
+DEPENDENCIES=(make)
 BUILDDIR=/tmp/pak/imports/gh
 BIN=./bin/gh
 LIB=0

@@ -1,0 +1,9 @@
+name: deno
+slug: deno
+version: 2.1.4
+description: a modern runtime for javascript and typescript
+homepage: https://github.com/denoland/deno
+license: MIT
+maintainer: denoland
+dependencies:
+  - rustup

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/sezanzeb/input-remapper
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/input-remapper
+BIN=./bin/input-remapper-gtk
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

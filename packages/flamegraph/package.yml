@@ -1,0 +1,9 @@
+name: flamegraph
+slug: flamegraph
+version: 1
+description: stack trace visualizer for profiling software, brendan gregg's original perl tool
+homepage: https://github.com/brendangregg/FlameGraph
+license: CDDL-1.0
+maintainer: brendangregg
+dependencies:
+  - perl

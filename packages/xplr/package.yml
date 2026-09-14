@@ -1,0 +1,9 @@
+name: xplr
+slug: xplr
+version: 0.21.9
+description: a hackable, minimal, fast terminal file explorer
+homepage: https://github.com/xplr-rs/xplr
+license: MIT
+maintainer: xplr-rs
+dependencies:
+  - rustup

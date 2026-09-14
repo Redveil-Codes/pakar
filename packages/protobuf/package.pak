@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/protocolbuffers/protobuf
+DEPENDENCIES=(cmake make)
+BUILDDIR=/tmp/pak/imports/protobuf
+BIN=./bazel-bin/protoc
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cmake . -Dprotobuf_BUILD_TESTS=OFF
+    make -j16
+)

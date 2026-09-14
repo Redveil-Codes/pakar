@@ -1,0 +1,10 @@
+name: wmctrl
+slug: wmctrl
+version: 1.07
+description: command-line tool to interact with ewmh/netwm compliant window managers
+homepage: https://github.com/Conservatory/wmctrl
+license: GPL-2.0
+maintainer: Conservatory
+dependencies:
+  - gcc
+  - make

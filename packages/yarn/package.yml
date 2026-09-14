@@ -1,0 +1,10 @@
+name: yarn
+slug: yarn
+version: 4.6.0
+description: fast, reliable, and secure dependency management for JavaScript
+homepage: https://github.com/yarnpkg/berry
+license: BSD-2-Clause
+maintainer: Yarn
+dependencies:
+  - nodejs
+  - npm

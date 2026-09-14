@@ -1,0 +1,9 @@
+name: kind
+slug: kind
+version: 0.24.0
+description: a tool for running local Kubernetes clusters using Docker container nodes
+homepage: https://github.com/kubernetes-sigs/kind
+license: Apache-2.0
+maintainer: Kubernetes SIGs
+dependencies:
+  - go

@@ -1,0 +1,8 @@
+name: LibreWolf
+slug: librewolf
+version: 131.0
+description: privacy-focused fork of firefox
+homepage: https://gitlab.com/librewolf-community/browser/source
+license: MPL-2.0
+maintainer: librewolf-community
+dependencies:

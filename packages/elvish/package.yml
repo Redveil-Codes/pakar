@@ -1,0 +1,9 @@
+name: elvish
+slug: elvish
+version: 0.20.1
+description: an expressive programming language and a versatile interactive shell
+homepage: https://github.com/elves/elvish
+license: BSD-2-Clause
+maintainer: Qi Xiao
+dependencies:
+  - go

@@ -1,0 +1,10 @@
+name: lm-sensors
+slug: lm-sensors
+version: 3.6.0
+description: tools for reading hardware sensors on Linux
+homepage: https://github.com/lm-sensors/lm-sensors
+license: GPL-2.0
+maintainer: Jean Delvare
+dependencies:
+  - gcc
+  - make

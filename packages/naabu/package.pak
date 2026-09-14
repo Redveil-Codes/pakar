@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/projectdiscovery/naabu
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/naabu
+BIN=./naabu
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o naabu ./cmd/naabu
+)

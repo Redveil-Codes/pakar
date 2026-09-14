@@ -1,0 +1,11 @@
+name: netdata
+slug: netdata
+version: 1.47.2
+description: real-time performance and health monitoring for systems and applications
+homepage: https://www.netdata.cloud/
+license: GPL-3.0
+maintainer: Netdata Inc.
+dependencies:
+  - cmake
+  - gcc
+  - make

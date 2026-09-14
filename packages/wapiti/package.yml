@@ -1,0 +1,8 @@
+name: Wapiti
+slug: wapiti
+version: 3.3.2
+description: web application vulnerability scanner
+homepage: https://github.com/wapiti-scanner/wapiti
+license: GPL-2.0
+maintainer: Nicolas Surribas
+dependencies:

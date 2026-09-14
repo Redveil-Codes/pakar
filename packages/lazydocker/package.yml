@@ -1,0 +1,9 @@
+name: lazydocker
+slug: lazydocker
+version: 0.23.3
+description: a simple terminal UI for docker and docker-compose
+homepage: https://github.com/jesseduffield/lazydocker
+license: MIT
+maintainer: jesseduffield
+dependencies:
+  - go

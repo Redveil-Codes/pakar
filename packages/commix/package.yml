@@ -1,0 +1,9 @@
+name: Commix
+slug: commix
+version: 4.1
+description: automated all-in-one OS command injection exploitation tool
+homepage: https://github.com/commixproject/commix
+license: GPL-3.0
+maintainer: Anastasios Stasinopoulos
+dependencies:
+  - python

@@ -1,0 +1,12 @@
+CC=clang++
+SRC=https://github.com/include-what-you-use/include-what-you-use
+DEPENDENCIES=(clang cmake)
+BUILDDIR=/tmp/pak/imports/iwyu
+BIN=./build/bin/include-what-you-use
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cmake -G "Unix Makefiles" -B build .
+    cmake --build build
+)

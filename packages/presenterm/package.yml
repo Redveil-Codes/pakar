@@ -1,0 +1,9 @@
+name: presenterm
+slug: presenterm
+version: 0.11.0
+description: markdown terminal slideshow tool
+homepage: https://github.com/mfontanini/presenterm
+license: MIT
+maintainer: mfontanini
+dependencies:
+  - rustup

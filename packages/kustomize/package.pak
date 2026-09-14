@@ -1,0 +1,13 @@
+CC=
+SRC=https://github.com/kubernetes-sigs/kustomize
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/kustomize
+BIN=./kustomize
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd kustomize
+    go build -o ../kustomize .
+    cd ..
+)

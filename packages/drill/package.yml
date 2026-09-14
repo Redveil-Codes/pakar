@@ -1,0 +1,9 @@
+name: drill
+slug: drill
+version: 0.8.3
+description: http load testing application written in rust
+homepage: https://github.com/fcsonline/drill
+license: GPL-3.0
+maintainer: fcsonline
+dependencies:
+  - rustup

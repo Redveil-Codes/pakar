@@ -1,0 +1,9 @@
+name: cargo-tarpaulin
+slug: cargo-tarpaulin
+version: 0.31.2
+description: code coverage tool for Rust projects
+homepage: https://github.com/xd009642/tarpaulin
+license: MIT OR Apache-2.0
+maintainer: xd009642
+dependencies:
+  - rustup

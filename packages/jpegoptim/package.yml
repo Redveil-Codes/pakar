@@ -1,0 +1,12 @@
+name: jpegoptim
+slug: jpegoptim
+version: 1.5.5
+description: utility to optimize jpeg files
+homepage: https://github.com/tjko/jpegoptim
+license: GPL-2.0
+maintainer: tjko
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

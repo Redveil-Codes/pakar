@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/swagger-api/swagger-codegen
+DEPENDENCIES=(maven)
+BUILDDIR=/tmp/pak/imports/swagger-codegen
+BIN=./modules/swagger-codegen-cli/target/swagger-codegen-cli.jar
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mvn clean package
+)

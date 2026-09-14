@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/wasmerio/wasmer
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/wasmer
+BIN=./target/release/wasmer
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

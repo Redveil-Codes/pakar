@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/nvm-sh/nvm
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/nvm
+BIN=./nvm.sh
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

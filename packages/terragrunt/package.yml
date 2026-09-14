@@ -1,0 +1,9 @@
+name: terragrunt
+slug: terragrunt
+version: 0.68.0
+description: a thin wrapper for Terraform that provides extra tools for keeping configurations DRY
+homepage: https://github.com/gruntwork-io/terragrunt
+license: MIT
+maintainer: Gruntwork
+dependencies:
+  - go

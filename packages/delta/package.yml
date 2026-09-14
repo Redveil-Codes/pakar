@@ -6,3 +6,4 @@ homepage: https://github.com/dandavison/delta
 license: MIT
 maintainer: dandavison
 dependencies:
+  - rustup

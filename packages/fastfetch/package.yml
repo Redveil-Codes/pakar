@@ -6,3 +6,6 @@ homepage: https://github.com/fastfetch-cli/fastfetch
 license: MIT
 maintainer: fastfetch-cli
 dependencies:
+  - cmake
+  - gcc
+  - make

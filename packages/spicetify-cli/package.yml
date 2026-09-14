@@ -1,0 +1,9 @@
+name: spicetify-cli
+slug: spicetify-cli
+version: 2.45.0
+description: command-line tool to customize the spotify client
+homepage: https://github.com/spicetify/cli
+license: LGPL-2.1
+maintainer: spicetify
+dependencies:
+  - go

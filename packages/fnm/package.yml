@@ -1,0 +1,9 @@
+name: fnm
+slug: fnm
+version: 1.38.1
+description: fast and simple node.js version manager, built in rust
+homepage: https://github.com/Schniz/fnm
+license: MIT
+maintainer: Schniz
+dependencies:
+  - rustup

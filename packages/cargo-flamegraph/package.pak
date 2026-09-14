@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/flamegraph-rs/flamegraph
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/cargo-flamegraph
+BIN=./target/release/cargo-flamegraph
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

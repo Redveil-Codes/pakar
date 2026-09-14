@@ -1,0 +1,11 @@
+name: blender
+slug: blender
+version: 4.3.2
+description: free and open source 3d creation suite
+homepage: https://projects.blender.org/blender/blender
+license: GPL-3.0
+maintainer: blender
+dependencies:
+  - cmake
+  - gcc
+  - make

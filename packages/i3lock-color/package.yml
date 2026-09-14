@@ -1,0 +1,12 @@
+name: i3lock-color
+slug: i3lock-color
+version: 2.13.c.5
+description: fork of i3lock with color and appearance customization options
+homepage: https://github.com/Raymo111/i3lock-color
+license: BSD-2-Clause
+maintainer: Raymo111
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

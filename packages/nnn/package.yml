@@ -1,0 +1,10 @@
+name: nnn
+slug: nnn
+version: 5
+description: the fastest terminal file manager
+homepage: https://github.com/jarun/nnn
+license: BSD-2-Clause
+maintainer: jarun
+dependencies:
+  - gcc
+  - make

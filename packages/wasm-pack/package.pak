@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/rustwasm/wasm-pack
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/wasm-pack
+BIN=./target/release/wasm-pack
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

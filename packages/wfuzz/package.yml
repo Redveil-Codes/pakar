@@ -1,0 +1,8 @@
+name: Wfuzz
+slug: wfuzz
+version: 3.1.1
+description: web application fuzzer for brute-forcing web applications
+homepage: https://github.com/xmendez/wfuzz
+license: GPL-2.0
+maintainer: Xavier Mendez (xmendez)
+dependencies:

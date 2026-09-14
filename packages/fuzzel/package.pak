@@ -1,0 +1,12 @@
+CC=cc
+SRC=https://codeberg.org/dnkl/fuzzel
+DEPENDENCIES=(gcc meson ninja)
+BUILDDIR=/tmp/pak/imports/fuzzel
+BIN=./build/fuzzel
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

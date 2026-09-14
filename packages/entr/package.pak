@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/eradman/entr
+DEPENDENCIES=(make)
+BUILDDIR=/tmp/pak/imports/entr
+BIN=./entr
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

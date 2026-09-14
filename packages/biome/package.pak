@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/biomejs/biome
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/biome
+BIN=./target/release/biome
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release --bin biome
+)

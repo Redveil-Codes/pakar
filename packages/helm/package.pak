@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/helm/helm
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/helm
+BIN=./helm
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o helm ./cmd/helm
+)

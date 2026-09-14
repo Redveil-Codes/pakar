@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/derailed/k9s
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/k9s
+BIN=./k9s
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o k9s .
+)

@@ -1,0 +1,9 @@
+name: pre-commit
+slug: pre-commit
+version: 4.0.1
+description: a framework for managing and maintaining multi-language pre-commit hooks
+homepage: https://github.com/pre-commit/pre-commit
+license: MIT
+maintainer: pre-commit
+dependencies:
+  - python

@@ -1,0 +1,8 @@
+name: ulauncher
+slug: ulauncher
+version: 6.0.3
+description: a fast application launcher for linux
+homepage: https://github.com/Ulauncher/Ulauncher
+license: GPL-3.0
+maintainer: Ulauncher
+dependencies:

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/rapiz1/rathole
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/rathole
+BIN=./target/release/rathole
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

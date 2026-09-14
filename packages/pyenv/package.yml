@@ -1,0 +1,9 @@
+name: pyenv
+slug: pyenv
+version: 2.4.17
+description: simple python version management
+homepage: https://github.com/pyenv/pyenv
+license: MIT
+maintainer: pyenv
+dependencies:
+  - make

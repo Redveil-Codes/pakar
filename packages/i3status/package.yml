@@ -1,0 +1,11 @@
+name: i3status
+slug: i3status
+version: 2.14
+description: status bar generator for i3bar, dzen2, xmobar and similar programs
+homepage: https://github.com/i3/i3status
+license: BSD-3-Clause
+maintainer: i3 window manager contributors
+dependencies:
+  - gcc
+  - meson
+  - ninja

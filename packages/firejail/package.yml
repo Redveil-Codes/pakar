@@ -1,0 +1,10 @@
+name: firejail
+slug: firejail
+version: 0.9.72
+description: SUID sandbox program that reduces the risk of security breaches
+homepage: https://github.com/netblue30/firejail
+license: GPL-2.0
+maintainer: netblue30
+dependencies:
+  - gcc
+  - make

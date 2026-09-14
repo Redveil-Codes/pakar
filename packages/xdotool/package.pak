@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/jordansissel/xdotool
-DEPENDENCIES=
+DEPENDENCIES=(gcc make)
 BUILDDIR=/tmp/pak/imports/xdotool
 BIN=./xdotool
 LIB=0

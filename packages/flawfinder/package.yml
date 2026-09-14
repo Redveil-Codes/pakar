@@ -1,0 +1,8 @@
+name: Flawfinder
+slug: flawfinder
+version: 2.0.19
+description: examines C/C++ source code for security weaknesses
+homepage: https://dwheeler.com/flawfinder/
+license: GPL-2.0-or-later
+maintainer: David A. Wheeler
+dependencies:

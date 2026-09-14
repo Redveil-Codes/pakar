@@ -1,0 +1,9 @@
+name: helm
+slug: helm
+version: 3.16.1
+description: the Kubernetes package manager
+homepage: https://github.com/helm/helm
+license: Apache-2.0
+maintainer: Helm Authors
+dependencies:
+  - go

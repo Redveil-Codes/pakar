@@ -1,0 +1,9 @@
+name: gau
+slug: gau
+version: 2.2.4
+description: fetch known URLs from AlienVault OTX, the Wayback Machine, and Common Crawl
+homepage: https://github.com/lc/gau
+license: MIT
+maintainer: lc
+dependencies:
+  - go

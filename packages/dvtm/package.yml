@@ -1,0 +1,10 @@
+name: dvtm
+slug: dvtm
+version: 0.15
+description: a dynamic virtual terminal manager that tiles terminal windows
+homepage: https://www.brain-dump.org/projects/dvtm/
+license: MIT
+maintainer: Marc André Tanner
+dependencies:
+  - gcc
+  - make

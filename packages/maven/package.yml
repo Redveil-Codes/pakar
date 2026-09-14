@@ -1,0 +1,8 @@
+name: maven
+slug: maven
+version: 3.9.9
+description: apache software project management and comprehension tool
+homepage: https://github.com/apache/maven
+license: Apache-2.0
+maintainer: apache
+dependencies:

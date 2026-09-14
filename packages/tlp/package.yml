@@ -6,3 +6,4 @@ homepage: https://github.com/linrunner/TLP
 license: GPL-2.0
 maintainer: linrunner
 dependencies:
+  - make

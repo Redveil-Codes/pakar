@@ -1,0 +1,11 @@
+name: foot
+slug: foot
+version: 1.19.0
+description: fast, lightweight and minimalistic Wayland terminal emulator
+homepage: https://codeberg.org/dnkl/foot
+license: MIT
+maintainer: Daniel Eklof
+dependencies:
+  - gcc
+  - meson
+  - ninja

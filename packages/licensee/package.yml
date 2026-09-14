@@ -1,0 +1,9 @@
+name: licensee
+slug: licensee
+version: 9.16.1
+description: detects the license of open source projects
+homepage: https://github.com/licensee/licensee
+license: MIT
+maintainer: licensee
+dependencies:
+  - ruby

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/kbknapp/cargo-outdated
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/cargo-outdated
+BIN=./target/release/cargo-outdated
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

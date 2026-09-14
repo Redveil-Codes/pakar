@@ -1,0 +1,9 @@
+name: jc
+slug: jc
+version: 1.25.4
+description: converts output of CLI tools to JSON
+homepage: https://github.com/kellyjonbrazil/jc
+license: MIT
+maintainer: Kelly Brazil
+dependencies:
+  - python

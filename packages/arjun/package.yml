@@ -1,0 +1,9 @@
+name: Arjun
+slug: arjun
+version: 2.2.7
+description: HTTP parameter discovery suite for finding hidden query and form parameters
+homepage: https://github.com/s0md3v/Arjun
+license: AGPL-3.0
+maintainer: Somdev Sangwan (s0md3v)
+dependencies:
+  - python

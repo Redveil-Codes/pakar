@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/eza-community/eza
-DEPENDENCIES=
+DEPENDENCIES=(rustup)
 BUILDDIR=/tmp/pak/imports/eza
 BIN=./target/release/eza
 LIB=0

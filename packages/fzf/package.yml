@@ -6,3 +6,4 @@ homepage: https://github.com/junegunn/fzf
 license: MIT
 maintainer: junegunn
 dependencies:
+  - make

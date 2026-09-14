@@ -1,0 +1,9 @@
+name: upscayl
+slug: upscayl
+version: 2.15.0
+description: free and open source ai image upscaler
+homepage: https://github.com/upscayl/upscayl
+license: AGPL-3.0
+maintainer: upscayl
+dependencies:
+  - pnpm

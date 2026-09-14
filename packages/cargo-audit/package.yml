@@ -1,0 +1,9 @@
+name: cargo-audit
+slug: cargo-audit
+version: 0.21.2
+description: audit cargo.lock for crates with security vulnerabilities
+homepage: https://github.com/rustsec/rustsec
+license: Apache-2.0 OR MIT
+maintainer: rustsec
+dependencies:
+  - rustup

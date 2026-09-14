@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/projectdiscovery/nuclei
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/nuclei
+BIN=./nuclei
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o nuclei ./cmd/nuclei
+)

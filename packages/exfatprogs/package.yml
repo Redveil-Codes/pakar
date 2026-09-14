@@ -1,0 +1,11 @@
+name: exfatprogs
+slug: exfatprogs
+version: 1.2.4
+description: userspace utilities for creating, checking, and labeling exFAT filesystems
+homepage: https://github.com/exfatprogs/exfatprogs
+license: GPL-2.0
+maintainer: Namjae Jeon
+dependencies:
+  - autoconf
+  - gcc
+  - make

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/xplr-rs/xplr
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/xplr
+BIN=./target/release/xplr
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

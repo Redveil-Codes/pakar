@@ -1,0 +1,8 @@
+name: virt-manager
+slug: virt-manager
+version: 5.0.0
+description: desktop application for managing virtual machines via libvirt
+homepage: https://github.com/virt-manager/virt-manager
+license: GPL-2.0
+maintainer: virt-manager
+dependencies:

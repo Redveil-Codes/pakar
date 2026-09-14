@@ -1,0 +1,8 @@
+name: xmobar
+slug: xmobar
+version: 0.48
+description: a minimalistic text based status bar
+homepage: https://github.com/jaor/xmobar
+license: BSD-3-Clause
+maintainer: jaor
+dependencies:

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/alacritty/alacritty
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/alacritty
+BIN=./target/release/alacritty
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

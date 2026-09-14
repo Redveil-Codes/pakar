@@ -1,0 +1,9 @@
+name: s-tui
+slug: s-tui
+version: 1.1.5
+description: a terminal UI stress test and monitoring tool
+homepage: https://github.com/amanusk/s-tui
+license: GPL-2.0
+maintainer: amanusk
+dependencies:
+  - python

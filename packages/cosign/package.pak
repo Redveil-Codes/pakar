@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/sigstore/cosign
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/cosign
+BIN=./cosign
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o cosign ./cmd/cosign
+)

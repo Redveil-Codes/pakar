@@ -1,0 +1,9 @@
+name: black
+slug: black
+version: 24.10.0
+description: the uncompromising python code formatter
+homepage: https://github.com/psf/black
+license: MIT
+maintainer: psf
+dependencies:
+  - python

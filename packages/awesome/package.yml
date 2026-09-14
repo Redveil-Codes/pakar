@@ -1,0 +1,11 @@
+name: awesome
+slug: awesome
+version: 4.3
+description: a highly configurable, next generation framework window manager for X, scriptable in Lua
+homepage: https://awesomewm.org
+license: GPL-2.0
+maintainer: awesomeWM development team
+dependencies:
+  - cmake
+  - gcc
+  - make

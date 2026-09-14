@@ -6,3 +6,6 @@ homepage: https://github.com/polybar/polybar
 license: MIT
 maintainer: polybar
 dependencies:
+  - cmake
+  - gcc
+  - make

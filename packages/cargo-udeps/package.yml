@@ -1,0 +1,9 @@
+name: cargo-udeps
+slug: cargo-udeps
+version: 0.1.55
+description: find unused dependencies in Cargo.toml
+homepage: https://github.com/est31/cargo-udeps
+license: MIT OR Apache-2.0
+maintainer: est31
+dependencies:
+  - rustup

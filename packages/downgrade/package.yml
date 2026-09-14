@@ -1,0 +1,8 @@
+name: downgrade
+slug: downgrade
+version: 12.0.2
+description: bash script for downgrading one or more packages to a previous version
+homepage: https://github.com/archlinux-downgrade/downgrade
+license: GPL-3.0
+maintainer: archlinux-downgrade
+dependencies:

@@ -1,0 +1,10 @@
+name: iperf3
+slug: iperf3
+version: 3.17.1
+description: active network bandwidth measurement tool
+homepage: https://github.com/esnet/iperf
+license: BSD-3-Clause
+maintainer: ESnet
+dependencies:
+  - gcc
+  - make

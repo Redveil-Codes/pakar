@@ -6,3 +6,5 @@ homepage: https://github.com/git/git
 license: GPL-2.0
 maintainer: gitster
 dependencies:
+  - gcc
+  - make

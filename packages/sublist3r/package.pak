@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/aboul3la/Sublist3r
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/sublist3r
+BIN=./sublist3r.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

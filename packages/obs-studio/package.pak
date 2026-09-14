@@ -1,0 +1,14 @@
+CC=gcc
+SRC=https://github.com/obsproject/obs-studio
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/obs-studio
+BIN=./build/rundir/RelWithDebInfo/bin/64bit/obs
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

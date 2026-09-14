@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/sindresorhus/fast-cli
+DEPENDENCIES=(nodejs)
+BUILDDIR=/tmp/pak/imports/fast-cli
+BIN=./cli.js
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

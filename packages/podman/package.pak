@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/containers/podman
+DEPENDENCIES=(make)
+BUILDDIR=/tmp/pak/imports/podman
+BIN=./bin/podman
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

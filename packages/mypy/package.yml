@@ -1,0 +1,9 @@
+name: Mypy
+slug: mypy
+version: 1.13.0
+description: optional static type checker for Python
+homepage: https://github.com/python/mypy
+license: MIT
+maintainer: mypy team
+dependencies:
+  - python

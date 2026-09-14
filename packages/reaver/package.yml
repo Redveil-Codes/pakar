@@ -1,0 +1,10 @@
+name: Reaver
+slug: reaver
+version: 1.6.6
+description: brute-force attack tool against WiFi Protected Setup (WPS) PINs
+homepage: https://github.com/t6x/reaver-wps-fork-t6x
+license: GPL-2.0
+maintainer: t6x
+dependencies:
+  - gcc
+  - make

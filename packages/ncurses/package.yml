@@ -6,3 +6,5 @@ homepage: https://invisible-island.net/ncurses/
 license: X11
 maintainer: ThomasDickey
 dependencies:
+  - gcc
+  - make

@@ -1,0 +1,11 @@
+name: libvirt
+slug: libvirt
+version: 10.7.0
+description: a toolkit for managing virtualization platforms
+homepage: https://libvirt.org
+license: LGPL-2.1
+maintainer: Red Hat / libvirt project
+dependencies:
+  - gcc
+  - meson
+  - ninja

@@ -1,0 +1,9 @@
+name: k6
+slug: k6
+version: 0.54.0
+description: a modern load testing tool for developers and testers
+homepage: https://github.com/grafana/k6
+license: AGPL-3.0
+maintainer: Grafana Labs
+dependencies:
+  - go

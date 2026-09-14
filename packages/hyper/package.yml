@@ -1,0 +1,9 @@
+name: hyper
+slug: hyper
+version: 3.4.1
+description: terminal built on web technologies
+homepage: https://github.com/vercel/hyper
+license: MIT
+maintainer: Vercel
+dependencies:
+  - yarn

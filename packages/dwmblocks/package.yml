@@ -1,0 +1,10 @@
+name: dwmblocks
+slug: dwmblocks
+version: 1
+description: a modular status bar for dwm
+homepage: https://github.com/torrinfail/dwmblocks
+license: MIT
+maintainer: torrinfail
+dependencies:
+  - gcc
+  - make

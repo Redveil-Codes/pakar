@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/spicetify/cli
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/spicetify-cli
+BIN=./spicetify
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o spicetify
+)

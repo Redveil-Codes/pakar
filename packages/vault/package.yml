@@ -1,0 +1,9 @@
+name: vault
+slug: vault
+version: 1.14.10
+description: a tool for secrets management, encryption as a service, and privileged access management
+homepage: https://github.com/hashicorp/vault
+license: MPL-2.0
+maintainer: HashiCorp
+dependencies:
+  - go

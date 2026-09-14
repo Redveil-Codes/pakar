@@ -1,0 +1,8 @@
+name: make
+slug: make
+version: 4.4.1
+description: GNU Make, a tool for controlling the generation of executables from source
+homepage: https://www.gnu.org/software/make/
+license: GPL-3.0
+maintainer: GNU
+dependencies:

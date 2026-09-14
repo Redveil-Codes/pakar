@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/onionshare/onionshare
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/onionshare
+BIN=./cli/onionshare_cli/__init__.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

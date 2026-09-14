@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/infracost/infracost
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/infracost
+BIN=./infracost
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o infracost ./cmd/infracost
+)

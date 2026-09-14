@@ -1,0 +1,9 @@
+name: npm
+slug: npm
+version: 10.9.2
+description: package manager for JavaScript, bundled/built against Node.js
+homepage: https://github.com/npm/cli
+license: Artistic-2.0
+maintainer: npm
+dependencies:
+  - nodejs

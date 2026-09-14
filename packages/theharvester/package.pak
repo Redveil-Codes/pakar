@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/laramies/theHarvester
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/theharvester
+BIN=./bin/theHarvester
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

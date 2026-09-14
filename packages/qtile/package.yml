@@ -1,0 +1,8 @@
+name: qtile
+slug: qtile
+version: 0.30.0
+description: a full-featured, hackable tiling window manager written in Python
+homepage: https://github.com/qtile/qtile
+license: MIT
+maintainer: qtile
+dependencies:

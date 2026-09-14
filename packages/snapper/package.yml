@@ -1,0 +1,11 @@
+name: snapper
+slug: snapper
+version: 0.11.2
+description: a filesystem snapshot management tool
+homepage: https://github.com/openSUSE/snapper
+license: GPL-2.0
+maintainer: openSUSE
+dependencies:
+  - autoconf
+  - gcc
+  - make

@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/DeaDBeeF-Player/deadbeef
+DEPENDENCIES=(gcc)
+BUILDDIR=/tmp/pak/imports/deadbeef
+BIN=./deadbeef
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./waf configure
+    ./waf build
+)

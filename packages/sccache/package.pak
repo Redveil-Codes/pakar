@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/mozilla/sccache
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/sccache
+BIN=./target/release/sccache
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

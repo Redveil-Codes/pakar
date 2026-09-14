@@ -1,0 +1,8 @@
+name: input-remapper
+slug: input-remapper
+version: 2.2.1
+description: a tool to change and program the mapping of input devices
+homepage: https://github.com/sezanzeb/input-remapper
+license: GPL-3.0
+maintainer: sezanzeb
+dependencies:

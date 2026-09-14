@@ -1,0 +1,10 @@
+name: wofi
+slug: wofi
+version: 1.4.1
+description: a launcher/menu program for wlroots based wayland compositors
+homepage: https://hg.sr.ht/~scoopta/wofi
+license: GPL-3.0
+maintainer: scoopta
+dependencies:
+  - meson
+  - ninja

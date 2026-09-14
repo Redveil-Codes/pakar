@@ -1,0 +1,9 @@
+name: cosign
+slug: cosign
+version: 2.4.1
+description: container signing, verification, and storage in an OCI registry
+homepage: https://github.com/sigstore/cosign
+license: Apache-2.0
+maintainer: sigstore
+dependencies:
+  - go

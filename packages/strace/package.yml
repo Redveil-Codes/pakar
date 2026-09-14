@@ -1,0 +1,10 @@
+name: strace
+slug: strace
+version: 6.11
+description: a diagnostic, debugging and instructional userspace tracer for linux
+homepage: https://github.com/strace/strace
+license: LGPL-2.1
+maintainer: strace
+dependencies:
+  - autoconf
+  - make

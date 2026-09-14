@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/ghostty-org/ghostty
+DEPENDENCIES=(zig)
+BUILDDIR=/tmp/pak/imports/ghostty
+BIN=./zig-out/bin/ghostty
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    zig build -Doptimize=ReleaseFast
+)

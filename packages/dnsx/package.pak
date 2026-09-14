@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/projectdiscovery/dnsx
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/dnsx
+BIN=./dnsx
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o dnsx ./cmd/dnsx
+)

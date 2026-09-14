@@ -6,5 +6,7 @@ homepage: https://github.com/tmux/tmux
 license: ISC
 maintainer: nicm
 dependencies:
+  - gcc
+  - make
   - ncurses
   - readline

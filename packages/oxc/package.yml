@@ -1,0 +1,9 @@
+name: oxc
+slug: oxc
+version: 0.10.0
+description: JavaScript and TypeScript toolchain written in Rust
+homepage: https://github.com/oxc-project/oxc
+license: MIT
+maintainer: oxc-project
+dependencies:
+  - rustup

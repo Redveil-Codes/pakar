@@ -6,3 +6,5 @@ homepage: https://st.suckless.org
 license: MIT
 maintainer: suckless.org
 dependencies:
+  - gcc
+  - make

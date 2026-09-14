@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/tmux/tmux
-DEPENDENCIES=(ncurses readline)
+DEPENDENCIES=(gcc make ncurses readline)
 BUILDDIR=/tmp/pak/imports/tmux
 BIN=./tmux
 LIB=0

@@ -1,0 +1,9 @@
+name: semgrep
+slug: semgrep
+version: 1.96.0
+description: fast, static analysis tool for finding bugs and enforcing code standards
+homepage: https://github.com/semgrep/semgrep
+license: LGPL-2.1-only
+maintainer: semgrep
+dependencies:
+  - make

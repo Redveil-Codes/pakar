@@ -1,0 +1,11 @@
+name: zathura
+slug: zathura
+version: 0.5.11
+description: highly customizable and functional document viewer
+homepage: https://github.com/pwmt/zathura
+license: zlib
+maintainer: pwmt
+dependencies:
+  - gcc
+  - meson
+  - ninja

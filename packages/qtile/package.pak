@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/qtile/qtile
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/qtile
+BIN=./bin/qtile
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

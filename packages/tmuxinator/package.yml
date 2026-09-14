@@ -1,0 +1,8 @@
+name: tmuxinator
+slug: tmuxinator
+version: 3.3.5
+description: manage complex tmux sessions from simple yaml files
+homepage: https://github.com/tmuxinator/tmuxinator
+license: MIT
+maintainer: tmuxinator
+dependencies:

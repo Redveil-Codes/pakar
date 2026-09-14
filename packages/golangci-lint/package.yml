@@ -1,0 +1,9 @@
+name: golangci-lint
+slug: golangci-lint
+version: 1.62.2
+description: fast linters runner for go
+homepage: https://github.com/golangci/golangci-lint
+license: GPL-3.0
+maintainer: golangci
+dependencies:
+  - go

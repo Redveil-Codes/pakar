@@ -1,0 +1,9 @@
+name: gocyclo
+slug: gocyclo
+version: 0.6.0
+description: calculates cyclomatic complexities of Go functions
+homepage: https://github.com/fzipp/gocyclo
+license: BSD-2-Clause
+maintainer: fzipp
+dependencies:
+  - go

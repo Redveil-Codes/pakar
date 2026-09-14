@@ -1,0 +1,10 @@
+name: lldb
+slug: lldb
+version: 19.1.6
+description: a next generation, high-performance debugger, part of llvm
+homepage: https://lldb.llvm.org
+license: Apache-2.0
+maintainer: llvm
+dependencies:
+  - cmake
+  - ninja

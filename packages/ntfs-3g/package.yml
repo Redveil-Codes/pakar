@@ -1,0 +1,11 @@
+name: ntfs-3g
+slug: ntfs-3g
+version: 2022.10.3
+description: a stable, full-featured, read-write NTFS filesystem driver
+homepage: https://github.com/tuxera/ntfs-3g
+license: GPL-2.0
+maintainer: Tuxera
+dependencies:
+  - autoconf
+  - gcc
+  - make

@@ -1,0 +1,9 @@
+name: pipx
+slug: pipx
+version: 1.7.1
+description: install and run Python applications in isolated environments
+homepage: https://github.com/pypa/pipx
+license: MIT
+maintainer: PyPA
+dependencies:
+  - python

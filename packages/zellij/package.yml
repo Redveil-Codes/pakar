@@ -1,0 +1,9 @@
+name: zellij
+slug: zellij
+version: 0.41.2
+description: a terminal workspace with batteries included
+homepage: https://github.com/zellij-org/zellij
+license: MIT
+maintainer: zellij-org
+dependencies:
+  - rustup

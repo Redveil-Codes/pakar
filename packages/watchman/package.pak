@@ -1,0 +1,14 @@
+CC=
+SRC=https://github.com/facebook/watchman
+DEPENDENCIES=(cmake make)
+BUILDDIR=/tmp/pak/imports/watchman
+BIN=./build/watchman
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

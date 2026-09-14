@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/nwg-piotr/nwg-look
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/nwg-look
+BIN=./nwg-look
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o nwg-look .
+)

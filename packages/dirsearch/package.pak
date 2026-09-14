@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/maurosoria/dirsearch
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/dirsearch
+BIN=./dirsearch.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

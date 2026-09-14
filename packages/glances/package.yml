@@ -1,0 +1,9 @@
+name: glances
+slug: glances
+version: 4.2.0
+description: cross-platform system monitoring tool
+homepage: https://github.com/nicolargo/glances
+license: LGPL-3.0
+maintainer: Nicolas Hennion
+dependencies:
+  - python

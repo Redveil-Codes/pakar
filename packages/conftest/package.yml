@@ -1,0 +1,9 @@
+name: conftest
+slug: conftest
+version: 0.56.0
+description: write tests against structured configuration data using Open Policy Agent
+homepage: https://github.com/open-policy-agent/conftest
+license: Apache-2.0
+maintainer: Open Policy Agent
+dependencies:
+  - go

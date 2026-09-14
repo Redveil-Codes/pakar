@@ -1,0 +1,9 @@
+name: xh
+slug: xh
+version: 0.24.1
+description: friendly and fast tool for sending http requests
+homepage: https://github.com/ducaale/xh
+license: MIT
+maintainer: ducaale
+dependencies:
+  - rustup

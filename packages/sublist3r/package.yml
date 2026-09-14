@@ -1,0 +1,9 @@
+name: Sublist3r
+slug: sublist3r
+version: 1.1
+description: fast subdomains enumeration tool for penetration testers
+homepage: https://github.com/aboul3la/Sublist3r
+license: GPL-2.0
+maintainer: Ahmed Aboul-Ela (aboul3la)
+dependencies:
+  - python

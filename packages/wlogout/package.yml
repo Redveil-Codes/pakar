@@ -1,0 +1,11 @@
+name: wlogout
+slug: wlogout
+version: 1.2.2
+description: a wayland based logout menu
+homepage: https://github.com/ArtsyMacaw/wlogout
+license: MIT
+maintainer: ArtsyMacaw
+dependencies:
+  - gcc
+  - meson
+  - ninja

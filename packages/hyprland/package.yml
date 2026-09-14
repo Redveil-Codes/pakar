@@ -1,0 +1,11 @@
+name: hyprland
+slug: hyprland
+version: 0.44.1
+description: dynamic tiling Wayland compositor
+homepage: https://github.com/hyprwm/Hyprland
+license: BSD-3-Clause
+maintainer: hyprwm
+dependencies:
+  - cmake
+  - gcc
+  - make

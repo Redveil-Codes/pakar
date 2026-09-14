@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/projectdiscovery/katana
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/katana
+BIN=./katana
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o katana ./cmd/katana
+)

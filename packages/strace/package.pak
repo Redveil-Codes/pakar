@@ -1,0 +1,13 @@
+CC=
+SRC=https://github.com/strace/strace
+DEPENDENCIES=(autoconf make)
+BUILDDIR=/tmp/pak/imports/strace
+BIN=./src/strace
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./bootstrap
+    ./configure
+    make
+)

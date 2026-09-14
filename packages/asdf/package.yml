@@ -1,0 +1,8 @@
+name: asdf
+slug: asdf
+version: 0.14.1
+description: extendable version manager with support for multiple languages
+homepage: https://github.com/asdf-vm/asdf
+license: MIT
+maintainer: asdf-vm
+dependencies:

@@ -1,0 +1,9 @@
+name: eksctl
+slug: eksctl
+version: 0.198.0
+description: a CLI for Amazon EKS
+homepage: https://github.com/eksctl-io/eksctl
+license: Apache-2.0
+maintainer: eksctl-io
+dependencies:
+  - go

@@ -6,3 +6,6 @@ homepage: https://github.com/altdesktop/playerctl
 license: LGPL-2.1
 maintainer: altdesktop
 dependencies:
+  - gcc
+  - meson
+  - ninja

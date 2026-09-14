@@ -1,0 +1,11 @@
+name: krita
+slug: krita
+version: 5.2.6
+description: free and open source painting and illustration program
+homepage: https://invent.kde.org/graphics/krita
+license: GPL-3.0
+maintainer: KDE
+dependencies:
+  - cmake
+  - gcc
+  - make

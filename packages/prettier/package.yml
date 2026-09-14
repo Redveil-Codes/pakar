@@ -1,0 +1,10 @@
+name: prettier
+slug: prettier
+version: 3.4.2
+description: an opinionated code formatter for many languages
+homepage: https://github.com/prettier/prettier
+license: MIT
+maintainer: prettier
+dependencies:
+  - nodejs
+  - pnpm

@@ -1,0 +1,12 @@
+CC=cc
+SRC=https://github.com/emersion/mako
+DEPENDENCIES=(gcc meson ninja)
+BUILDDIR=/tmp/pak/imports/mako
+BIN=./build/mako
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

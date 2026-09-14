@@ -6,3 +6,5 @@ homepage: https://github.com/aristocratos/btop
 license: Apache-2.0
 maintainer: aristocratos
 dependencies:
+  - gcc
+  - make

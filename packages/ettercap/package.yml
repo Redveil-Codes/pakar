@@ -1,0 +1,11 @@
+name: ettercap
+slug: ettercap
+version: 0.8.3.1
+description: a comprehensive suite for man-in-the-middle attacks on LANs
+homepage: https://github.com/Ettercap/ettercap
+license: GPL-2.0
+maintainer: Ettercap Development Team
+dependencies:
+  - cmake
+  - gcc
+  - make

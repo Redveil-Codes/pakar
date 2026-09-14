@@ -1,0 +1,10 @@
+name: clangd
+slug: clangd
+version: 19.1.0
+description: C/C++/Objective-C language server from the LLVM project
+homepage: https://clangd.llvm.org
+license: Apache-2.0 WITH LLVM-exception
+maintainer: LLVM Project
+dependencies:
+  - clang
+  - cmake

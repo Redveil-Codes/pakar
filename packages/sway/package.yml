@@ -1,0 +1,11 @@
+name: sway
+slug: sway
+version: 1.9
+description: an i3-compatible tiling Wayland compositor
+homepage: https://github.com/swaywm/sway
+license: MIT
+maintainer: SwayWM
+dependencies:
+  - gcc
+  - meson
+  - ninja

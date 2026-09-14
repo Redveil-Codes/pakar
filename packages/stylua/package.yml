@@ -1,0 +1,9 @@
+name: stylua
+slug: stylua
+version: 0.20.0
+description: an opinionated code formatter for lua
+homepage: https://github.com/JohnnyMorganz/StyLua
+license: MIT
+maintainer: JohnnyMorganz
+dependencies:
+  - rustup

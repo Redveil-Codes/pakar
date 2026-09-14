@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/Vencord/Vesktop
-DEPENDENCIES=
+DEPENDENCIES=(pnpm)
 BUILDDIR=/tmp/pak/imports/vesktop
 BIN=./dist/vesktop
 LIB=0

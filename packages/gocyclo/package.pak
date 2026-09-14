@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/fzipp/gocyclo
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/gocyclo
+BIN=./gocyclo
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o gocyclo ./cmd/gocyclo
+)

@@ -1,0 +1,9 @@
+name: bore
+slug: bore
+version: 0.5.2
+description: a simple cli tool for making tunnels to localhost
+homepage: https://github.com/ekzhang/bore
+license: MIT
+maintainer: ekzhang
+dependencies:
+  - rustup

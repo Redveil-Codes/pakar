@@ -1,0 +1,11 @@
+CC=
+SRC=https://gitlab.com/librewolf-community/browser/source
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/librewolf
+BIN=./obj-x86_64-pc-linux-gnu/dist/bin/librewolf
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./mach build
+)

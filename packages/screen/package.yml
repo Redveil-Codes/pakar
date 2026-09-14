@@ -1,0 +1,11 @@
+name: screen
+slug: screen
+version: 4.9.1
+description: the GNU terminal multiplexer
+homepage: https://www.gnu.org/software/screen/
+license: GPL-3.0
+maintainer: GNU Project
+dependencies:
+  - autoconf
+  - gcc
+  - make

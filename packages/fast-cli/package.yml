@@ -1,0 +1,9 @@
+name: fast-cli
+slug: fast-cli
+version: 3.1.0
+description: test internet download and upload speed from the terminal using fast.com
+homepage: https://github.com/sindresorhus/fast-cli
+license: MIT
+maintainer: Sindre Sorhus
+dependencies:
+  - nodejs

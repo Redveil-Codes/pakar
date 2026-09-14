@@ -1,0 +1,9 @@
+name: turbo
+slug: turbo
+version: 2.3.0
+description: high-performance build system for JavaScript and TypeScript monorepos
+homepage: https://github.com/vercel/turbo
+license: MIT
+maintainer: vercel
+dependencies:
+  - rustup

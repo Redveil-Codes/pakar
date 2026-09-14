@@ -1,0 +1,9 @@
+name: onefetch
+slug: onefetch
+version: 2.19.0
+description: command-line git information tool
+homepage: https://github.com/o2sh/onefetch
+license: MIT
+maintainer: o2sh
+dependencies:
+  - rustup

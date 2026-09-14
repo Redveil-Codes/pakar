@@ -1,0 +1,10 @@
+name: Perl
+slug: perl
+version: 5.40.1
+description: highly capable, feature-rich programming language
+homepage: https://github.com/Perl/perl5
+license: Artistic-1.0-Perl
+maintainer: Perl 5 Porters
+dependencies:
+  - gcc
+  - make

@@ -1,0 +1,11 @@
+name: Node.js
+slug: nodejs
+version: 22.13.0
+description: JavaScript runtime built on Chrome's V8 engine
+homepage: https://github.com/nodejs/node
+license: MIT
+maintainer: Node.js Foundation
+dependencies:
+  - gcc
+  - make
+  - python

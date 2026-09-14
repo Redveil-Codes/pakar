@@ -1,0 +1,11 @@
+name: albert
+slug: albert
+version: 0.24.0
+description: a fast and extensible Linux application launcher
+homepage: https://albertlauncher.github.io
+license: GPL-3.0
+maintainer: Manuel Schneider
+dependencies:
+  - cmake
+  - gcc
+  - make

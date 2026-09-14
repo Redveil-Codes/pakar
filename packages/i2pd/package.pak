@@ -1,0 +1,13 @@
+CC=g++
+SRC=https://github.com/PurpleI2P/i2pd
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/i2pd
+BIN=./build/i2pd
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd build
+    cmake .
+    make -j16
+)

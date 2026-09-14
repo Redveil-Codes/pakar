@@ -1,0 +1,9 @@
+name: i3status-rust
+slug: i3status-rust
+version: 0.34.0
+description: feature-rich and resource-friendly replacement for i3status, written in Rust
+homepage: https://github.com/greshake/i3status-rust
+license: GPL-3.0
+maintainer: greshake
+dependencies:
+  - rustup

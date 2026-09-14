@@ -1,0 +1,8 @@
+name: antidote
+slug: antidote
+version: 1.9.7
+description: a fast, modern native zsh plugin manager
+homepage: https://getantidote.github.io
+license: MIT
+maintainer: Matt Curry
+dependencies:

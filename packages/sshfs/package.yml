@@ -1,0 +1,11 @@
+name: sshfs
+slug: sshfs
+version: 3.7.3
+description: a filesystem client based on the SSH File Transfer Protocol
+homepage: https://github.com/libfuse/sshfs
+license: GPL-2.0
+maintainer: libfuse
+dependencies:
+  - gcc
+  - meson
+  - ninja

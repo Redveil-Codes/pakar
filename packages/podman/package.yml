@@ -1,0 +1,9 @@
+name: podman
+slug: podman
+version: 5.2.2
+description: a daemonless engine for developing, managing, and running OCI containers
+homepage: https://github.com/containers/podman
+license: Apache-2.0
+maintainer: containers
+dependencies:
+  - make

@@ -1,0 +1,12 @@
+CC=clang++
+SRC=https://github.com/MaskRay/ccls
+DEPENDENCIES=(clang cmake)
+BUILDDIR=/tmp/pak/imports/ccls
+BIN=./Release/ccls
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release
+    cmake --build Release
+)

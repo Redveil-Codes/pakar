@@ -1,0 +1,9 @@
+name: Standard Notes
+slug: standardnotes
+version: 3.190.0
+description: end-to-end encrypted notes app
+homepage: https://github.com/standardnotes/app
+license: AGPL-3.0
+maintainer: standardnotes
+dependencies:
+  - pnpm

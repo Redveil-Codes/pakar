@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/XTLS/Xray-core
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/xray-core
+BIN=./xray
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o xray ./main
+)

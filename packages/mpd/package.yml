@@ -1,0 +1,11 @@
+name: mpd
+slug: mpd
+version: 0.23.16
+description: flexible, powerful, server-side application for playing music
+homepage: https://github.com/MusicPlayerDaemon/MPD
+license: GPL-2.0
+maintainer: MusicPlayerDaemon
+dependencies:
+  - gcc
+  - meson
+  - ninja

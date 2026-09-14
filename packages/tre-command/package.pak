@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/dduan/tre
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/tre-command
+BIN=./target/release/tre
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

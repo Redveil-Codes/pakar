@@ -1,0 +1,9 @@
+name: bandwhich
+slug: bandwhich
+version: 0.23.0
+description: terminal bandwidth utilization tool
+homepage: https://github.com/imsnif/bandwhich
+license: MIT
+maintainer: imsnif
+dependencies:
+  - rustup

@@ -1,0 +1,9 @@
+name: mise
+slug: mise
+version: 2024.12.14
+description: dev tools, env vars, and task runner, a polyglot version manager
+homepage: https://github.com/jdx/mise
+license: MIT
+maintainer: jdx
+dependencies:
+  - rustup

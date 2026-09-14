@@ -1,0 +1,9 @@
+name: Ligolo-ng
+slug: ligolo-ng
+version: 0.9.1
+description: advanced, simple tunneling and pivoting tool using a TUN interface
+homepage: https://github.com/nicocha30/ligolo-ng
+license: GPL-3.0
+maintainer: Nicolas Chatelain (nicocha30)
+dependencies:
+  - go

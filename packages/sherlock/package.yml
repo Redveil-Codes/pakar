@@ -1,0 +1,9 @@
+name: Sherlock
+slug: sherlock
+version: 0.16.2
+description: hunt down social media accounts by username across many platforms
+homepage: https://github.com/sherlock-project/sherlock
+license: MIT
+maintainer: Sherlock Project
+dependencies:
+  - python

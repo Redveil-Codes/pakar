@@ -1,0 +1,9 @@
+name: cargo-deny
+slug: cargo-deny
+version: 0.16.2
+description: a cargo plugin for linting your dependencies
+homepage: https://github.com/EmbarkStudios/cargo-deny
+license: Apache-2.0 OR MIT
+maintainer: EmbarkStudios
+dependencies:
+  - rustup

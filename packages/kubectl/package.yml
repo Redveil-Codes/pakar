@@ -1,0 +1,9 @@
+name: kubectl
+slug: kubectl
+version: 1.31.2
+description: the Kubernetes command-line tool for controlling Kubernetes clusters
+homepage: https://github.com/kubernetes/kubectl
+license: Apache-2.0
+maintainer: Kubernetes Authors (CNCF)
+dependencies:
+  - go

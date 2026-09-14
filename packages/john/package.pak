@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/openwall/john
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/john
+BIN=./run/john
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd src
+    ./configure
+    make -sj16
+)

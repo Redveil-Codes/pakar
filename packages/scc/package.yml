@@ -1,0 +1,9 @@
+name: scc
+slug: scc
+version: 3.3.5
+description: fast source code line counter
+homepage: https://github.com/boyter/scc
+license: MIT
+maintainer: boyter
+dependencies:
+  - go

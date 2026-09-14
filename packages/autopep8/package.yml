@@ -1,0 +1,9 @@
+name: autopep8
+slug: autopep8
+version: 2.3.1
+description: automatically formats Python code to conform to PEP 8
+homepage: https://github.com/hhatto/autopep8
+license: MIT
+maintainer: Hideo Hattori
+dependencies:
+  - python

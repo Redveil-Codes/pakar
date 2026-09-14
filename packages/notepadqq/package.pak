@@ -1,0 +1,14 @@
+CC=g++
+SRC=https://github.com/notepadqq/notepadqq
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/notepadqq
+BIN=./build/notepadqq
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

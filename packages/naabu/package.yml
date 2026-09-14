@@ -1,0 +1,9 @@
+name: Naabu
+slug: naabu
+version: 2.6.1
+description: fast, reliable port scanner for host discovery
+homepage: https://github.com/projectdiscovery/naabu
+license: MIT
+maintainer: ProjectDiscovery
+dependencies:
+  - go

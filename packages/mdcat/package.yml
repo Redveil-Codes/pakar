@@ -1,0 +1,9 @@
+name: mdcat
+slug: mdcat
+version: 2.5.0
+description: cat for markdown, with syntax highlighting and images
+homepage: https://github.com/swsnr/mdcat
+license: MIT
+maintainer: swsnr
+dependencies:
+  - rustup

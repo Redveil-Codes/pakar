@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/aquasecurity/tfsec
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/tfsec
+BIN=./tfsec
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o tfsec ./cmd/tfsec
+)

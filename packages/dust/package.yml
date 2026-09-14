@@ -1,0 +1,9 @@
+name: dust
+slug: dust
+version: 1.1.1
+description: a more intuitive version of du, a disk usage tool
+homepage: https://github.com/bootandy/dust
+license: Apache-2.0
+maintainer: bootandy
+dependencies:
+  - rustup

@@ -1,0 +1,11 @@
+name: qpwgraph
+slug: qpwgraph
+version: 0.7.3
+description: qt graph manager for pipewire
+homepage: https://github.com/rncbc/qpwgraph
+license: GPL-2.0
+maintainer: rncbc
+dependencies:
+  - cmake
+  - gcc
+  - make

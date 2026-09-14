@@ -1,0 +1,9 @@
+name: viu
+slug: viu
+version: 1.5.1
+description: a command-line application to view images from the terminal
+homepage: https://github.com/atanunq/viu
+license: MIT
+maintainer: atanunq
+dependencies:
+  - rustup

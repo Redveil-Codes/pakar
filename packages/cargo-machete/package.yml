@@ -1,0 +1,9 @@
+name: cargo-machete
+slug: cargo-machete
+version: 0.7.0
+description: find unused dependencies in Rust projects, fast
+homepage: https://github.com/bnjbvr/cargo-machete
+license: MIT OR Apache-2.0
+maintainer: bnjbvr
+dependencies:
+  - rustup

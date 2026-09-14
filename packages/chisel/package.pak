@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/jpillora/chisel
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/chisel
+BIN=./chisel
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o chisel .
+)

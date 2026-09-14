@@ -1,0 +1,11 @@
+name: lxc
+slug: lxc
+version: 6.0.2
+description: userspace tools and library for Linux Containers
+homepage: https://linuxcontainers.org/lxc/
+license: LGPL-2.1
+maintainer: Canonical / LXC project
+dependencies:
+  - gcc
+  - meson
+  - ninja

@@ -1,0 +1,11 @@
+name: xcompmgr
+slug: xcompmgr
+version: 1.1.10
+description: a sample compositing manager for x
+homepage: https://gitlab.freedesktop.org/xorg/app/xcompmgr
+license: MIT
+maintainer: xorg
+dependencies:
+  - autoconf
+  - gcc
+  - make

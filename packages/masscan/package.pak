@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://github.com/robertdavidgraham/masscan
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/masscan
+BIN=./bin/masscan
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

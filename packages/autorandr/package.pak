@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/phillipberndt/autorandr
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/autorandr
+BIN=./autorandr
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

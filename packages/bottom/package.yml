@@ -1,0 +1,9 @@
+name: bottom
+slug: bottom
+version: 0.10.2
+description: cross-platform graphical process/system monitor
+homepage: https://github.com/ClementTsang/bottom
+license: MIT
+maintainer: ClementTsang
+dependencies:
+  - rustup

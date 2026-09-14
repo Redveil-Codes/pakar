@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/tomnomnom/gron
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/gron
+BIN=./gron
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build
+)

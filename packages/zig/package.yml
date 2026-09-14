@@ -1,0 +1,10 @@
+name: zig
+slug: zig
+version: 0.13.0
+description: a general-purpose programming language and toolchain
+homepage: https://github.com/ziglang/zig
+license: MIT
+maintainer: ziglang
+dependencies:
+  - cmake
+  - make

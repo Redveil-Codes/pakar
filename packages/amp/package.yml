@@ -1,0 +1,9 @@
+name: amp
+slug: amp
+version: 0.6.0
+description: a complete text editor for your terminal, written in Rust
+homepage: https://github.com/jmacdonald/amp
+license: GPL-3.0
+maintainer: Jordan MacDonald
+dependencies:
+  - rustup

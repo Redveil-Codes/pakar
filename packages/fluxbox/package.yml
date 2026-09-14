@@ -1,0 +1,11 @@
+name: fluxbox
+slug: fluxbox
+version: 1.3.7
+description: lightweight X window manager based on Blackbox
+homepage: https://github.com/fluxbox/fluxbox
+license: MIT
+maintainer: fluxbox
+dependencies:
+  - autoconf
+  - gcc
+  - make

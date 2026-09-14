@@ -1,0 +1,10 @@
+name: stress-ng
+slug: stress-ng
+version: 0.18.06
+description: a tool to load and stress test a computer system
+homepage: https://github.com/ColinIanKing/stress-ng
+license: GPL-2.0
+maintainer: Colin Ian King
+dependencies:
+  - gcc
+  - make

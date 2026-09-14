@@ -1,0 +1,9 @@
+name: nikto
+slug: nikto
+version: 2.5.0
+description: an open source web server and web application scanner
+homepage: https://github.com/sullo/nikto
+license: GPL-3.0
+maintainer: Chris Sullo (CIRT.net)
+dependencies:
+  - perl

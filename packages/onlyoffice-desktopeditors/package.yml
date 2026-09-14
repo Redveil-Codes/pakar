@@ -1,0 +1,10 @@
+name: ONLYOFFICE Desktop Editors
+slug: onlyoffice-desktopeditors
+version: 8.2.0
+description: office suite for documents, spreadsheets, and presentations
+homepage: https://github.com/ONLYOFFICE/DesktopEditors
+license: AGPL-3.0
+maintainer: ONLYOFFICE
+dependencies:
+  - cmake
+  - make

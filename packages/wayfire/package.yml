@@ -1,0 +1,11 @@
+name: wayfire
+slug: wayfire
+version: 0.9.0
+description: a 3d wayland compositor
+homepage: https://github.com/WayfireWM/wayfire
+license: MIT
+maintainer: WayfireWM
+dependencies:
+  - gcc
+  - meson
+  - ninja

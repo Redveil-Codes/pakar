@@ -1,0 +1,9 @@
+name: jless
+slug: jless
+version: 0.9.0
+description: a command-line json viewer
+homepage: https://github.com/PaulJuliusMartinez/jless
+license: MIT
+maintainer: PaulJuliusMartinez
+dependencies:
+  - rustup

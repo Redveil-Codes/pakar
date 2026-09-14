@@ -6,3 +6,7 @@ homepage: https://github.com/curl/curl
 license: curl
 maintainer: bagder
 dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/ferdium/ferdium-app
+DEPENDENCIES=(pnpm)
+BUILDDIR=/tmp/pak/imports/ferdium
+BIN=./out/linux-unpacked/ferdium
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    pnpm install
+    pnpm build
+)

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/grafana/k6
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/k6
+BIN=./k6
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o k6 .
+)

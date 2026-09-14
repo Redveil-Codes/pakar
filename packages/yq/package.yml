@@ -1,0 +1,9 @@
+name: yq
+slug: yq
+version: 4.44.3
+description: command-line YAML, XML, and TOML processor
+homepage: https://github.com/mikefarah/yq
+license: MIT
+maintainer: Mike Farah
+dependencies:
+  - go

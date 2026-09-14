@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/FreeTubeApp/FreeTube
+DEPENDENCIES=(pnpm)
+BUILDDIR=/tmp/pak/imports/freetube
+BIN=./build/linux-unpacked/freetube
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    pnpm install
+    pnpm build
+)

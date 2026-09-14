@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/cddmp/enum4linux-ng
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/enum4linux-ng
+BIN=./enum4linux-ng.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/fortra/impacket
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/impacket
+BIN=./examples/secretsdump.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

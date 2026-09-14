@@ -1,0 +1,9 @@
+name: nox
+slug: nox
+version: 2024.10.9
+description: flexible test automation for Python
+homepage: https://github.com/wntrblm/nox
+license: Apache-2.0
+maintainer: Winterbloom
+dependencies:
+  - python

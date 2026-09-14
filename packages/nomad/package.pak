@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/hashicorp/nomad
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/nomad
+BIN=./nomad
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o nomad .
+)

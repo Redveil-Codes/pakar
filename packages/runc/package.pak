@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/opencontainers/runc
+DEPENDENCIES=(make)
+BUILDDIR=/tmp/pak/imports/runc
+BIN=./runc
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

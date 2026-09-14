@@ -1,0 +1,14 @@
+CC=gcc
+SRC=https://github.com/giuspen/cherrytree
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/cherrytree
+BIN=./build/cherrytree
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make
+)

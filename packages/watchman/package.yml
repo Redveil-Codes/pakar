@@ -1,0 +1,10 @@
+name: watchman
+slug: watchman
+version: 2024.12.16.00
+description: a file watching service from facebook
+homepage: https://github.com/facebook/watchman
+license: MIT
+maintainer: facebook
+dependencies:
+  - cmake
+  - make

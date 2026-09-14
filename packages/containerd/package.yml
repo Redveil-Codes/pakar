@@ -1,0 +1,9 @@
+name: containerd
+slug: containerd
+version: 2.0.1
+description: an industry-standard container runtime
+homepage: https://github.com/containerd/containerd
+license: Apache-2.0
+maintainer: containerd project (CNCF)
+dependencies:
+  - make

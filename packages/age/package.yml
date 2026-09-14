@@ -1,0 +1,9 @@
+name: age
+slug: age
+version: 1.2.1
+description: a simple, modern and secure file encryption tool
+homepage: https://github.com/FiloSottile/age
+license: BSD-3-Clause
+maintainer: FiloSottile
+dependencies:
+  - go

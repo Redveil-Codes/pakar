@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://github.com/spinkham/skipfish
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/skipfish
+BIN=./skipfish
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/argoproj/argo-cd
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/argocd
+BIN=./argocd
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o argocd ./cmd
+)

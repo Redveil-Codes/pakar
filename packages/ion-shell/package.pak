@@ -1,0 +1,11 @@
+CC=
+SRC=https://gitlab.redox-os.org/redox-os/ion
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/ion-shell
+BIN=./target/release/ion
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

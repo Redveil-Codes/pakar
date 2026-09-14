@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/bnjbvr/cargo-machete
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/cargo-machete
+BIN=./target/release/cargo-machete
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

@@ -1,0 +1,11 @@
+name: yakuake
+slug: yakuake
+version: 24.12.2
+description: a drop-down terminal emulator based on konsole
+homepage: https://github.com/KDE/yakuake
+license: GPL-2.0
+maintainer: KDE
+dependencies:
+  - cmake
+  - gcc
+  - make

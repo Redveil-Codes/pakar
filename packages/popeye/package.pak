@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/derailed/popeye
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/popeye
+BIN=./popeye
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o popeye .
+)

@@ -1,0 +1,9 @@
+name: syncthing
+slug: syncthing
+version: 1.28.0
+description: continuous file synchronization program
+homepage: https://github.com/syncthing/syncthing
+license: MPL-2.0
+maintainer: Syncthing Foundation
+dependencies:
+  - go

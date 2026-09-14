@@ -1,0 +1,10 @@
+name: hsetroot
+slug: hsetroot
+version: 1.0.4
+description: wallpaper and root window background setter for X
+homepage: https://github.com/himdel/hsetroot
+license: GPL-2.0
+maintainer: himdel
+dependencies:
+  - gcc
+  - make

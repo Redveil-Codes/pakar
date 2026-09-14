@@ -1,0 +1,11 @@
+name: i3blocks
+slug: i3blocks
+version: 1.5
+description: hacker-friendly status_command for i3bar and Sway
+homepage: https://github.com/vivien/i3blocks
+license: GPL-3.0
+maintainer: Vivien Didelot
+dependencies:
+  - autoconf
+  - gcc
+  - make

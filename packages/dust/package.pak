@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/bootandy/dust
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/dust
+BIN=./target/release/dust
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

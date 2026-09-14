@@ -1,0 +1,8 @@
+name: iotop
+slug: iotop
+version: 0.6
+description: simple top-like I/O monitor
+homepage: http://guichaz.free.fr/iotop/
+license: GPL-2.0
+maintainer: Guillaume Chazarain
+dependencies:

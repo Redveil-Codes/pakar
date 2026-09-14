@@ -1,0 +1,12 @@
+CC=g++
+SRC=https://github.com/Swordfish90/cool-retro-term
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/cool-retro-term
+BIN=./cool-retro-term
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    qmake
+    make
+)

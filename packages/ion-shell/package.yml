@@ -1,0 +1,9 @@
+name: ion-shell
+slug: ion-shell
+version: 1.0.0-alpha
+description: modern system shell with simple, powerful syntax
+homepage: https://gitlab.redox-os.org/redox-os/ion
+license: MIT
+maintainer: Redox OS contributors
+dependencies:
+  - rustup

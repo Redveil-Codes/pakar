@@ -1,0 +1,9 @@
+name: sccache
+slug: sccache
+version: 0.9.1
+description: shared compilation cache for rust and other compilers
+homepage: https://github.com/mozilla/sccache
+license: Apache-2.0
+maintainer: mozilla
+dependencies:
+  - rustup

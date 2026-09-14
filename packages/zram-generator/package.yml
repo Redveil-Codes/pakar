@@ -1,0 +1,9 @@
+name: zram-generator
+slug: zram-generator
+version: 1.2.0
+description: a systemd unit generator for zram swap devices
+homepage: https://github.com/systemd/zram-generator
+license: MIT
+maintainer: systemd
+dependencies:
+  - rustup

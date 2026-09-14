@@ -1,0 +1,11 @@
+name: i3
+slug: i3
+version: 4.23
+description: improved tiling window manager for X11
+homepage: https://github.com/i3/i3
+license: BSD-3-Clause
+maintainer: i3 window manager contributors
+dependencies:
+  - gcc
+  - meson
+  - ninja

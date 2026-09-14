@@ -1,0 +1,9 @@
+name: termshark
+slug: termshark
+version: 2.4.0
+description: a terminal user interface for tshark, inspired by wireshark
+homepage: https://github.com/gcla/termshark
+license: MIT
+maintainer: gcla
+dependencies:
+  - go

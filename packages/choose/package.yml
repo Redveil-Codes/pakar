@@ -1,0 +1,9 @@
+name: choose
+slug: choose
+version: 1.3.4
+description: a human-friendly and fast alternative to cut and awk
+homepage: https://github.com/theryangeary/choose
+license: MIT
+maintainer: theryangeary
+dependencies:
+  - rustup

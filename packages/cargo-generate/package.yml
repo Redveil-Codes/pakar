@@ -1,0 +1,9 @@
+name: cargo-generate
+slug: cargo-generate
+version: 0.22.0
+description: a tool to generate a new rust project by leveraging a pre-existing git repo as a template
+homepage: https://github.com/cargo-generate/cargo-generate
+license: MIT
+maintainer: cargo-generate
+dependencies:
+  - rustup

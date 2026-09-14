@@ -1,0 +1,8 @@
+name: bazel
+slug: bazel
+version: 7.4.1
+description: fast, scalable, multi-language build and test tool
+homepage: https://github.com/bazelbuild/bazel
+license: Apache-2.0
+maintainer: bazelbuild
+dependencies:

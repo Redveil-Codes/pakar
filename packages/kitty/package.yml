@@ -1,0 +1,10 @@
+name: kitty
+slug: kitty
+version: 0.35.1
+description: a fast, feature-rich, GPU-based terminal emulator
+homepage: https://github.com/kovidgoyal/kitty
+license: GPL-3.0
+maintainer: Kovid Goyal
+dependencies:
+  - gcc
+  - python

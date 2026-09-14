@@ -1,0 +1,9 @@
+name: gifski
+slug: gifski
+version: 1.32.0
+description: highest-quality gif encoder based on pngquant
+homepage: https://github.com/ImageOptim/gifski
+license: AGPL-3.0
+maintainer: ImageOptim
+dependencies:
+  - rustup

@@ -1,0 +1,10 @@
+name: bspwm
+slug: bspwm
+version: 0.9.10
+description: a tiling window manager based on binary space partitioning
+homepage: https://github.com/baskerville/bspwm
+license: BSD-2-Clause
+maintainer: Bastien Dejean
+dependencies:
+  - gcc
+  - make

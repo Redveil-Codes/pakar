@@ -1,0 +1,13 @@
+CC=g++
+SRC=https://github.com/smartmontools/smartmontools
+DEPENDENCIES=(autoconf automake gcc make)
+BUILDDIR=/tmp/pak/imports/smartmontools
+BIN=./smartctl
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    autoreconf -i
+    ./configure
+    make
+)

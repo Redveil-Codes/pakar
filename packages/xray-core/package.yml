@@ -1,0 +1,9 @@
+name: xray-core
+slug: xray-core
+version: 1.8.24
+description: a platform for building proxies to bypass network restrictions
+homepage: https://github.com/XTLS/Xray-core
+license: MPL-2.0
+maintainer: XTLS
+dependencies:
+  - go

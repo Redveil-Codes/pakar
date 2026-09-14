@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/ducaale/xh
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/xh
+BIN=./target/release/xh
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

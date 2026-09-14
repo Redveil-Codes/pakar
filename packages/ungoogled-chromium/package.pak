@@ -1,0 +1,14 @@
+CC=
+SRC=https://github.com/ungoogled-software/ungoogled-chromium
+DEPENDENCIES=(ninja python)
+BUILDDIR=/tmp/pak/imports/ungoogled-chromium
+BIN=./out/Default/chrome
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    python3 utils/prune_binaries.py . utils/binary_pruning.list
+    python3 utils/patches.py apply . patches
+    gn gen out/Default
+    ninja -C out/Default chrome
+)

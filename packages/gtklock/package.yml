@@ -1,0 +1,11 @@
+name: gtklock
+slug: gtklock
+version: 3.1.0
+description: GTK-based lockscreen for wayland
+homepage: https://github.com/jovanlanik/gtklock
+license: GPL-3.0
+maintainer: Jovan Lanik
+dependencies:
+  - gcc
+  - meson
+  - ninja

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/dundee/gdu
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/gdu
+BIN=./gdu
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o gdu .
+)

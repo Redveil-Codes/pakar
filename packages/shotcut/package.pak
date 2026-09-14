@@ -1,0 +1,14 @@
+CC=gcc
+SRC=https://github.com/mltframework/shotcut
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/shotcut
+BIN=./build/shotcut
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

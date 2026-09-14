@@ -1,0 +1,8 @@
+name: hadolint
+slug: hadolint
+version: 2.12.0
+description: a Dockerfile linter that helps you build best practice Docker images
+homepage: https://github.com/hadolint/hadolint
+license: GPL-3.0
+maintainer: hadolint
+dependencies:

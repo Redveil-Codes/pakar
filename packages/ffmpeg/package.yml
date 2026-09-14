@@ -1,0 +1,10 @@
+name: ffmpeg
+slug: ffmpeg
+version: 7.1
+description: complete, cross-platform solution to record, convert, and stream audio and video
+homepage: https://github.com/FFmpeg/FFmpeg
+license: LGPL-2.1
+maintainer: FFmpeg
+dependencies:
+  - gcc
+  - make

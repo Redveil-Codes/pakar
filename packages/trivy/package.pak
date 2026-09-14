@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/aquasecurity/trivy
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/trivy
+BIN=./trivy
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o trivy ./cmd/trivy
+)

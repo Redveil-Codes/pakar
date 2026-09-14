@@ -1,0 +1,9 @@
+name: tox
+slug: tox
+version: 4.23.2
+description: automation tool for testing in multiple Python environments
+homepage: https://github.com/tox-dev/tox
+license: MIT
+maintainer: tox-dev
+dependencies:
+  - python

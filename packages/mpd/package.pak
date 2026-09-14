@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/MusicPlayerDaemon/MPD
+DEPENDENCIES=(gcc meson ninja)
+BUILDDIR=/tmp/pak/imports/mpd
+BIN=./build/mpd
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

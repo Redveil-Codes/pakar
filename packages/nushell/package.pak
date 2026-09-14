@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/nushell/nushell
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/nushell
+BIN=./target/release/nu
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/theryangeary/choose
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/choose
+BIN=./target/release/choose
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

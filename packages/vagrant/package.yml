@@ -1,0 +1,8 @@
+name: vagrant
+slug: vagrant
+version: 2.4.3
+description: tool for building and managing virtualized development environments
+homepage: https://github.com/hashicorp/vagrant
+license: MIT
+maintainer: hashicorp
+dependencies:

@@ -1,0 +1,9 @@
+name: gitui
+slug: gitui
+version: 0.26.3
+description: blazing fast terminal-ui for git
+homepage: https://github.com/extrawurst/gitui
+license: MIT
+maintainer: extrawurst
+dependencies:
+  - rustup

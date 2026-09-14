@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/abishekvashok/cmatrix
-DEPENDENCIES=(ncurses)
+DEPENDENCIES=(cmake gcc make ncurses)
 BUILDDIR=/tmp/pak/imports/cmatrix
 BIN=./build/cmatrix
 LIB=0

@@ -1,0 +1,11 @@
+CC=g++
+SRC=https://github.com/danmar/cppcheck
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/cppcheck
+BIN=./cppcheck
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make MATCHCOMPILER=yes -j$(nproc)
+)

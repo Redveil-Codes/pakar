@@ -1,0 +1,9 @@
+name: Joplin
+slug: joplin
+version: 3.1.0
+description: note-taking and to-do app with sync and markdown support
+homepage: https://github.com/laurent22/joplin
+license: AGPL-3.0
+maintainer: laurent22
+dependencies:
+  - pnpm

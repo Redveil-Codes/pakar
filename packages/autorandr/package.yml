@@ -1,0 +1,8 @@
+name: autorandr
+slug: autorandr
+version: 1.14.2
+description: automatically detect connected display hardware and load matching xrandr profiles
+homepage: https://github.com/phillipberndt/autorandr
+license: GPL-3.0
+maintainer: Phillip Berndt
+dependencies:

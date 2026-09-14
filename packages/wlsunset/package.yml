@@ -1,0 +1,11 @@
+name: wlsunset
+slug: wlsunset
+version: 0.4.1
+description: day/night gamma adjustments for wayland compositors
+homepage: https://git.sr.ht/~kennylevinsen/wlsunset
+license: MIT
+maintainer: kennylevinsen
+dependencies:
+  - gcc
+  - meson
+  - ninja

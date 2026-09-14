@@ -1,0 +1,9 @@
+name: rbenv
+slug: rbenv
+version: 1.3.2
+description: groom your app's ruby environment, simple ruby version management
+homepage: https://github.com/rbenv/rbenv
+license: MIT
+maintainer: rbenv
+dependencies:
+  - make

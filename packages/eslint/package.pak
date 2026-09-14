@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/eslint/eslint
+DEPENDENCIES=(nodejs npm)
+BUILDDIR=/tmp/pak/imports/eslint
+BIN=./bin/eslint.js
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    npm install
+)

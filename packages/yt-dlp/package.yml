@@ -1,0 +1,9 @@
+name: yt-dlp
+slug: yt-dlp
+version: 2025.01.15
+description: feature-rich command-line audio/video downloader
+homepage: https://github.com/yt-dlp/yt-dlp
+license: Unlicense
+maintainer: yt-dlp
+dependencies:
+  - python

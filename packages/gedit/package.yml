@@ -1,0 +1,11 @@
+name: gedit
+slug: gedit
+version: 46
+description: GNOME's official text editor
+homepage: https://gitlab.gnome.org/GNOME/gedit
+license: GPL-2.0
+maintainer: GNOME Project
+dependencies:
+  - gcc
+  - meson
+  - ninja

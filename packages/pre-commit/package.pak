@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/pre-commit/pre-commit
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/pre-commit
+BIN=./bin/pre-commit
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    pip install .
+)

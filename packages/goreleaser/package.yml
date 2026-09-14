@@ -1,0 +1,9 @@
+name: goreleaser
+slug: goreleaser
+version: 2.4.4
+description: release automation tool for Go projects
+homepage: https://github.com/goreleaser/goreleaser
+license: MIT
+maintainer: goreleaser
+dependencies:
+  - go

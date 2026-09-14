@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/sivel/speedtest-cli
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/speedtest-cli
+BIN=./speedtest.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

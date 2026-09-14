@@ -1,0 +1,12 @@
+CC=cc
+SRC=https://git.sr.ht/~kennylevinsen/wlsunset
+DEPENDENCIES=(gcc meson ninja)
+BUILDDIR=/tmp/pak/imports/wlsunset
+BIN=./build/wlsunset
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

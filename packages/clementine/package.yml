@@ -1,0 +1,11 @@
+name: clementine
+slug: clementine
+version: 1.4.0
+description: modern music player and library organizer
+homepage: https://github.com/clementine-player/Clementine
+license: GPL-3.0
+maintainer: clementine-player
+dependencies:
+  - cmake
+  - gcc
+  - make

@@ -1,0 +1,9 @@
+name: oh-my-posh
+slug: oh-my-posh
+version: 23.5.0
+description: a prompt theme engine for any shell
+homepage: https://ohmyposh.dev/
+license: MIT
+maintainer: Jan De Dobbeleer
+dependencies:
+  - go

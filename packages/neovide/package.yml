@@ -1,0 +1,9 @@
+name: neovide
+slug: neovide
+version: 0.13.3
+description: a no-nonsense, GPU-accelerated Neovim client
+homepage: https://neovide.dev/
+license: MIT
+maintainer: Neovide Contributors
+dependencies:
+  - rustup

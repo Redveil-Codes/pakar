@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/lanmaster53/recon-ng
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/recon-ng
+BIN=./recon-ng
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

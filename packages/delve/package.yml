@@ -1,0 +1,9 @@
+name: delve
+slug: delve
+version: 1.24.0
+description: a debugger for the go programming language
+homepage: https://github.com/go-delve/delve
+license: MIT
+maintainer: go-delve
+dependencies:
+  - go

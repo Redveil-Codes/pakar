@@ -1,0 +1,10 @@
+name: Cppcheck
+slug: cppcheck
+version: 2.15.0
+description: static analysis tool for C/C++ code
+homepage: https://cppcheck.sourceforge.io
+license: GPL-3.0-or-later
+maintainer: Daniel Marjamaki
+dependencies:
+  - gcc
+  - make

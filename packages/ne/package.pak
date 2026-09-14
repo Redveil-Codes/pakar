@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://github.com/vigna/ne
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/ne
+BIN=./src/ne
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

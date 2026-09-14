@@ -1,0 +1,9 @@
+name: wasmtime
+slug: wasmtime
+version: 27.0.0
+description: fast and secure WebAssembly runtime
+homepage: https://github.com/bytecodealliance/wasmtime
+license: Apache-2.0 WITH LLVM-exception
+maintainer: bytecodealliance
+dependencies:
+  - rustup

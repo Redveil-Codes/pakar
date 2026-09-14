@@ -1,0 +1,8 @@
+name: gocryptfs
+slug: gocryptfs
+version: 2.5.1
+description: encrypted overlay filesystem written in Go
+homepage: https://github.com/rfjakob/gocryptfs
+license: MIT
+maintainer: Jakob Unterwurzacher
+dependencies:

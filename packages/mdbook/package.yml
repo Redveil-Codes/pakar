@@ -1,0 +1,9 @@
+name: mdbook
+slug: mdbook
+version: 0.4.43
+description: create book from markdown files, like gitbook but implemented in rust
+homepage: https://github.com/rust-lang/mdBook
+license: MPL-2.0
+maintainer: rust-lang
+dependencies:
+  - rustup

@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/lxc/lxc
+DEPENDENCIES=(gcc meson ninja)
+BUILDDIR=/tmp/pak/imports/lxc
+BIN=./build/src/tools/lxc-start
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

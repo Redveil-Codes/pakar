@@ -1,0 +1,11 @@
+name: qterminal
+slug: qterminal
+version: 2.1.0
+description: a lightweight Qt-based terminal emulator from the LXQt project
+homepage: https://github.com/lxqt/qterminal
+license: GPL-2.0
+maintainer: LXQt
+dependencies:
+  - cmake
+  - gcc
+  - make

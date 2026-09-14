@@ -1,0 +1,11 @@
+name: waifu2x-ncnn-vulkan
+slug: waifu2x-ncnn-vulkan
+version: 20220728
+description: waifu2x image upscaler implementation with ncnn and vulkan
+homepage: https://github.com/nihui/waifu2x-ncnn-vulkan
+license: MIT
+maintainer: nihui
+dependencies:
+  - cmake
+  - gcc
+  - make

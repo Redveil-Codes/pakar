@@ -1,0 +1,9 @@
+name: oxipng
+slug: oxipng
+version: 9.1.3
+description: multithreaded png optimizer written in rust
+homepage: https://github.com/shssoichiro/oxipng
+license: MIT
+maintainer: shssoichiro
+dependencies:
+  - rustup

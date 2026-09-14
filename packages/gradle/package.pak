@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/gradle/gradle
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/gradle
+BIN=./bin/gradle
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./gradlew build
+)

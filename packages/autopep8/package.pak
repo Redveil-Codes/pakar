@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/hhatto/autopep8
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/autopep8
+BIN=./autopep8.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

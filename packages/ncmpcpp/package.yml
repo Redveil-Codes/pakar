@@ -1,0 +1,12 @@
+name: ncmpcpp
+slug: ncmpcpp
+version: 0.1
+description: featureful ncurses based mpd client
+homepage: https://github.com/ncmpcpp/ncmpcpp
+license: GPL-2.0
+maintainer: ncmpcpp
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

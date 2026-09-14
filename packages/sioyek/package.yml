@@ -1,0 +1,11 @@
+name: sioyek
+slug: sioyek
+version: 2.0.0
+description: pdf viewer with a focus on textbooks and research papers
+homepage: https://github.com/ahrm/sioyek
+license: GPL-3.0
+maintainer: ahrm
+dependencies:
+  - cmake
+  - gcc
+  - make

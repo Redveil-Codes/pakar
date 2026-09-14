@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/cargo-bins/cargo-binstall
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/cargo-binstall
+BIN=./target/release/cargo-binstall
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release --locked
+)

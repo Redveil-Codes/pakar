@@ -1,0 +1,9 @@
+name: staticcheck
+slug: staticcheck
+version: 2024.1.1
+description: advanced static analysis tool for Go
+homepage: https://github.com/dominikh/go-tools
+license: MIT
+maintainer: dominikh
+dependencies:
+  - go

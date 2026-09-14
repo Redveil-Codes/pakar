@@ -1,0 +1,9 @@
+name: ruff
+slug: ruff
+version: 0.8.4
+description: an extremely fast python linter and code formatter, written in rust
+homepage: https://github.com/astral-sh/ruff
+license: MIT
+maintainer: astral-sh
+dependencies:
+  - rustup

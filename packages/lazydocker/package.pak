@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/jesseduffield/lazydocker
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/lazydocker
+BIN=./lazydocker
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o lazydocker .
+)

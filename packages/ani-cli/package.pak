@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/pystardust/ani-cli
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/ani-cli
+BIN=./ani-cli
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

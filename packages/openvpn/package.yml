@@ -1,0 +1,12 @@
+name: openvpn
+slug: openvpn
+version: 2.6.12
+description: a full-featured, open source VPN solution
+homepage: https://openvpn.net/community/
+license: GPL-2.0
+maintainer: OpenVPN Inc.
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

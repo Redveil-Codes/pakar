@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/greshake/i3status-rust
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/i3status-rust
+BIN=./target/release/i3status-rs
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/owasp-amass/amass
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/amass
+BIN=./amass
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build ./cmd/amass
+)

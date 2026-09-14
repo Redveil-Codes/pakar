@@ -1,0 +1,8 @@
+name: nvm
+slug: nvm
+version: 0.40.1
+description: node version manager, posix-compliant shell script
+homepage: https://github.com/nvm-sh/nvm
+license: MIT
+maintainer: nvm-sh
+dependencies:

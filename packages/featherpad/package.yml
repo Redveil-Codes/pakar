@@ -1,0 +1,11 @@
+name: featherpad
+slug: featherpad
+version: 1.5.0
+description: lightweight Qt plain-text editor for Linux
+homepage: https://github.com/tsujan/FeatherPad
+license: GPL-3.0
+maintainer: Pedram Pourang
+dependencies:
+  - cmake
+  - gcc
+  - make

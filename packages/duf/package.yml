@@ -1,0 +1,9 @@
+name: duf
+slug: duf
+version: 0.8.1
+description: a disk usage/free utility with a terminal user interface
+homepage: https://github.com/muesli/duf
+license: MIT
+maintainer: Christian Rocha
+dependencies:
+  - go

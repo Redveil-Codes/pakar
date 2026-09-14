@@ -1,0 +1,9 @@
+name: Pylint
+slug: pylint
+version: 3.3.1
+description: static code analyser for Python
+homepage: https://github.com/pylint-dev/pylint
+license: GPL-2.0-or-later
+maintainer: Pylint Contributors
+dependencies:
+  - python

@@ -1,0 +1,8 @@
+name: distrobox
+slug: distrobox
+version: 1.8.1
+description: use any Linux distribution inside your terminal, sharing the host's resources
+homepage: https://github.com/89luca89/distrobox
+license: GPL-3.0
+maintainer: Luca Di Maio
+dependencies:

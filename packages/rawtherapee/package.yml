@@ -1,0 +1,11 @@
+name: rawtherapee
+slug: rawtherapee
+version: 5.11
+description: cross-platform raw image processing program
+homepage: https://github.com/Beep6581/RawTherapee
+license: GPL-3.0
+maintainer: Beep6581
+dependencies:
+  - cmake
+  - gcc
+  - make

@@ -1,0 +1,11 @@
+name: imv
+slug: imv
+version: 4.5.0
+description: command line image viewer for wayland and x11
+homepage: https://github.com/eXeC64/imv
+license: MIT
+maintainer: eXeC64
+dependencies:
+  - gcc
+  - meson
+  - ninja

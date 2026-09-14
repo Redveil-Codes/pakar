@@ -1,0 +1,11 @@
+name: mediainfo
+slug: mediainfo
+version: 24.11
+description: convenient unified display of technical and tag data for video and audio files
+homepage: https://github.com/MediaArea/MediaInfo
+license: BSD-2-Clause
+maintainer: MediaArea
+dependencies:
+  - autoconf
+  - gcc
+  - make

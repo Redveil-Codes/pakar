@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/golang/go
+DEPENDENCIES=(make)
+BUILDDIR=/tmp/pak/imports/go
+BIN=./bin/go
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd src
+    ./make.bash
+)

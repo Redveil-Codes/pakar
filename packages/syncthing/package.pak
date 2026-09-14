@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/syncthing/syncthing
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/syncthing
+BIN=./syncthing
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build ./cmd/syncthing
+)

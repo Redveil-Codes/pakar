@@ -6,3 +6,5 @@ homepage: https://github.com/jordansissel/xdotool
 license: BSD-3-Clause
 maintainer: jordansissel
 dependencies:
+  - gcc
+  - make

@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/royhills/arp-scan
+DEPENDENCIES=(autoconf automake gcc make)
+BUILDDIR=/tmp/pak/imports/arp-scan
+BIN=./arp-scan
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    autoreconf -i
+    ./configure
+    make
+)

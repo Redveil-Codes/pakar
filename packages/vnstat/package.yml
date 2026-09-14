@@ -1,0 +1,10 @@
+name: vnstat
+slug: vnstat
+version: 2.13
+description: console-based network traffic monitor
+homepage: https://github.com/vergoh/vnstat
+license: GPL-2.0
+maintainer: vergoh
+dependencies:
+  - gcc
+  - make

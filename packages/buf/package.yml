@@ -1,0 +1,9 @@
+name: buf
+slug: buf
+version: 1.47.2
+description: a new way of working with protocol buffers, linter and formatter for protobuf
+homepage: https://github.com/bufbuild/buf
+license: Apache-2.0
+maintainer: bufbuild
+dependencies:
+  - go

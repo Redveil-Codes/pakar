@@ -1,0 +1,10 @@
+name: ninja
+slug: ninja
+version: 1.12.1
+description: small build system with a focus on speed
+homepage: https://github.com/ninja-build/ninja
+license: Apache-2.0
+maintainer: ninja-build
+dependencies:
+  - gcc
+  - python

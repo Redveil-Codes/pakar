@@ -1,0 +1,10 @@
+name: easyeffects
+slug: easyeffects
+version: 7.2.0
+description: audio effects for pipewire applications
+homepage: https://github.com/wwmm/easyeffects
+license: GPL-3.0
+maintainer: wwmm
+dependencies:
+  - meson
+  - ninja

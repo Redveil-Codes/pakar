@@ -1,0 +1,9 @@
+name: ffuf
+slug: ffuf
+version: 2.1.0
+description: fast web fuzzer written in Go
+homepage: https://github.com/ffuf/ffuf
+license: MIT
+maintainer: Joona Hoikkala
+dependencies:
+  - go

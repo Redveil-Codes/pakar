@@ -1,0 +1,9 @@
+name: entr
+slug: entr
+version: 5.6
+description: run arbitrary commands when files change, a simple event notify test runner
+homepage: https://github.com/eradman/entr
+license: ISC
+maintainer: eradman
+dependencies:
+  - make

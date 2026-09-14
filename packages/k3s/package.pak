@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/k3s-io/k3s
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/k3s
+BIN=./k3s
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o k3s .
+)

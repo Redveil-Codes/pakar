@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/betterlockscreen/betterlockscreen
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/betterlockscreen
+BIN=./betterlockscreen
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

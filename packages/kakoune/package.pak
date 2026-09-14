@@ -1,0 +1,12 @@
+CC=g++
+SRC=https://github.com/mawww/kakoune
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/kakoune
+BIN=./src/kak
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd src
+    make
+)

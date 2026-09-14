@@ -1,0 +1,9 @@
+name: popeye
+slug: popeye
+version: 0.21.4
+description: a Kubernetes cluster resource sanitizer
+homepage: https://github.com/derailed/popeye
+license: Apache-2.0
+maintainer: derailed
+dependencies:
+  - go

@@ -1,0 +1,9 @@
+name: buildah
+slug: buildah
+version: 1.38.0
+description: a tool for building OCI container images
+homepage: https://github.com/containers/buildah
+license: Apache-2.0
+maintainer: containers project
+dependencies:
+  - go

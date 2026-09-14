@@ -1,0 +1,11 @@
+name: hyprlock
+slug: hyprlock
+version: 0.6.1
+description: GPU-accelerated screen locking utility for Hyprland
+homepage: https://github.com/hyprwm/hyprlock
+license: BSD-3-Clause
+maintainer: hyprwm
+dependencies:
+  - cmake
+  - gcc
+  - make

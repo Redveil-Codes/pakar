@@ -1,0 +1,9 @@
+name: auto-cpufreq
+slug: auto-cpufreq
+version: 3.1.0
+description: automatic cpu speed and power optimizer for linux
+homepage: https://github.com/AdnanHodzic/auto-cpufreq
+license: LGPL-3.0
+maintainer: AdnanHodzic
+dependencies:
+  - rustup

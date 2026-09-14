@@ -1,0 +1,11 @@
+name: gimp
+slug: gimp
+version: 2.10.38
+description: gnu image manipulation program
+homepage: https://gitlab.gnome.org/GNOME/gimp
+license: GPL-3.0
+maintainer: GNOME
+dependencies:
+  - gcc
+  - meson
+  - ninja

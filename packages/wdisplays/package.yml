@@ -1,0 +1,11 @@
+name: wdisplays
+slug: wdisplays
+version: 1.1
+description: a graphical application for configuring displays under wlroots-based wayland compositors
+homepage: https://github.com/cyclopsian/wdisplays
+license: GPL-3.0
+maintainer: cyclopsian
+dependencies:
+  - gcc
+  - meson
+  - ninja

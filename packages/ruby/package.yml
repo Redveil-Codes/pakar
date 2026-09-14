@@ -1,0 +1,11 @@
+name: Ruby
+slug: ruby
+version: 3.4.1
+description: dynamic, open source programming language with a focus on simplicity
+homepage: https://github.com/ruby/ruby
+license: Ruby
+maintainer: ruby-lang
+dependencies:
+  - autoconf
+  - gcc
+  - make

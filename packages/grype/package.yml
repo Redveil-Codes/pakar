@@ -1,0 +1,9 @@
+name: grype
+slug: grype
+version: 0.82.0
+description: a vulnerability scanner for container images and filesystems
+homepage: https://github.com/anchore/grype
+license: Apache-2.0
+maintainer: Anchore
+dependencies:
+  - go

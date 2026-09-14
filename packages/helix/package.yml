@@ -1,0 +1,9 @@
+name: helix
+slug: helix
+version: 24.07
+description: post-modern modal text editor
+homepage: https://github.com/helix-editor/helix
+license: MPL-2.0
+maintainer: Helix Editor contributors
+dependencies:
+  - rustup

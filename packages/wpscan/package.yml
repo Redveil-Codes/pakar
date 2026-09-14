@@ -1,0 +1,8 @@
+name: wpscan
+slug: wpscan
+version: 3.8.28
+description: wordpress security scanner
+homepage: https://github.com/wpscanteam/wpscan
+license: GPL-3.0
+maintainer: wpscanteam
+dependencies:

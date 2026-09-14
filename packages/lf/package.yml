@@ -1,0 +1,9 @@
+name: lf
+slug: lf
+version: r32
+description: terminal file manager written in Go
+homepage: https://github.com/gokcehan/lf
+license: MIT
+maintainer: gokcehan
+dependencies:
+  - go

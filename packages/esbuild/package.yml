@@ -1,0 +1,9 @@
+name: esbuild
+slug: esbuild
+version: 0.24.0
+description: extremely fast JavaScript bundler and minifier
+homepage: https://github.com/evanw/esbuild
+license: MIT
+maintainer: evanw
+dependencies:
+  - go

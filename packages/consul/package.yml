@@ -1,0 +1,9 @@
+name: consul
+slug: consul
+version: 1.16.6
+description: a distributed, highly available service mesh solution for service discovery and configuration
+homepage: https://github.com/hashicorp/consul
+license: MPL-2.0
+maintainer: HashiCorp
+dependencies:
+  - go

@@ -6,3 +6,7 @@ homepage: https://github.com/jqlang/jq
 license: MIT
 maintainer: jqlang
 dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

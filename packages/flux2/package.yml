@@ -1,0 +1,9 @@
+name: flux2
+slug: flux2
+version: 2.4.0
+description: an open and extensible continuous delivery solution for Kubernetes powered by GitOps Toolkit
+homepage: https://github.com/fluxcd/flux2
+license: Apache-2.0
+maintainer: Flux project
+dependencies:
+  - go

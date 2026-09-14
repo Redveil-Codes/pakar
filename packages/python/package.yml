@@ -1,0 +1,10 @@
+name: Python
+slug: python
+version: 3.13.1
+description: interpreted, high-level, general-purpose programming language
+homepage: https://github.com/python/cpython
+license: PSF-2.0
+maintainer: Python Software Foundation
+dependencies:
+  - gcc
+  - make

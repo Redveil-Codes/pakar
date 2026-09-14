@@ -1,0 +1,9 @@
+name: just
+slug: just
+version: 1.38.0
+description: a handy way to save and run project-specific commands, a command runner
+homepage: https://github.com/casey/just
+license: CC0-1.0
+maintainer: casey
+dependencies:
+  - rustup

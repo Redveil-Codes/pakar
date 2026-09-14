@@ -1,0 +1,9 @@
+name: alacritty
+slug: alacritty
+version: 0.14.0
+description: a cross-platform, gpu-accelerated terminal emulator
+homepage: https://github.com/alacritty/alacritty
+license: Apache-2.0
+maintainer: alacritty
+dependencies:
+  - rustup

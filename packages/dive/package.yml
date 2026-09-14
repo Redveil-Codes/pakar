@@ -1,0 +1,9 @@
+name: dive
+slug: dive
+version: 0.12.0
+description: a tool for exploring a docker image's layers
+homepage: https://github.com/wagoodman/dive
+license: MIT
+maintainer: wagoodman
+dependencies:
+  - go

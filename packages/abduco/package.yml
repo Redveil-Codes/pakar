@@ -1,0 +1,10 @@
+name: abduco
+slug: abduco
+version: 0.6
+description: terminal session management, allowing programs to be detached and reattached like dtach
+homepage: https://www.brain-dump.org/projects/abduco/
+license: ISC
+maintainer: Marc André Tanner
+dependencies:
+  - gcc
+  - make

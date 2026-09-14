@@ -1,0 +1,11 @@
+name: darktable
+slug: darktable
+version: 4.8.1
+description: virtual lighttable and darkroom for photographers
+homepage: https://github.com/darktable-org/darktable
+license: GPL-3.0
+maintainer: darktable-org
+dependencies:
+  - cmake
+  - gcc
+  - make

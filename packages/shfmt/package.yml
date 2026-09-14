@@ -1,0 +1,9 @@
+name: shfmt
+slug: shfmt
+version: 3.10.0
+description: a shell parser, formatter, and interpreter for bash and posix shell
+homepage: https://github.com/mvdan/sh
+license: BSD-3-Clause
+maintainer: mvdan
+dependencies:
+  - go

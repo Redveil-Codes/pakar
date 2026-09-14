@@ -1,0 +1,8 @@
+name: xmonad
+slug: xmonad
+version: 0.18.0
+description: a tiling window manager written in haskell
+homepage: https://github.com/xmonad/xmonad
+license: BSD-3-Clause
+maintainer: xmonad
+dependencies:

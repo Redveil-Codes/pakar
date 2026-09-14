@@ -1,0 +1,11 @@
+name: mpv
+slug: mpv
+version: 0.39.0
+description: free, open source, and cross-platform media player
+homepage: https://github.com/mpv-player/mpv
+license: GPL-2.0
+maintainer: mpv-player
+dependencies:
+  - gcc
+  - meson
+  - ninja

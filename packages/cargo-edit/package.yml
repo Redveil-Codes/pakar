@@ -1,0 +1,9 @@
+name: cargo-edit
+slug: cargo-edit
+version: 0.13.1
+description: a utility for managing cargo dependencies from the command line
+homepage: https://github.com/killercup/cargo-edit
+license: MIT
+maintainer: killercup
+dependencies:
+  - rustup

@@ -1,0 +1,11 @@
+name: audacity
+slug: audacity
+version: 3.7.1
+description: free, open source, cross-platform audio software
+homepage: https://github.com/audacity/audacity
+license: GPL-2.0
+maintainer: audacity
+dependencies:
+  - cmake
+  - gcc
+  - make

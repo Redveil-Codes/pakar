@@ -1,0 +1,11 @@
+name: bmon
+slug: bmon
+version: 4
+description: a bandwidth monitor and rate estimator for the terminal
+homepage: https://github.com/tgraf/bmon
+license: BSD-2-Clause
+maintainer: Thomas Graf
+dependencies:
+  - gcc
+  - meson
+  - ninja

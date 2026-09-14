@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/evanw/esbuild
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/esbuild
+BIN=./esbuild
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o esbuild ./cmd/esbuild
+)

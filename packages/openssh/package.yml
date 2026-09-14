@@ -1,0 +1,12 @@
+name: openssh
+slug: openssh
+version: 9.9p1
+description: secure shell connectivity tools for remote login and file transfer
+homepage: https://www.openssh.com/
+license: BSD-2-Clause
+maintainer: OpenBSD Project
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

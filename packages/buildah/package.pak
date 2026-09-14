@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/containers/buildah
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/buildah
+BIN=./buildah
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build ./cmd/buildah
+)

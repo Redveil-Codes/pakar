@@ -1,0 +1,11 @@
+name: crun
+slug: crun
+version: 1.19
+description: a fast and low-memory footprint OCI container runtime fully written in C
+homepage: https://github.com/containers/crun
+license: GPL-2.0
+maintainer: Giuseppe Scrivano
+dependencies:
+  - autoconf
+  - gcc
+  - make

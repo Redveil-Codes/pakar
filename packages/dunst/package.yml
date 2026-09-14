@@ -1,0 +1,10 @@
+name: dunst
+slug: dunst
+version: 1.12.2
+description: a lightweight and customizable notification daemon for X11 and Wayland
+homepage: https://github.com/dunst-project/dunst
+license: BSD-3-Clause
+maintainer: Dunst development team
+dependencies:
+  - gcc
+  - make

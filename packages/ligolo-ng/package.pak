@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/nicocha30/ligolo-ng
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/ligolo-ng
+BIN=./ligolo-ng
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o ligolo-ng ./cmd/proxy
+)

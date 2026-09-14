@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/qemu/qemu
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/qemu
+BIN=./build/qemu-system-x86_64
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

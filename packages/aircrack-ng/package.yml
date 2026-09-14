@@ -1,0 +1,12 @@
+name: aircrack-ng
+slug: aircrack-ng
+version: 1.7
+description: complete suite of tools to assess WiFi network security
+homepage: https://github.com/aircrack-ng/aircrack-ng
+license: GPL-2.0
+maintainer: Thomas d'Otreppe de Bouvette
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

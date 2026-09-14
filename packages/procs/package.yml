@@ -1,0 +1,9 @@
+name: procs
+slug: procs
+version: 0.14.9
+description: a modern replacement for ps written in rust
+homepage: https://github.com/dalance/procs
+license: MIT
+maintainer: dalance
+dependencies:
+  - rustup

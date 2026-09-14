@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/jesseduffield/lazygit
-DEPENDENCIES=
+DEPENDENCIES=(go)
 BUILDDIR=/tmp/pak/imports/lazygit
 BIN=./lazygit
 LIB=0

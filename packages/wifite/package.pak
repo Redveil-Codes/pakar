@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/derv82/wifite2
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/wifite
+BIN=./bin/wifite
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

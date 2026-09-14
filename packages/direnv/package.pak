@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/direnv/direnv
-DEPENDENCIES=
+DEPENDENCIES=(go)
 BUILDDIR=/tmp/pak/imports/direnv
 BIN=./direnv
 LIB=0

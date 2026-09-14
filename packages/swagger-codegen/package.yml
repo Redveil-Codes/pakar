@@ -1,0 +1,9 @@
+name: swagger-codegen
+slug: swagger-codegen
+version: 3.0.65
+description: generates client/server code and documentation from openapi/swagger specs
+homepage: https://github.com/swagger-api/swagger-codegen
+license: Apache-2.0
+maintainer: swagger-api
+dependencies:
+  - maven

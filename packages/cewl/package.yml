@@ -1,0 +1,9 @@
+name: CeWL
+slug: cewl
+version: 6.2.1
+description: custom wordlist generator that spiders a site for keywords
+homepage: https://github.com/digininja/CeWL
+license: GPL-3.0
+maintainer: Robin Wood (digininja)
+dependencies:
+  - ruby

@@ -1,0 +1,10 @@
+name: tilix
+slug: tilix
+version: 1.9.6
+description: a tiling terminal emulator for gtk using vte
+homepage: https://github.com/gnunn1/tilix
+license: MPL-2.0
+maintainer: gnunn1
+dependencies:
+  - meson
+  - ninja

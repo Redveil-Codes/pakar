@@ -1,0 +1,9 @@
+name: curlie
+slug: curlie
+version: 1.8.2
+description: curl frontend with httpie-like syntax
+homepage: https://github.com/rs/curlie
+license: MIT
+maintainer: Olivier Poitrey
+dependencies:
+  - go

@@ -1,0 +1,9 @@
+name: xonsh
+slug: xonsh
+version: 0.19.2
+description: a python-powered, cross-platform shell language
+homepage: https://github.com/xonsh/xonsh
+license: BSD-2-Clause
+maintainer: xonsh
+dependencies:
+  - python

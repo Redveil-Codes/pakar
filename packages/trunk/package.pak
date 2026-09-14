@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/trunk-rs/trunk
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/trunk
+BIN=./target/release/trunk
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

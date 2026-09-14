@@ -1,0 +1,14 @@
+CC=gcc
+SRC=https://github.com/darktable-org/darktable
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/darktable
+BIN=./build/bin/darktable
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

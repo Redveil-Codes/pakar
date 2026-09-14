@@ -6,3 +6,4 @@ homepage: https://github.com/jesseduffield/lazygit
 license: MIT
 maintainer: jesseduffield
 dependencies:
+  - go

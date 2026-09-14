@@ -1,0 +1,10 @@
+name: Autoconf
+slug: autoconf
+version: 2.72
+description: extensible package of M4 macros that produce shell scripts to configure source packages
+homepage: https://www.gnu.org/software/autoconf/
+license: GPL-3.0
+maintainer: GNU
+dependencies:
+  - perl
+  - make

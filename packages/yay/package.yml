@@ -1,8 +1,0 @@
-name: yay
-slug: yay
-version: 12.5.7
-description: pacman wrapper and AUR helper written in go
-homepage: https://github.com/Jguer/yay
-license: GPL-3.0
-maintainer: Jguer
-dependencies:

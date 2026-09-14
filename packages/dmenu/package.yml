@@ -6,3 +6,5 @@ homepage: https://tools.suckless.org/dmenu/
 license: MIT
 maintainer: suckless.org
 dependencies:
+  - gcc
+  - make

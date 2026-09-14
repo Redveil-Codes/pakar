@@ -1,0 +1,9 @@
+name: freetube
+slug: freetube
+version: 0.23.1
+description: open source desktop youtube player built with privacy in mind
+homepage: https://github.com/FreeTubeApp/FreeTube
+license: AGPL-3.0
+maintainer: FreeTubeApp
+dependencies:
+  - pnpm

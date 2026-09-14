@@ -1,0 +1,9 @@
+name: sd
+slug: sd
+version: 1.0.0
+description: intuitive find & replace cli, an alternative to sed
+homepage: https://github.com/chmln/sd
+license: MIT
+maintainer: chmln
+dependencies:
+  - rustup

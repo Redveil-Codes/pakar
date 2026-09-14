@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/dalance/procs
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/procs
+BIN=./target/release/procs
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

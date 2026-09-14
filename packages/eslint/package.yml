@@ -1,0 +1,10 @@
+name: eslint
+slug: eslint
+version: 9.17.0
+description: find and fix problems in your javascript code, a pluggable linter
+homepage: https://github.com/eslint/eslint
+license: MIT
+maintainer: eslint
+dependencies:
+  - nodejs
+  - npm

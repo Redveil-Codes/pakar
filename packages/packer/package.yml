@@ -1,0 +1,9 @@
+name: packer
+slug: packer
+version: 1.11.2
+description: a tool for building identical machine images for multiple platforms from a single source configuration
+homepage: https://www.packer.io/
+license: BUSL-1.1
+maintainer: HashiCorp
+dependencies:
+  - go

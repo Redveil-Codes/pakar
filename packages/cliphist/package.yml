@@ -1,0 +1,9 @@
+name: cliphist
+slug: cliphist
+version: 0.6.1
+description: a Wayland clipboard history manager
+homepage: https://github.com/sentriz/cliphist
+license: MIT
+maintainer: Zach Orr (sentriz)
+dependencies:
+  - go

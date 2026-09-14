@@ -1,0 +1,9 @@
+name: argo-cd
+slug: argocd
+version: 2.13.0
+description: declarative continuous deployment for Kubernetes
+homepage: https://github.com/argoproj/argo-cd
+license: Apache-2.0
+maintainer: Argo Project
+dependencies:
+  - go

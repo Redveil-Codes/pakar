@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/TomWright/dasel
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/dasel
+BIN=./dasel
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o dasel ./cmd/dasel
+)

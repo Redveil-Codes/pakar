@@ -1,0 +1,11 @@
+name: pavucontrol
+slug: pavucontrol
+version: 6
+description: pulseaudio volume control
+homepage: https://github.com/pulseaudio/pavucontrol
+license: GPL-2.0
+maintainer: pulseaudio
+dependencies:
+  - gcc
+  - meson
+  - ninja

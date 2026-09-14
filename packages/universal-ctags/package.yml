@@ -1,0 +1,11 @@
+name: Universal Ctags
+slug: universal-ctags
+version: 6.1.0
+description: maintained implementation of ctags for source code indexing
+homepage: https://ctags.io
+license: GPL-2.0-or-later
+maintainer: Universal Ctags team
+dependencies:
+  - autoconf
+  - gcc
+  - make

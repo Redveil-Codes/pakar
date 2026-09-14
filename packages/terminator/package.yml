@@ -1,0 +1,8 @@
+name: terminator
+slug: terminator
+version: 2.1.4
+description: a terminal emulator that supports multiple GNOME terminals in one window
+homepage: https://github.com/gnome-terminator/terminator
+license: GPL-2.0
+maintainer: gnome-terminator
+dependencies:

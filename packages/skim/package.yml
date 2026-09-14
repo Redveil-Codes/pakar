@@ -1,0 +1,9 @@
+name: skim
+slug: skim
+version: 0.15.5
+description: a fuzzy finder for the terminal, written in rust
+homepage: https://github.com/skim-rs/skim
+license: MIT
+maintainer: skim-rs
+dependencies:
+  - rustup

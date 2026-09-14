@@ -1,0 +1,10 @@
+name: masscan
+slug: masscan
+version: 1.3.2
+description: a mass IP port scanner that can scan the whole Internet in minutes
+homepage: https://github.com/robertdavidgraham/masscan
+license: AGPL-3.0
+maintainer: Robert David Graham
+dependencies:
+  - gcc
+  - make

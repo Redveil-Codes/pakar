@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/hatoo/oha
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/oha
+BIN=./target/release/oha
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

@@ -1,0 +1,9 @@
+name: trufflehog
+slug: trufflehog
+version: 3.83.7
+description: find leaked credentials and secrets in git repos
+homepage: https://github.com/trufflesecurity/trufflehog
+license: AGPL-3.0-only
+maintainer: trufflesecurity
+dependencies:
+  - go

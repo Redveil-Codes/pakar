@@ -1,0 +1,11 @@
+name: i3lock
+slug: i3lock
+version: 2.15
+description: simple screen locker for X11
+homepage: https://github.com/i3/i3lock
+license: BSD-3-Clause
+maintainer: i3 window manager contributors
+dependencies:
+  - gcc
+  - meson
+  - ninja

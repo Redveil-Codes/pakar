@@ -1,0 +1,8 @@
+name: ani-cli
+slug: ani-cli
+version: 4.9.2
+description: cli tool to browse and play anime
+homepage: https://github.com/pystardust/ani-cli
+license: GPL-3.0
+maintainer: pystardust
+dependencies:

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/anchore/grype
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/grype
+BIN=./grype
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o grype ./cmd/grype
+)

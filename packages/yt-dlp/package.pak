@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/yt-dlp/yt-dlp
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/yt-dlp
+BIN=./yt_dlp/__main__.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

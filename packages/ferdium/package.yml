@@ -1,0 +1,9 @@
+name: ferdium
+slug: ferdium
+version: 7.2.3
+description: all-in-one messaging app, combines your favourite web services into one
+homepage: https://github.com/ferdium/ferdium-app
+license: Apache-2.0
+maintainer: ferdium
+dependencies:
+  - pnpm

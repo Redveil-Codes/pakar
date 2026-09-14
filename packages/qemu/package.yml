@@ -1,0 +1,10 @@
+name: qemu
+slug: qemu
+version: 9.1.0
+description: a generic and open source machine emulator and virtualizer
+homepage: https://www.qemu.org
+license: GPL-2.0
+maintainer: QEMU Project
+dependencies:
+  - gcc
+  - make

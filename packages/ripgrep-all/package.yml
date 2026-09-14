@@ -1,0 +1,9 @@
+name: ripgrep-all
+slug: ripgrep-all
+version: 0.10.9
+description: rg but also searches in pdfs, archives, docs, and more
+homepage: https://github.com/phiresky/ripgrep-all
+license: MIT
+maintainer: phiresky
+dependencies:
+  - rustup

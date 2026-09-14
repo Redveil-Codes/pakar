@@ -1,0 +1,9 @@
+name: wasmer
+slug: wasmer
+version: 5.0.4
+description: fast and secure WebAssembly runtime
+homepage: https://github.com/wasmerio/wasmer
+license: MIT
+maintainer: wasmerio
+dependencies:
+  - rustup

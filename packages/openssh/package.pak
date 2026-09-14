@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/openssh/openssh-portable
+DEPENDENCIES=(autoconf automake gcc make)
+BUILDDIR=/tmp/pak/imports/openssh
+BIN=./ssh
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    autoreconf
+    ./configure
+    make
+)

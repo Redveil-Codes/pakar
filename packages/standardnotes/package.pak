@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/standardnotes/app
+DEPENDENCIES=(pnpm)
+BUILDDIR=/tmp/pak/imports/standardnotes
+BIN=./desktop/dist/standard-notes
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    pnpm install
+    pnpm run build
+)

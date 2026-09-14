@@ -6,3 +6,6 @@ homepage: https://github.com/davatorium/rofi
 license: MIT
 maintainer: davatorium
 dependencies:
+  - gcc
+  - meson
+  - ninja

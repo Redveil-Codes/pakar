@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/laurent22/joplin
+DEPENDENCIES=(pnpm)
+BUILDDIR=/tmp/pak/imports/joplin
+BIN=./packages/app-desktop/dist/joplin
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    pnpm install
+    pnpm run build
+)

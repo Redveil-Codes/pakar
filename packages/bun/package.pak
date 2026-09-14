@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/oven-sh/bun
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/bun
+BIN=./build/release/bun
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    bun run build:release
+)

@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/aristocratos/btop
-DEPENDENCIES=
+DEPENDENCIES=(gcc make)
 BUILDDIR=/tmp/pak/imports/btop
 BIN=./bin/btop
 LIB=0

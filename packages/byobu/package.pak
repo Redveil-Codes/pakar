@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/dustinkirkland/byobu
+DEPENDENCIES=(make)
+BUILDDIR=/tmp/pak/imports/byobu
+BIN=./byobu
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

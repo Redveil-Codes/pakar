@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://git.suckless.org/dmenu
-DEPENDENCIES=
+DEPENDENCIES=(gcc make)
 BUILDDIR=/tmp/pak/imports/dmenu
 BIN=./dmenu
 LIB=0

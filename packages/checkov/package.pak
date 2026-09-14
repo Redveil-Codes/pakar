@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/bridgecrewio/checkov
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/checkov
+BIN=./checkov/main.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

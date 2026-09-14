@@ -1,0 +1,9 @@
+name: gping
+slug: gping
+version: 1.18.0
+description: ping, but with a graph
+homepage: https://github.com/orf/gping
+license: MIT
+maintainer: orf
+dependencies:
+  - rustup

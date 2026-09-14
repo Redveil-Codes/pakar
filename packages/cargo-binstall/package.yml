@@ -1,0 +1,9 @@
+name: cargo-binstall
+slug: cargo-binstall
+version: 1.10.13
+description: binary installation tool for Rust crates
+homepage: https://github.com/cargo-bins/cargo-binstall
+license: GPL-3.0-only
+maintainer: cargo-bins
+dependencies:
+  - rustup

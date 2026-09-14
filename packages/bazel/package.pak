@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/bazelbuild/bazel
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/bazel
+BIN=./bazel-bin/src/bazel
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    bash compile.sh
+)

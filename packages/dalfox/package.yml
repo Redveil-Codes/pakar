@@ -1,0 +1,9 @@
+name: dalfox
+slug: dalfox
+version: 3.2.2
+description: powerful open-source XSS scanning and parameter analysis tool
+homepage: https://github.com/hahwul/dalfox
+license: MIT
+maintainer: hahwul
+dependencies:
+  - rustup

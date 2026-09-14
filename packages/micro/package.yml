@@ -1,0 +1,9 @@
+name: micro
+slug: micro
+version: 2.0.14
+description: a modern and intuitive terminal-based text editor
+homepage: https://github.com/zyedidia/micro
+license: MIT
+maintainer: Zachary Yedidia
+dependencies:
+  - go

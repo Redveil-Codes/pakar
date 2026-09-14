@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/golangci/golangci-lint
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/golangci-lint
+BIN=./golangci-lint
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o golangci-lint ./cmd/golangci-lint
+)

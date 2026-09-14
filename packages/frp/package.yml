@@ -1,0 +1,9 @@
+name: frp
+slug: frp
+version: 0.61.0
+description: fast reverse proxy to expose a local server behind NAT or firewall to the internet
+homepage: https://github.com/fatedier/frp
+license: Apache-2.0
+maintainer: fatedier
+dependencies:
+  - go

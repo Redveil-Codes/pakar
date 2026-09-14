@@ -1,0 +1,9 @@
+name: ctop
+slug: ctop
+version: 0.7.7
+description: top-like interface for container metrics
+homepage: https://github.com/bcicen/ctop
+license: MIT
+maintainer: bcicen
+dependencies:
+  - go

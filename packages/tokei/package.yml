@@ -1,0 +1,9 @@
+name: tokei
+slug: tokei
+version: 12.1.2
+description: count your code, quickly
+homepage: https://github.com/XAMPPRocky/tokei
+license: MIT OR Apache-2.0
+maintainer: XAMPPRocky
+dependencies:
+  - rustup

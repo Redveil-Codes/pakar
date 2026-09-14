@@ -1,0 +1,10 @@
+name: ccache
+slug: ccache
+version: 4.10.2
+description: a fast c/c++ compiler cache
+homepage: https://github.com/ccache/ccache
+license: GPL-3.0
+maintainer: ccache
+dependencies:
+  - cmake
+  - make

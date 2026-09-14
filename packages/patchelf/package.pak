@@ -1,0 +1,13 @@
+CC=
+SRC=https://github.com/NixOS/patchelf
+DEPENDENCIES=(autoconf make)
+BUILDDIR=/tmp/pak/imports/patchelf
+BIN=./src/patchelf
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./bootstrap.sh
+    ./configure
+    make
+)

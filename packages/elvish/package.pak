@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/elves/elvish
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/elvish
+BIN=./elvish
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build
+)

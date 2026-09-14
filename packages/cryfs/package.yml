@@ -1,0 +1,11 @@
+name: cryfs
+slug: cryfs
+version: 0.11.4
+description: a cryptographic filesystem for the cloud that encrypts files, contents, and directory structure
+homepage: https://github.com/cryfs/cryfs
+license: LGPL-3.0
+maintainer: Sebastian Messmer
+dependencies:
+  - cmake
+  - gcc
+  - make

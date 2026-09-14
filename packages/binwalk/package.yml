@@ -1,0 +1,9 @@
+name: binwalk
+slug: binwalk
+version: 3.1.0
+description: a tool for searching binary images for embedded files and executable code
+homepage: https://github.com/ReFirmLabs/binwalk
+license: MIT
+maintainer: ReFirmLabs
+dependencies:
+  - rustup

@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/ThomasDickey/xterm-snapshots
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/xterm
+BIN=./xterm
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

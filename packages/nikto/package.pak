@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/sullo/nikto
+DEPENDENCIES=(perl)
+BUILDDIR=/tmp/pak/imports/nikto
+BIN=./program/nikto.pl
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

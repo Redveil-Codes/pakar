@@ -1,0 +1,11 @@
+name: obs-studio
+slug: obs-studio
+version: 31.0.1
+description: free and open source software for video recording and live streaming
+homepage: https://github.com/obsproject/obs-studio
+license: GPL-2.0
+maintainer: obsproject
+dependencies:
+  - cmake
+  - gcc
+  - make

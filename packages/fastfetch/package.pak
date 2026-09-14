@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/fastfetch-cli/fastfetch
-DEPENDENCIES=
+DEPENDENCIES=(cmake gcc make)
 BUILDDIR=/tmp/pak/imports/fastfetch
 BIN=./build/fastfetch
 LIB=0

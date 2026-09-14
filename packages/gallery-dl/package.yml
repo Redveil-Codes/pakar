@@ -1,0 +1,9 @@
+name: gallery-dl
+slug: gallery-dl
+version: 1.28.5
+description: command-line program to download image galleries and collections
+homepage: https://github.com/mikf/gallery-dl
+license: GPL-2.0
+maintainer: mikf
+dependencies:
+  - python

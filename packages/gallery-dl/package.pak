@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/mikf/gallery-dl
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/gallery-dl
+BIN=./gallery_dl/__main__.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

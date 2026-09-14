@@ -1,0 +1,9 @@
+name: cross-rs
+slug: cross-rs
+version: 0.2.5
+description: zero setup cross compilation for Rust
+homepage: https://github.com/cross-rs/cross
+license: MIT OR Apache-2.0
+maintainer: cross-rs
+dependencies:
+  - rustup

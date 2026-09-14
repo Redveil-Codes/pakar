@@ -1,0 +1,9 @@
+name: murex
+slug: murex
+version: 6.0.0
+description: a modern shell and command line for Linux, macOS and Windows
+homepage: https://murex.rocks/
+license: GPL-2.0
+maintainer: Laurence Morgan
+dependencies:
+  - go

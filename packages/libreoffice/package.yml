@@ -1,0 +1,10 @@
+name: LibreOffice
+slug: libreoffice
+version: 24.8.0
+description: full-featured free and open source office suite
+homepage: https://github.com/LibreOffice/core
+license: MPL-2.0
+maintainer: LibreOffice
+dependencies:
+  - autoconf
+  - make

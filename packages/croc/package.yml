@@ -1,0 +1,9 @@
+name: croc
+slug: croc
+version: 10.2.2
+description: easily and securely send things from one computer to another
+homepage: https://github.com/schollz/croc
+license: MIT
+maintainer: Zack Scholl
+dependencies:
+  - go

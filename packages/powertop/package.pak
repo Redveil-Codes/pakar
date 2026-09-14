@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/fenrus75/powertop
+DEPENDENCIES=(autoconf gcc make)
+BUILDDIR=/tmp/pak/imports/powertop
+BIN=./src/powertop
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./autogen.sh
+    ./configure
+    make
+)

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/containers/skopeo
+DEPENDENCIES=(make)
+BUILDDIR=/tmp/pak/imports/skopeo
+BIN=./bin/skopeo
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

@@ -1,0 +1,10 @@
+name: patchelf
+slug: patchelf
+version: 0.18.0
+description: a small utility to modify the dynamic linker and rpath of elf executables
+homepage: https://github.com/NixOS/patchelf
+license: GPL-3.0
+maintainer: NixOS
+dependencies:
+  - autoconf
+  - make

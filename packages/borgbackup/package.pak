@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/borgbackup/borg
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/borgbackup
+BIN=./src/borg/archiver.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    python setup.py build_ext --inplace
+)

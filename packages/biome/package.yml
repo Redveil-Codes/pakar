@@ -1,0 +1,9 @@
+name: biome
+slug: biome
+version: 1.9.4
+description: fast formatter and linter for web projects
+homepage: https://github.com/biomejs/biome
+license: MIT
+maintainer: biomejs
+dependencies:
+  - rustup

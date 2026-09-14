@@ -1,0 +1,11 @@
+name: wireshark
+slug: wireshark
+version: 4.4.6
+description: a network protocol analyzer
+homepage: https://gitlab.com/wireshark/wireshark
+license: GPL-2.0
+maintainer: wireshark
+dependencies:
+  - cmake
+  - gcc
+  - make

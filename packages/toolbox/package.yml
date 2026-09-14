@@ -1,0 +1,9 @@
+name: toolbox
+slug: toolbox
+version: 0.1.2
+description: containerized command line environments on top of podman
+homepage: https://github.com/containers/toolbox
+license: Apache-2.0
+maintainer: containers
+dependencies:
+  - go

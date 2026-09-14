@@ -1,0 +1,10 @@
+name: vim
+slug: vim
+version: 9.1
+description: a highly configurable, ubiquitous text editor
+homepage: https://github.com/vim/vim
+license: Vim
+maintainer: vim
+dependencies:
+  - gcc
+  - make

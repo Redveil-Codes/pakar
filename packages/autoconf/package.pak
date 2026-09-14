@@ -1,0 +1,12 @@
+CC=
+SRC=https://git.savannah.gnu.org/git/autoconf.git
+DEPENDENCIES=(perl make)
+BUILDDIR=/tmp/pak/imports/autoconf
+BIN=./bin/autoconf
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

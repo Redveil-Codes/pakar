@@ -1,0 +1,9 @@
+name: gdu
+slug: gdu
+version: 5.29.0
+description: fast disk usage analyzer with console interface
+homepage: https://github.com/dundee/gdu
+license: MIT
+maintainer: Daniel Milde
+dependencies:
+  - go

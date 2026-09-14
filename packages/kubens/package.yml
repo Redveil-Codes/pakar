@@ -1,0 +1,9 @@
+name: kubens
+slug: kubens
+version: 0.9.5
+description: a fast way to switch between Kubernetes namespaces
+homepage: https://github.com/ahmetb/kubectx
+license: Apache-2.0
+maintainer: ahmetb
+dependencies:
+  - go

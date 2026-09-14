@@ -1,0 +1,9 @@
+name: termusic
+slug: termusic
+version: 0.10.0
+description: terminal music and podcast player written in rust
+homepage: https://github.com/tramhao/termusic
+license: MIT
+maintainer: tramhao
+dependencies:
+  - rustup

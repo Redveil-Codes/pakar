@@ -1,0 +1,11 @@
+name: kanshi
+slug: kanshi
+version: 1.6.0
+description: dynamic output configuration daemon for wlroots-based Wayland compositors
+homepage: https://github.com/emersion/kanshi
+license: MIT
+maintainer: Simon Ficarra (emersion)
+dependencies:
+  - gcc
+  - meson
+  - ninja

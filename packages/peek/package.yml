@@ -1,0 +1,10 @@
+name: peek
+slug: peek
+version: 1.5.1
+description: simple animated gif screen recorder
+homepage: https://github.com/phw/peek
+license: GPL-3.0
+maintainer: phw
+dependencies:
+  - meson
+  - ninja

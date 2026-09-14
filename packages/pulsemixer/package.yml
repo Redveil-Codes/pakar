@@ -1,0 +1,8 @@
+name: pulsemixer
+slug: pulsemixer
+version: 1.5.1
+description: cli and curses mixer for pulseaudio
+homepage: https://github.com/GeorgeFilipkin/pulsemixer
+license: MIT
+maintainer: GeorgeFilipkin
+dependencies:

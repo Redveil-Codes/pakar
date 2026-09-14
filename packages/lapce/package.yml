@@ -1,0 +1,9 @@
+name: lapce
+slug: lapce
+version: 0.4.1
+description: a lightning-fast and powerful code editor written in Rust
+homepage: https://github.com/lapce/lapce
+license: Apache-2.0
+maintainer: Lapce Contributors
+dependencies:
+  - rustup

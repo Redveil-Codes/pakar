@@ -1,0 +1,11 @@
+name: yambar
+slug: yambar
+version: 1.10.0
+description: a minimalistic and configurable status panel for x11 and wayland
+homepage: https://codeberg.org/dnkl/yambar
+license: MIT
+maintainer: dnkl
+dependencies:
+  - gcc
+  - meson
+  - ninja

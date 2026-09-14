@@ -1,0 +1,10 @@
+name: kakoune
+slug: kakoune
+version: 2024.05.18
+description: a modal code editor with multiple selections at its core
+homepage: https://github.com/mawww/kakoune
+license: Unlicense
+maintainer: Maxime Coste
+dependencies:
+  - gcc
+  - make

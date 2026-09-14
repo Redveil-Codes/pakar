@@ -1,9 +1,12 @@
 name: cmatrix
 slug: cmatrix
-version: 2.0
+version: 2
 description: Terminal based Matrix rain animation
 homepage: https://github.com/abishekvashok/cmatrix
 license: GPL-3.0
 maintainer: abishekvashok
 dependencies:
+  - cmake
+  - gcc
+  - make
   - ncurses

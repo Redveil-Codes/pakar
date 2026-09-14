@@ -1,0 +1,11 @@
+name: kdenlive
+slug: kdenlive
+version: 24.12.1
+description: free and open source video editing software
+homepage: https://invent.kde.org/multimedia/kdenlive
+license: GPL-3.0
+maintainer: KDE
+dependencies:
+  - cmake
+  - gcc
+  - make

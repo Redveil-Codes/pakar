@@ -1,0 +1,9 @@
+name: rustscan
+slug: rustscan
+version: 2.4.1
+description: a fast, modern port scanner
+homepage: https://github.com/RustScan/RustScan
+license: GPL-3.0
+maintainer: RustScan
+dependencies:
+  - rustup

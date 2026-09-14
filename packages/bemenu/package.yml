@@ -1,0 +1,10 @@
+name: bemenu
+slug: bemenu
+version: 0.6.23
+description: a dynamic menu library and program inspired by dmenu, for X11 and Wayland
+homepage: https://github.com/Cloudef/bemenu
+license: MIT
+maintainer: Jari Vetoniemi
+dependencies:
+  - gcc
+  - make

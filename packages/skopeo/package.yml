@@ -1,0 +1,9 @@
+name: skopeo
+slug: skopeo
+version: 1.16.1
+description: a command-line tool for working with container images and registries
+homepage: https://github.com/containers/skopeo
+license: Apache-2.0
+maintainer: containers
+dependencies:
+  - make

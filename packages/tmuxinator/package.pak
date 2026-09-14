@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/tmuxinator/tmuxinator
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/tmuxinator
+BIN=./bin/tmuxinator
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

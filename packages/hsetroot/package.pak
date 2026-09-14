@@ -1,0 +1,11 @@
+CC=cc
+SRC=https://github.com/himdel/hsetroot
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/hsetroot
+BIN=./hsetroot
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

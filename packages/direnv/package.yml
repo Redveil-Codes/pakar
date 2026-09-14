@@ -6,3 +6,4 @@ homepage: https://github.com/direnv/direnv
 license: MIT
 maintainer: direnv
 dependencies:
+  - go

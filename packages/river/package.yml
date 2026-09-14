@@ -1,0 +1,9 @@
+name: river
+slug: river
+version: 0.3.7
+description: a dynamic tiling Wayland compositor
+homepage: https://github.com/riverwm/river
+license: GPL-3.0
+maintainer: riverwm
+dependencies:
+  - zig

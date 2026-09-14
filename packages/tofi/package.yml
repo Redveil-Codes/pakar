@@ -1,0 +1,11 @@
+name: tofi
+slug: tofi
+version: 0.9.1
+description: a dmenu replacement for wlroots based wayland compositors
+homepage: https://github.com/philj56/tofi
+license: MIT
+maintainer: philj56
+dependencies:
+  - gcc
+  - meson
+  - ninja

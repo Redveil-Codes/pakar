@@ -1,0 +1,9 @@
+name: swc
+slug: swc
+version: 1.7.26
+description: Rust-based platform for fast JavaScript and TypeScript compilation
+homepage: https://github.com/swc-project/swc
+license: Apache-2.0
+maintainer: swc-project
+dependencies:
+  - rustup

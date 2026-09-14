@@ -1,0 +1,11 @@
+name: suricata
+slug: suricata
+version: 7.0.7
+description: a network IDS, IPS, and network security monitoring engine
+homepage: https://github.com/OISF/suricata
+license: GPL-2.0
+maintainer: Open Information Security Foundation
+dependencies:
+  - autoconf
+  - gcc
+  - make

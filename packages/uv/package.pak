@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/astral-sh/uv
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/uv
+BIN=./target/release/uv
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

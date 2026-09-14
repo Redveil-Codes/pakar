@@ -1,0 +1,9 @@
+name: revive
+slug: revive
+version: 1.5.1
+description: fast, configurable, extensible linter for Go
+homepage: https://github.com/mgechev/revive
+license: MIT
+maintainer: mgechev
+dependencies:
+  - go

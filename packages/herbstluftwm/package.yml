@@ -1,0 +1,11 @@
+name: herbstluftwm
+slug: herbstluftwm
+version: 0.9.6
+description: manual tiling window manager for X11
+homepage: https://github.com/herbstluftwm/herbstluftwm
+license: BSD-2-Clause
+maintainer: Thorsten Wissmann
+dependencies:
+  - cmake
+  - gcc
+  - make

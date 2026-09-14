@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/JanDeDobbeleer/oh-my-posh
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/oh-my-posh
+BIN=./src/oh-my-posh
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd src
+    go build -o oh-my-posh .
+)

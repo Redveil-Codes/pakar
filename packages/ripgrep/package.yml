@@ -6,3 +6,4 @@ homepage: https://github.com/BurntSushi/ripgrep
 license: MIT OR Unlicense
 maintainer: BurntSushi
 dependencies:
+  - rustup

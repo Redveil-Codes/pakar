@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/vercel/hyper
+DEPENDENCIES=(yarn)
+BUILDDIR=/tmp/pak/imports/hyper
+BIN=./dist/linux-unpacked/hyper
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    yarn install
+    yarn run dist
+)

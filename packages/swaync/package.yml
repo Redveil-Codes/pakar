@@ -1,0 +1,11 @@
+name: swaync
+slug: swaync
+version: 0.10.1
+description: a notification center for Sway and other Wayland compositors
+homepage: https://github.com/ErikReider/SwayNotificationCenter
+license: GPL-3.0
+maintainer: Erik Reider
+dependencies:
+  - gcc
+  - meson
+  - ninja

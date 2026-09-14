@@ -1,0 +1,10 @@
+name: pngquant
+slug: pngquant
+version: 3.0.3
+description: lossy png compressor
+homepage: https://github.com/kornelski/pngquant
+license: GPL-3.0
+maintainer: kornelski
+dependencies:
+  - gcc
+  - make

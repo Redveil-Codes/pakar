@@ -1,0 +1,10 @@
+name: xterm
+slug: xterm
+version: 395
+description: the standard terminal emulator for the x window system
+homepage: https://github.com/ThomasDickey/xterm-snapshots
+license: MIT
+maintainer: ThomasDickey
+dependencies:
+  - gcc
+  - make

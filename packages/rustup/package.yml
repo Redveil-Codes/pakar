@@ -1,0 +1,8 @@
+name: rustup
+slug: rustup
+version: 1.27.1
+description: the rust toolchain installer
+homepage: https://github.com/rust-lang/rustup
+license: MIT
+maintainer: rust-lang
+dependencies:

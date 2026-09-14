@@ -1,0 +1,9 @@
+name: silicon
+slug: silicon
+version: 0.5.3
+description: create beautiful images of your source code, from the terminal
+homepage: https://github.com/Aloxaf/silicon
+license: MIT
+maintainer: Aloxaf
+dependencies:
+  - rustup

@@ -1,0 +1,9 @@
+name: caddy
+slug: caddy
+version: 2.9.1
+description: fast, extensible web server with automatic HTTPS
+homepage: https://github.com/caddyserver/caddy
+license: Apache-2.0
+maintainer: caddyserver
+dependencies:
+  - go

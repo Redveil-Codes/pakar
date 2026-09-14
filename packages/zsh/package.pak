@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/zsh-users/zsh
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/zsh
+BIN=./Src/zsh
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./Util/preconfig
+    ./configure
+    make
+)

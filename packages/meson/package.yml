@@ -1,0 +1,9 @@
+name: meson
+slug: meson
+version: 1.6.1
+description: fast and user friendly build system
+homepage: https://github.com/mesonbuild/meson
+license: Apache-2.0
+maintainer: mesonbuild
+dependencies:
+  - python

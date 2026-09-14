@@ -1,0 +1,9 @@
+name: deadbeef
+slug: deadbeef
+version: 1.9.6
+description: ultimate music player for gnu/linux
+homepage: https://github.com/DeaDBeeF-Player/deadbeef
+license: GPL-2.0
+maintainer: DeaDBeeF-Player
+dependencies:
+  - gcc

@@ -1,0 +1,9 @@
+name: wasm-pack
+slug: wasm-pack
+version: 0.13.1
+description: build Rust-generated WebAssembly for use with npm and the web
+homepage: https://github.com/rustwasm/wasm-pack
+license: MIT OR Apache-2.0
+maintainer: rustwasm
+dependencies:
+  - rustup

@@ -1,0 +1,10 @@
+name: clang
+slug: clang
+version: 19.1.6
+description: C language family frontend and tooling built on LLVM
+homepage: https://clang.llvm.org/
+license: Apache-2.0 WITH LLVM-exception
+maintainer: LLVM Project
+dependencies:
+  - cmake
+  - ninja

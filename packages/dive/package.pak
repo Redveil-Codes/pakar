@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/wagoodman/dive
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/dive
+BIN=./dive
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o dive .
+)

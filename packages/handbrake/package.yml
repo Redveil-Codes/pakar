@@ -1,0 +1,10 @@
+name: handbrake
+slug: handbrake
+version: 1.9.1
+description: open source video transcoder
+homepage: https://github.com/HandBrake/HandBrake
+license: GPL-2.0
+maintainer: HandBrake
+dependencies:
+  - gcc
+  - make

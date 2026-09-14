@@ -1,0 +1,8 @@
+name: theHarvester
+slug: theharvester
+version: 4.11.1
+description: OSINT tool for gathering emails, subdomains, hosts, and names from public sources
+homepage: https://github.com/laramies/theHarvester
+license: GPL-2.0-only
+maintainer: Christian Martorella
+dependencies:

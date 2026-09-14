@@ -1,0 +1,10 @@
+name: wireguard-tools
+slug: wireguard-tools
+version: 1.0.20250521
+description: userspace control utilities for the wireguard vpn
+homepage: https://github.com/WireGuard/wireguard-tools
+license: GPL-2.0
+maintainer: WireGuard
+dependencies:
+  - gcc
+  - make

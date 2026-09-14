@@ -1,0 +1,10 @@
+name: zeek
+slug: zeek
+version: 7.0.5
+description: a network security monitoring framework, formerly bro
+homepage: https://github.com/zeek/zeek
+license: BSD-3-Clause
+maintainer: zeek
+dependencies:
+  - gcc
+  - make

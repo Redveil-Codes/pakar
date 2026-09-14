@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://gitlab.freedesktop.org/xorg/app/xcompmgr
+DEPENDENCIES=(autoconf gcc make)
+BUILDDIR=/tmp/pak/imports/xcompmgr
+BIN=./xcompmgr
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./autogen.sh
+    ./configure
+    make
+)

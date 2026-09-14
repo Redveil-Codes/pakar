@@ -1,0 +1,11 @@
+name: shadowsocks-libev
+slug: shadowsocks-libev
+version: 3.3.5
+description: a lightweight secured SOCKS5 proxy, libev port of shadowsocks
+homepage: https://github.com/shadowsocks/shadowsocks-libev
+license: GPL-3.0
+maintainer: shadowsocks
+dependencies:
+  - autoconf
+  - gcc
+  - make

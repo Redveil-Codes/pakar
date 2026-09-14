@@ -1,0 +1,9 @@
+name: sqlmap
+slug: sqlmap
+version: 1.8.11
+description: an automatic SQL injection and database takeover tool
+homepage: https://github.com/sqlmapproject/sqlmap
+license: GPL-2.0
+maintainer: sqlmapproject
+dependencies:
+  - python

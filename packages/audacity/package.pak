@@ -1,0 +1,14 @@
+CC=gcc
+SRC=https://github.com/audacity/audacity
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/audacity
+BIN=./build/bin/Release/audacity
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

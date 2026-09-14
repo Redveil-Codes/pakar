@@ -1,0 +1,11 @@
+name: geany
+slug: geany
+version: 2
+description: fast and lightweight IDE using GTK
+homepage: https://github.com/geany/geany
+license: GPL-2.0
+maintainer: Geany developer team
+dependencies:
+  - autoconf
+  - gcc
+  - make

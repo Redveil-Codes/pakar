@@ -1,0 +1,11 @@
+CC=cc
+SRC=https://github.com/dunst-project/dunst
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/dunst
+BIN=./dunst
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

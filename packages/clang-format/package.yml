@@ -1,0 +1,10 @@
+name: clang-format
+slug: clang-format
+version: 19.1.6
+description: a tool to format c/c++/java/javascript/objective-c/protobuf/c# code, part of llvm
+homepage: https://llvm.org
+license: Apache-2.0
+maintainer: llvm
+dependencies:
+  - cmake
+  - ninja

@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/the-tcpdump-group/tcpdump
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/tcpdump
+BIN=./tcpdump
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

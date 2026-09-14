@@ -1,0 +1,8 @@
+name: Evil-WinRM
+slug: evil-winrm
+version: 4.1
+description: ultimate Windows Remote Management shell for pentesting
+homepage: https://github.com/Hackplayers/evil-winrm
+license: LGPL-3.0
+maintainer: Hackplayers
+dependencies:

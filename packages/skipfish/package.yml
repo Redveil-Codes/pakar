@@ -1,0 +1,10 @@
+name: Skipfish
+slug: skipfish
+version: 2.10b
+description: active web application security reconnaissance tool
+homepage: https://github.com/spinkham/skipfish
+license: Apache-2.0
+maintainer: spinkham
+dependencies:
+  - gcc
+  - make

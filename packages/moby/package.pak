@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/moby/moby
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/moby
+BIN=./dockerd
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o dockerd ./cmd/dockerd
+)

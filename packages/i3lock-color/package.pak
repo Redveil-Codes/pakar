@@ -1,0 +1,13 @@
+CC=cc
+SRC=https://github.com/Raymo111/i3lock-color
+DEPENDENCIES=(autoconf automake gcc make)
+BUILDDIR=/tmp/pak/imports/i3lock-color
+BIN=./i3lock
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    autoreconf -i
+    ./configure
+    make
+)

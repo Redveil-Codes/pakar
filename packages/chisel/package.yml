@@ -1,0 +1,9 @@
+name: Chisel
+slug: chisel
+version: 1.12.0
+description: fast TCP/UDP tunnel transported over HTTP
+homepage: https://github.com/jpillora/chisel
+license: MIT
+maintainer: Jaime Pillora (jpillora)
+dependencies:
+  - go

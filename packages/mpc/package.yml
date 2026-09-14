@@ -1,0 +1,11 @@
+name: mpc
+slug: mpc
+version: 0.35
+description: minimalist command line interface to mpd
+homepage: https://github.com/MusicPlayerDaemon/mpc
+license: GPL-2.0
+maintainer: MusicPlayerDaemon
+dependencies:
+  - gcc
+  - meson
+  - ninja

@@ -1,0 +1,13 @@
+CC=cc
+SRC=https://github.com/traviscross/mtr
+DEPENDENCIES=(autoconf gcc make)
+BUILDDIR=/tmp/pak/imports/mtr
+BIN=./mtr
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./bootstrap.sh
+    ./configure
+    make
+)

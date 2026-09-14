@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/ImageOptim/gifski
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/gifski
+BIN=./target/release/gifski
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

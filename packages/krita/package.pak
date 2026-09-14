@@ -1,0 +1,14 @@
+CC=gcc
+SRC=https://invent.kde.org/graphics/krita
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/krita
+BIN=./build/bin/krita
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

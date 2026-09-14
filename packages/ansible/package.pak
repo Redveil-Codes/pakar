@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/ansible/ansible
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/ansible
+BIN=./bin/ansible
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

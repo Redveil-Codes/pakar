@@ -1,0 +1,10 @@
+name: task-spooler
+slug: task-spooler
+version: 1.0.2
+description: a simple Unix batch job queue system (ts)
+homepage: https://github.com/justanhduc/task-spooler
+license: GPL-2.0
+maintainer: Lluis Batlle i Rosal
+dependencies:
+  - gcc
+  - make

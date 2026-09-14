@@ -1,0 +1,9 @@
+name: hexyl
+slug: hexyl
+version: 0.16.0
+description: a command-line hex viewer
+homepage: https://github.com/sharkdp/hexyl
+license: MIT
+maintainer: sharkdp
+dependencies:
+  - rustup

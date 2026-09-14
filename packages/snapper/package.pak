@@ -1,0 +1,13 @@
+CC=g++
+SRC=https://github.com/openSUSE/snapper
+DEPENDENCIES=(autoconf gcc make)
+BUILDDIR=/tmp/pak/imports/snapper
+BIN=./client/snapper
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./autogen.sh
+    ./configure
+    make
+)

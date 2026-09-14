@@ -1,0 +1,14 @@
+CC=gcc
+SRC=https://github.com/nihui/waifu2x-ncnn-vulkan
+DEPENDENCIES=(cmake gcc make)
+BUILDDIR=/tmp/pak/imports/waifu2x-ncnn-vulkan
+BIN=./build/waifu2x-ncnn-vulkan
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

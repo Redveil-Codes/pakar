@@ -1,0 +1,12 @@
+name: nitrogen
+slug: nitrogen
+version: 1.6.1
+description: a background browser and setter for X windows
+homepage: https://github.com/l3ib/nitrogen
+license: GPL-2.0
+maintainer: Dave Foster
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

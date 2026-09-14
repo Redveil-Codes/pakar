@@ -1,0 +1,11 @@
+name: testdisk
+slug: testdisk
+version: 7.2
+description: data recovery software to recover lost partitions and repair boot sectors
+homepage: https://github.com/cgsecurity/testdisk
+license: GPL-2.0
+maintainer: cgsecurity
+dependencies:
+  - autoconf
+  - gcc
+  - make

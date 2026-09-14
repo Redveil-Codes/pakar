@@ -1,0 +1,10 @@
+name: mold
+slug: mold
+version: 2.34.1
+description: modern, fast linker
+homepage: https://github.com/rui314/mold
+license: MIT
+maintainer: rui314
+dependencies:
+  - cmake
+  - gcc

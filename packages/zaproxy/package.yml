@@ -1,0 +1,8 @@
+name: zaproxy
+slug: zaproxy
+version: 2.16.1
+description: owasp zap, a web application security scanner
+homepage: https://github.com/zaproxy/zaproxy
+license: Apache-2.0
+maintainer: zaproxy
+dependencies:

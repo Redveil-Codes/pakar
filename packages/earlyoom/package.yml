@@ -1,0 +1,10 @@
+name: earlyoom
+slug: earlyoom
+version: 1.8.2
+description: a userspace out-of-memory killer that acts before the kernel OOM killer
+homepage: https://github.com/rfjakob/earlyoom
+license: MIT
+maintainer: Jakob Unterwurzacher
+dependencies:
+  - gcc
+  - make

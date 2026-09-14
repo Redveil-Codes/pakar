@@ -1,0 +1,9 @@
+name: Fierce
+slug: fierce
+version: 1.6.0
+description: domain scanner for locating non-contiguous IP space and hostnames
+homepage: https://github.com/mschwager/fierce
+license: GPL-3.0
+maintainer: Michael Schwager (mschwager)
+dependencies:
+  - python

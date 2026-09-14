@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/virt-manager/virt-manager
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/virt-manager
+BIN=./virt-manager
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

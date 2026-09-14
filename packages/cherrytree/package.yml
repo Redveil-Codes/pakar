@@ -1,0 +1,11 @@
+name: CherryTree
+slug: cherrytree
+version: 1.1.0
+description: hierarchical note-taking application with syntax highlighting
+homepage: https://github.com/giuspen/cherrytree
+license: GPL-3.0
+maintainer: giuspen
+dependencies:
+  - cmake
+  - gcc
+  - make

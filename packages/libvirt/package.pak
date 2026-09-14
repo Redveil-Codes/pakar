@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://gitlab.com/libvirt/libvirt
+DEPENDENCIES=(gcc meson ninja)
+BUILDDIR=/tmp/pak/imports/libvirt
+BIN=./build/tools/virsh
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    meson setup build
+    ninja -C build
+)

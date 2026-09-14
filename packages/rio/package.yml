@@ -1,0 +1,9 @@
+name: rio
+slug: rio
+version: 0.1.15
+description: a hardware-accelerated GPU terminal emulator
+homepage: https://github.com/raphamorim/rio
+license: MIT
+maintainer: raphamorim
+dependencies:
+  - rustup

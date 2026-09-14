@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/semgrep/semgrep
+DEPENDENCIES=(make)
+BUILDDIR=/tmp/pak/imports/semgrep
+BIN=./cli/bin/semgrep
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    git submodule update --init --recursive
+    make build
+)

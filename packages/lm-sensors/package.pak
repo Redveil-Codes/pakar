@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://github.com/lm-sensors/lm-sensors
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/lm-sensors
+BIN=./prog/sensors/sensors
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

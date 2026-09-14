@@ -6,3 +6,6 @@ homepage: https://github.com/yshui/picom
 license: MIT
 maintainer: yshui
 dependencies:
+  - gcc
+  - meson
+  - ninja

@@ -1,0 +1,10 @@
+name: protobuf
+slug: protobuf
+version: 29.2
+description: protocol buffers, google's data interchange format
+homepage: https://github.com/protocolbuffers/protobuf
+license: BSD-3-Clause
+maintainer: protocolbuffers
+dependencies:
+  - cmake
+  - make

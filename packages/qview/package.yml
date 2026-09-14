@@ -1,0 +1,10 @@
+name: qview
+slug: qview
+version: 6.1
+description: convenient and minimal image viewer
+homepage: https://github.com/jurplel/qView
+license: GPL-3.0
+maintainer: jurplel
+dependencies:
+  - gcc
+  - make

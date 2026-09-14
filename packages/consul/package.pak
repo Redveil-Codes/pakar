@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/hashicorp/consul
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/consul
+BIN=./consul
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o consul .
+)

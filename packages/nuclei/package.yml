@@ -1,0 +1,9 @@
+name: nuclei
+slug: nuclei
+version: 3.3.7
+description: a fast and customizable vulnerability scanner based on simple YAML templates
+homepage: https://github.com/projectdiscovery/nuclei
+license: MIT
+maintainer: ProjectDiscovery
+dependencies:
+  - go

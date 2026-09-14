@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/romkatv/powerlevel10k
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/powerlevel10k
+BIN=./powerlevel10k.zsh-theme
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

@@ -1,0 +1,9 @@
+name: go-task
+slug: go-task
+version: 3.40.1
+description: a task runner and build tool, simpler alternative to make
+homepage: https://github.com/go-task/task
+license: MIT
+maintainer: go-task
+dependencies:
+  - go

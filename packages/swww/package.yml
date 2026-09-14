@@ -1,0 +1,9 @@
+name: swww
+slug: swww
+version: 0.9.5
+description: an efficient animated wallpaper daemon for Wayland
+homepage: https://github.com/LGFae/swww
+license: GPL-3.0
+maintainer: LGFae
+dependencies:
+  - rustup

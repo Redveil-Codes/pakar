@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/aircrack-ng/aircrack-ng
+DEPENDENCIES=(autoconf automake gcc make)
+BUILDDIR=/tmp/pak/imports/aircrack-ng
+BIN=./src/aircrack-ng
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    autoreconf -i
+    ./configure
+    make
+)

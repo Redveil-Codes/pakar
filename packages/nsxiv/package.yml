@@ -1,0 +1,10 @@
+name: nsxiv
+slug: nsxiv
+version: 33
+description: neo simple x image viewer, a fork of sxiv
+homepage: https://github.com/nsxiv/nsxiv
+license: GPL-2.0
+maintainer: nsxiv
+dependencies:
+  - gcc
+  - make

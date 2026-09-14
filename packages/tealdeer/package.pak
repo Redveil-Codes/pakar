@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/tealdeer-rs/tealdeer
-DEPENDENCIES=
+DEPENDENCIES=(rustup)
 BUILDDIR=/tmp/pak/imports/tealdeer
 BIN=./target/release/tldr
 LIB=0

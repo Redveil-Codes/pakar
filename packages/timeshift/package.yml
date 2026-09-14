@@ -1,0 +1,11 @@
+name: timeshift
+slug: timeshift
+version: 24.01.1
+description: system restore tool that creates filesystem snapshots using rsync or btrfs
+homepage: https://github.com/linuxmint/timeshift
+license: GPL-3.0
+maintainer: linuxmint
+dependencies:
+  - cmake
+  - gcc
+  - make

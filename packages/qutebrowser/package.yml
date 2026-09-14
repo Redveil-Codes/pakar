@@ -1,0 +1,9 @@
+name: qutebrowser
+slug: qutebrowser
+version: 3.3.0
+description: keyboard-driven, vim-like browser based on python and qt
+homepage: https://github.com/qutebrowser/qutebrowser
+license: GPL-3.0
+maintainer: qutebrowser
+dependencies:
+  - python

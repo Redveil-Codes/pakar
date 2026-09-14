@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/apache/maven
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/maven
+BIN=./bin/mvn
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mvn -DskipTests package
+)

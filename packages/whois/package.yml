@@ -1,0 +1,10 @@
+name: whois
+slug: whois
+version: 5.5.24
+description: an intelligent client for the whois directory service protocol
+homepage: https://github.com/rfc1036/whois
+license: GPL-2.0
+maintainer: rfc1036
+dependencies:
+  - gcc
+  - make

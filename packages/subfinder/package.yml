@@ -1,0 +1,9 @@
+name: subfinder
+slug: subfinder
+version: 2.6.7
+description: a fast passive subdomain discovery tool
+homepage: https://github.com/projectdiscovery/subfinder
+license: MIT
+maintainer: ProjectDiscovery
+dependencies:
+  - go

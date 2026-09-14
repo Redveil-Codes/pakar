@@ -1,0 +1,9 @@
+name: dua
+slug: dua
+version: 2.29.0
+description: view disk space usage and interactively delete unwanted files
+homepage: https://github.com/Byron/dua-cli
+license: MIT
+maintainer: Byron
+dependencies:
+  - rustup

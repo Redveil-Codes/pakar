@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/stern/stern
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/stern
+BIN=./stern
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o stern ./cmd/stern
+)

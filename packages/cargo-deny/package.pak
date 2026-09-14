@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/EmbarkStudios/cargo-deny
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/cargo-deny
+BIN=./target/release/cargo-deny
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

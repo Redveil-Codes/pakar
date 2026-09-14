@@ -1,0 +1,10 @@
+name: cmake
+slug: cmake
+version: 3.31.2
+description: cross-platform, open-source build system generator
+homepage: https://github.com/Kitware/CMake
+license: BSD-3-Clause
+maintainer: Kitware
+dependencies:
+  - gcc
+  - make

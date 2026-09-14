@@ -1,0 +1,9 @@
+name: nomad
+slug: nomad
+version: 1.8.4
+description: a simple and flexible workload orchestrator to deploy and manage applications
+homepage: https://github.com/hashicorp/nomad
+license: MPL-2.0
+maintainer: HashiCorp
+dependencies:
+  - go

@@ -1,0 +1,9 @@
+name: checkov
+slug: checkov
+version: 3.2.257
+description: static code analysis tool for scanning infrastructure as code files
+homepage: https://github.com/bridgecrewio/checkov
+license: Apache-2.0
+maintainer: Bridgecrew
+dependencies:
+  - python

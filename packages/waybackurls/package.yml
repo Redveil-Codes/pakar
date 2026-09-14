@@ -1,0 +1,9 @@
+name: waybackurls
+slug: waybackurls
+version: 0.1.0
+description: fetch all URLs a domain is known to have had, from the Wayback Machine
+homepage: https://github.com/tomnomnom/waybackurls
+license: MIT
+maintainer: Tom Hudson (tomnomnom)
+dependencies:
+  - go

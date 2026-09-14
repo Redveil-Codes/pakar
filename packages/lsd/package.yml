@@ -6,3 +6,4 @@ homepage: https://github.com/lsd-rs/lsd
 license: Apache-2.0
 maintainer: lsd-rs
 dependencies:
+  - rustup

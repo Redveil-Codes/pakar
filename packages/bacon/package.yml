@@ -1,0 +1,9 @@
+name: bacon
+slug: bacon
+version: 3.9.0
+description: background rust code checker
+homepage: https://github.com/Canop/bacon
+license: Apache-2.0
+maintainer: Canop
+dependencies:
+  - rustup

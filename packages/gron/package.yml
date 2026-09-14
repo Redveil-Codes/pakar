@@ -1,0 +1,9 @@
+name: gron
+slug: gron
+version: 0.7.1
+description: make JSON greppable
+homepage: https://github.com/tomnomnom/gron
+license: MIT
+maintainer: Tom Hudson
+dependencies:
+  - go

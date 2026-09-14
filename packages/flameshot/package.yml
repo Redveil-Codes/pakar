@@ -1,0 +1,11 @@
+name: flameshot
+slug: flameshot
+version: 13.0.1
+description: powerful yet simple to use screenshot software
+homepage: https://github.com/flameshot-org/flameshot
+license: GPL-3.0
+maintainer: flameshot-org
+dependencies:
+  - cmake
+  - gcc
+  - make

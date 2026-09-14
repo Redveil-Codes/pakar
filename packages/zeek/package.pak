@@ -1,0 +1,12 @@
+CC=g++
+SRC=https://github.com/zeek/zeek
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/zeek
+BIN=./build/src/zeek
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make -C build -j16
+)

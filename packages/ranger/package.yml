@@ -6,3 +6,4 @@ homepage: https://github.com/ranger/ranger
 license: GPL-3.0
 maintainer: ranger
 dependencies:
+  - python

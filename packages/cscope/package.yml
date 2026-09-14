@@ -1,0 +1,10 @@
+name: cscope
+slug: cscope
+version: 15.9
+description: interactive C source code browsing tool
+homepage: https://cscope.sourceforge.net
+license: BSD-3-Clause
+maintainer: cscope-devel
+dependencies:
+  - gcc
+  - make

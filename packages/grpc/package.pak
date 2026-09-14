@@ -1,0 +1,14 @@
+CC=
+SRC=https://github.com/grpc/grpc
+DEPENDENCIES=(cmake make)
+BUILDDIR=/tmp/pak/imports/grpc
+BIN=./cmake/build/grpc_cli
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p cmake/build
+    cd cmake/build
+    cmake ../..
+    make -j16
+)

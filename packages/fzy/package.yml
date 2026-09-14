@@ -1,0 +1,10 @@
+name: fzy
+slug: fzy
+version: 1
+description: a fuzzy text selector for the terminal
+homepage: https://github.com/jhawthorn/fzy
+license: MIT
+maintainer: John Hawthorn
+dependencies:
+  - gcc
+  - make

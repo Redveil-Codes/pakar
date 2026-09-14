@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/crate-ci/typos
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/typos
+BIN=./target/release/typos
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

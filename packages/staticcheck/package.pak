@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/dominikh/go-tools
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/staticcheck
+BIN=./staticcheck
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o staticcheck ./cmd/staticcheck
+)

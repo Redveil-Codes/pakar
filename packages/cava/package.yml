@@ -1,0 +1,12 @@
+name: cava
+slug: cava
+version: 0.10.4
+description: cross-platform audio visualizer
+homepage: https://github.com/karlstav/cava
+license: MIT
+maintainer: karlstav
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

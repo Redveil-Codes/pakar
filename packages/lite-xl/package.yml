@@ -1,0 +1,11 @@
+name: lite-xl
+slug: lite-xl
+version: 2.1.5
+description: a lightweight text editor written in Lua
+homepage: https://github.com/lite-xl/lite-xl
+license: MIT
+maintainer: lite-xl Contributors
+dependencies:
+  - gcc
+  - meson
+  - ninja

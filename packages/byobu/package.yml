@@ -1,0 +1,9 @@
+name: byobu
+slug: byobu
+version: 6.2
+description: a text-based window manager and shell multiplexer wrapper around tmux/screen
+homepage: https://www.byobu.org
+license: GPL-3.0
+maintainer: Dustin Kirkland
+dependencies:
+  - make

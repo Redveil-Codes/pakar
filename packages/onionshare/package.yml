@@ -1,0 +1,9 @@
+name: onionshare
+slug: onionshare
+version: 2.6.2
+description: securely and anonymously share files, host websites, and chat over Tor
+homepage: https://onionshare.org/
+license: GPL-3.0
+maintainer: Micah Lee
+dependencies:
+  - python

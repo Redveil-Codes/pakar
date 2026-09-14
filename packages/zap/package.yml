@@ -1,0 +1,8 @@
+name: zap
+slug: zap
+version: 1.0
+description: a minimal and fast zsh plugin manager
+homepage: https://github.com/zap-zsh/zap
+license: MIT
+maintainer: zap-zsh
+dependencies:

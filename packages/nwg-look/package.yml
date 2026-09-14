@@ -1,0 +1,9 @@
+name: nwg-look
+slug: nwg-look
+version: 0.4.1
+description: a GTK3 settings editor to configure the look of wlroots-based compositors
+homepage: https://github.com/nwg-piotr/nwg-look
+license: MIT
+maintainer: Piotr Miller (nwg-piotr)
+dependencies:
+  - go

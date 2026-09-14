@@ -1,0 +1,11 @@
+CC=gcc
+SRC=https://github.com/xss-lock/xss-lock
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/xss-lock
+BIN=./xss-lock
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

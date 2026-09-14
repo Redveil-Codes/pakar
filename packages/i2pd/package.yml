@@ -1,0 +1,11 @@
+name: i2pd
+slug: i2pd
+version: 2.54.0
+description: C++ implementation of the I2P anonymous network router
+homepage: https://github.com/PurpleI2P/i2pd
+license: BSD-3-Clause
+maintainer: PurpleI2P
+dependencies:
+  - cmake
+  - gcc
+  - make

@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/vergoh/vnstat
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/vnstat
+BIN=./src/vnstat
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

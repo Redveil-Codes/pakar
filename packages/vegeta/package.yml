@@ -1,0 +1,9 @@
+name: vegeta
+slug: vegeta
+version: 12.11.1
+description: a versatile HTTP load testing tool
+homepage: https://github.com/tsenart/vegeta
+license: MIT
+maintainer: tsenart
+dependencies:
+  - go

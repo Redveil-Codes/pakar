@@ -6,4 +6,7 @@ homepage: https://github.com/htop-dev/htop
 license: GPL-2.0
 maintainer: htop-dev
 dependencies:
+  - autoconf
+  - gcc
+  - make
   - ncurses

@@ -1,0 +1,11 @@
+name: contour
+slug: contour
+version: 0.4.3
+description: a modern, GPU-accelerated terminal emulator
+homepage: https://github.com/contour-terminal/contour
+license: Apache-2.0
+maintainer: Christian Parpart
+dependencies:
+  - cmake
+  - gcc
+  - make

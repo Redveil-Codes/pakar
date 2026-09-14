@@ -1,0 +1,12 @@
+name: smartmontools
+slug: smartmontools
+version: 7.4
+description: control and monitor S.M.A.R.T. enabled storage devices
+homepage: https://www.smartmontools.org
+license: GPL-2.0
+maintainer: smartmontools
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

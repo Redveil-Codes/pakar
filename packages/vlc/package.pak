@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/videolan/vlc
+DEPENDENCIES=(autoconf gcc make)
+BUILDDIR=/tmp/pak/imports/vlc
+BIN=./vlc
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./bootstrap
+    ./configure
+    make
+)

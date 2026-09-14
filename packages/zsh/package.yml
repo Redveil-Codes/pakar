@@ -1,0 +1,10 @@
+name: zsh
+slug: zsh
+version: 5.9
+description: an extended bourne shell with many improvements
+homepage: https://github.com/zsh-users/zsh
+license: MIT
+maintainer: zsh-users
+dependencies:
+  - gcc
+  - make

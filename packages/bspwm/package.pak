@@ -1,0 +1,11 @@
+CC=cc
+SRC=https://github.com/baskerville/bspwm
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/bspwm
+BIN=./bspwm
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

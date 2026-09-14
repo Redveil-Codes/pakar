@@ -1,0 +1,11 @@
+name: openbox
+slug: openbox
+version: 3.6.1
+description: a lightweight, highly configurable, standards-compliant X11 window manager
+homepage: http://openbox.org/
+license: GPL-2.0
+maintainer: Dana Jansens / Openbox project
+dependencies:
+  - autoconf
+  - gcc
+  - make

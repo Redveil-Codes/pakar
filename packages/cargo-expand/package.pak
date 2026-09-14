@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/dtolnay/cargo-expand
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/cargo-expand
+BIN=./target/release/cargo-expand
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

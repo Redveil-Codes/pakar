@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/OpenAPITools/openapi-generator
+DEPENDENCIES=(maven)
+BUILDDIR=/tmp/pak/imports/openapi-generator
+BIN=./modules/openapi-generator-cli/target/openapi-generator-cli.jar
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mvn clean package
+)

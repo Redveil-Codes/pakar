@@ -1,0 +1,9 @@
+name: nerdctl
+slug: nerdctl
+version: 2.0.3
+description: a Docker-compatible CLI for containerd
+homepage: https://github.com/containerd/nerdctl
+license: Apache-2.0
+maintainer: containerd project
+dependencies:
+  - go

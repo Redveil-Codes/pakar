@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/hadolint/hadolint
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/hadolint
+BIN=./hadolint
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    stack build
+    stack install --local-bin-path .
+)

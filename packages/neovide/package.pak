@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/neovide/neovide
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/neovide
+BIN=./target/release/neovide
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

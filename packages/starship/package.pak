@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/starship/starship
-DEPENDENCIES=
+DEPENDENCIES=(rustup)
 BUILDDIR=/tmp/pak/imports/starship
 BIN=./target/release/starship
 LIB=0

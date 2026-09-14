@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/ekzhang/bore
+DEPENDENCIES=(rustup)
+BUILDDIR=/tmp/pak/imports/bore
+BIN=./target/release/bore
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

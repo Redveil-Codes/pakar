@@ -1,0 +1,10 @@
+name: nethogs
+slug: nethogs
+version: 0.8.7
+description: a per-process network bandwidth monitor for Linux
+homepage: https://github.com/raboof/nethogs
+license: GPL-2.0
+maintainer: Arnout Engelen
+dependencies:
+  - gcc
+  - make

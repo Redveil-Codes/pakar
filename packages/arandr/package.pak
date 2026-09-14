@@ -1,0 +1,11 @@
+CC=
+SRC=https://git.sr.ht/~chrysn/arandr
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/arandr
+BIN=./arandr
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

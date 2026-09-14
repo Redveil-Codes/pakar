@@ -1,0 +1,9 @@
+name: rip2
+slug: rip2
+version: 0.9.1
+description: a safe and ergonomic alternative to rm
+homepage: https://github.com/MilesCranmer/rip2
+license: MIT
+maintainer: MilesCranmer
+dependencies:
+  - rustup

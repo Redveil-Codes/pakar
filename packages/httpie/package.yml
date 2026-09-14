@@ -1,0 +1,9 @@
+name: HTTPie
+slug: httpie
+version: 3.2.4
+description: user-friendly command-line HTTP client
+homepage: https://github.com/httpie/cli
+license: BSD-3-Clause
+maintainer: HTTPie
+dependencies:
+  - python

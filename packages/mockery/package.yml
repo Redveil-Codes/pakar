@@ -1,0 +1,9 @@
+name: mockery
+slug: mockery
+version: 2.46.3
+description: mock code generator for Go interfaces
+homepage: https://github.com/vektra/mockery
+license: BSD-2-Clause
+maintainer: vektra
+dependencies:
+  - go

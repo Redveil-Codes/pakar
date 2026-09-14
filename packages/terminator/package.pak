@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/gnome-terminator/terminator
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/terminator
+BIN=./terminator
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

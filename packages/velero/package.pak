@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/vmware-tanzu/velero
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/velero
+BIN=./velero
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o velero .
+)

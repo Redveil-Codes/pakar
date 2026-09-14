@@ -1,0 +1,8 @@
+name: gradle
+slug: gradle
+version: 8.11.1
+description: build automation tool for multi-language software development
+homepage: https://github.com/gradle/gradle
+license: Apache-2.0
+maintainer: gradle
+dependencies:

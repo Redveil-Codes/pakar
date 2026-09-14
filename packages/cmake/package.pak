@@ -1,0 +1,12 @@
+CC=g++
+SRC=https://github.com/Kitware/CMake
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/cmake
+BIN=./bin/cmake
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./bootstrap
+    make
+)

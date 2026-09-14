@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/pnpm/pnpm
+DEPENDENCIES=(nodejs npm)
+BUILDDIR=/tmp/pak/imports/pnpm
+BIN=./dist/pnpm.cjs
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    npm install
+    npm run compile
+)

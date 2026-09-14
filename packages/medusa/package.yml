@@ -1,0 +1,10 @@
+name: Medusa
+slug: medusa
+version: 2.3
+description: speedy, massively parallel, modular login brute-forcer
+homepage: https://github.com/jmk-foofus/medusa
+license: GPL-2.0
+maintainer: JoMo-Kun / Foofus Networks
+dependencies:
+  - gcc
+  - make

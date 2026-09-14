@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/tailscale/tailscale
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/tailscale
+BIN=./tailscale
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build ./cmd/tailscale
+)

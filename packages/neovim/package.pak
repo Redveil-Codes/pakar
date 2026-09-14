@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/neovim/neovim
-DEPENDENCIES=
+DEPENDENCIES=(gcc make)
 BUILDDIR=/tmp/pak/imports/neovim
 BIN=./build/bin/nvim
 LIB=0

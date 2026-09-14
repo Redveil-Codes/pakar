@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/t6x/reaver-wps-fork-t6x
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/reaver
+BIN=./src/reaver
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd src
+    ./configure
+    make
+)

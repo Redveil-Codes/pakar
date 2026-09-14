@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://git.suckless.org/dwm
-DEPENDENCIES=
+DEPENDENCIES=(gcc make)
 BUILDDIR=/tmp/pak/imports/dwm
 BIN=./dwm
 LIB=0

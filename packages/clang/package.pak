@@ -1,0 +1,14 @@
+CC=
+SRC=https://github.com/llvm/llvm-project
+DEPENDENCIES=(cmake ninja)
+BUILDDIR=/tmp/pak/imports/clang
+BIN=./build/bin/clang
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake -G Ninja ../llvm -DLLVM_ENABLE_PROJECTS=clang
+    ninja clang
+)

@@ -1,0 +1,9 @@
+name: wezterm
+slug: wezterm
+version: 20240203
+description: a gpu-accelerated cross-platform terminal emulator and multiplexer
+homepage: https://github.com/wezterm/wezterm
+license: MIT
+maintainer: wezterm
+dependencies:
+  - rustup

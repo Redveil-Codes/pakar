@@ -1,0 +1,9 @@
+name: typos
+slug: typos
+version: 1.28.4
+description: source code spell checker, finds and corrects spelling mistakes among source code
+homepage: https://github.com/crate-ci/typos
+license: MIT
+maintainer: crate-ci
+dependencies:
+  - rustup

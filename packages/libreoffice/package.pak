@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/LibreOffice/core
+DEPENDENCIES=(autoconf make)
+BUILDDIR=/tmp/pak/imports/libreoffice
+BIN=./instdir/program/soffice
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./autogen.sh
+    make
+)

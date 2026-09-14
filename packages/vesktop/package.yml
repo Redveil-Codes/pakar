@@ -6,3 +6,4 @@ homepage: https://github.com/Vencord/Vesktop
 license: GPL-3.0
 maintainer: Vencord
 dependencies:
+  - pnpm

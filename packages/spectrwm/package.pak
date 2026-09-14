@@ -1,0 +1,12 @@
+CC=cc
+SRC=https://github.com/conformal/spectrwm
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/spectrwm
+BIN=./linux/spectrwm
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cd linux
+    make
+)

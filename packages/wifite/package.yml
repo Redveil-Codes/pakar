@@ -1,0 +1,8 @@
+name: Wifite
+slug: wifite
+version: 2.2.5
+description: automated wireless network auditing tool
+homepage: https://github.com/derv82/wifite2
+license: GPL-2.0
+maintainer: Derv Merkler (derv82)
+dependencies:

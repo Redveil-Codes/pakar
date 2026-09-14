@@ -6,3 +6,4 @@ homepage: https://github.com/tealdeer-rs/tealdeer
 license: MIT
 maintainer: tealdeer-rs
 dependencies:
+  - rustup

@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/Eugeny/tabby
+DEPENDENCIES=(nodejs yarn)
+BUILDDIR=/tmp/pak/imports/tabby
+BIN=./app/dist/main.js
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    yarn install
+    yarn build
+)

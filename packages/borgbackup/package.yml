@@ -1,0 +1,9 @@
+name: borgbackup
+slug: borgbackup
+version: 1.4.0
+description: a deduplicating backup program with optional compression and encryption
+homepage: https://github.com/borgbackup/borg
+license: BSD-3-Clause
+maintainer: The Borg Collective
+dependencies:
+  - python

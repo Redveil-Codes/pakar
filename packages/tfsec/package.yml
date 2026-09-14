@@ -1,0 +1,9 @@
+name: tfsec
+slug: tfsec
+version: 1.28.10
+description: a static analysis security scanner for Terraform code
+homepage: https://github.com/aquasecurity/tfsec
+license: MIT
+maintainer: Aqua Security
+dependencies:
+  - go

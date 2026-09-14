@@ -1,0 +1,9 @@
+name: hugo
+slug: hugo
+version: 0.139.3
+description: fast and flexible static site generator
+homepage: https://github.com/gohugoio/hugo
+license: Apache-2.0
+maintainer: gohugoio
+dependencies:
+  - go

@@ -1,0 +1,10 @@
+name: sysstat
+slug: sysstat
+version: 12.7.6
+description: performance monitoring tools for Linux
+homepage: https://github.com/sysstat/sysstat
+license: GPL-2.0
+maintainer: Sebastien Godard
+dependencies:
+  - gcc
+  - make

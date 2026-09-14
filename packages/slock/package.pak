@@ -1,0 +1,11 @@
+CC=cc
+SRC=https://git.suckless.org/slock
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/slock
+BIN=./slock
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

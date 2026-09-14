@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/hashicorp/packer
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/packer
+BIN=./packer
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o packer .
+)

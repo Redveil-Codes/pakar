@@ -1,0 +1,11 @@
+name: notepadqq
+slug: notepadqq
+version: 2.2.0
+description: a Notepad++-like text editor for Linux and macOS
+homepage: https://github.com/notepadqq/notepadqq
+license: GPL-3.0
+maintainer: Notepadqq team
+dependencies:
+  - cmake
+  - gcc
+  - make

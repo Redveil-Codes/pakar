@@ -1,0 +1,12 @@
+name: arp-scan
+slug: arp-scan
+version: 1.10.0
+description: a tool for discovering and fingerprinting hosts on a local network using ARP
+homepage: https://github.com/royhills/arp-scan
+license: GPL-3.0
+maintainer: Roy Hills
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

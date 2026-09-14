@@ -6,3 +6,4 @@ homepage: https://github.com/ajeetdsouza/zoxide
 license: MIT
 maintainer: ajeetdsouza
 dependencies:
+  - rustup

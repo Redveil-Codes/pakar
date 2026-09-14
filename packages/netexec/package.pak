@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/Pennyw0rth/NetExec
+DEPENDENCIES=(python)
+BUILDDIR=/tmp/pak/imports/netexec
+BIN=./nxc/netexec.py
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

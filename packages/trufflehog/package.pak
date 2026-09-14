@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/trufflesecurity/trufflehog
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/trufflehog
+BIN=./trufflehog
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o trufflehog .
+)

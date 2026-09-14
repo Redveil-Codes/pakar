@@ -1,0 +1,13 @@
+CC=g++
+SRC=https://github.com/l3ib/nitrogen
+DEPENDENCIES=(autoconf automake gcc make)
+BUILDDIR=/tmp/pak/imports/nitrogen
+BIN=./src/nitrogen
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    autoreconf -fi
+    ./configure
+    make
+)

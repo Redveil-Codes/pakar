@@ -1,0 +1,10 @@
+name: ne
+slug: ne
+version: 3.3.4
+description: the nice editor, an easy to use, fast, and powerful terminal text editor
+homepage: https://github.com/vigna/ne
+license: GPL-3.0
+maintainer: Sebastiano Vigna
+dependencies:
+  - gcc
+  - make

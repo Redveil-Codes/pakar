@@ -1,0 +1,9 @@
+name: broot
+slug: broot
+version: 1.44.4
+description: a new way to see and navigate directory trees
+homepage: https://github.com/Canop/broot
+license: MIT
+maintainer: Canop
+dependencies:
+  - rustup

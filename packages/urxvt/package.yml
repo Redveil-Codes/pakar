@@ -1,0 +1,12 @@
+name: urxvt
+slug: urxvt
+version: 9.31
+description: unicode-enabled fork of the rxvt terminal emulator
+homepage: https://github.com/exg/rxvt-unicode
+license: GPL-2.0
+maintainer: schmorp
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

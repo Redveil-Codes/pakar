@@ -1,0 +1,9 @@
+name: Kerbrute
+slug: kerbrute
+version: 1.0.3
+description: tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos pre-auth
+homepage: https://github.com/ropnop/kerbrute
+license: Apache-2.0
+maintainer: Ronnie Flathers (ropnop)
+dependencies:
+  - go

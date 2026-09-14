@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/bminor/binutils-gdb
+DEPENDENCIES=(make)
+BUILDDIR=/tmp/pak/imports/gdb
+BIN=./gdb/gdb
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./configure
+    make
+)

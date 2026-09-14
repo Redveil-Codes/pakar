@@ -1,0 +1,9 @@
+name: eww
+slug: eww
+version: 0.6.0
+description: ElKowar's Wacky Widgets, a standalone widget system for Wayland and X11
+homepage: https://github.com/elkowar/eww
+license: MIT
+maintainer: Leon Kowarschick (ElKowar)
+dependencies:
+  - rustup

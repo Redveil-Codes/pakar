@@ -1,6 +1,6 @@
 CC=
 SRC=https://github.com/ranger/ranger
-DEPENDENCIES=
+DEPENDENCIES=(python)
 BUILDDIR=/tmp/pak/imports/ranger
 BIN=./ranger.py
 LIB=0

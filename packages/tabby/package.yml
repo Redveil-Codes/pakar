@@ -1,0 +1,10 @@
+name: tabby
+slug: tabby
+version: 1.0.219
+description: a highly configurable terminal emulator, SSH and serial client
+homepage: https://github.com/Eugeny/tabby
+license: MIT
+maintainer: Eugeny
+dependencies:
+  - nodejs
+  - yarn

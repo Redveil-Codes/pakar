@@ -1,0 +1,9 @@
+name: DNSRecon
+slug: dnsrecon
+version: 1.6.3
+description: DNS enumeration and scanning script
+homepage: https://github.com/darkoperator/dnsrecon
+license: GPL-2.0
+maintainer: Carlos Perez (darkoperator)
+dependencies:
+  - python

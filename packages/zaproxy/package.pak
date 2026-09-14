@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/zaproxy/zaproxy
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/zaproxy
+BIN=./zap/build/libs/zap.jar
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./gradlew :zap:jar
+)

@@ -1,0 +1,9 @@
+name: trunk
+slug: trunk
+version: 0.21.4
+description: WASM web application bundler for Rust
+homepage: https://github.com/trunk-rs/trunk
+license: MIT OR Apache-2.0
+maintainer: trunk-rs
+dependencies:
+  - rustup

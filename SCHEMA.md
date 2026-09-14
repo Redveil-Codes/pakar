@@ -17,9 +17,11 @@ YAML. Fields, in the order `new-package.sh` writes them:
 | `homepage` | yes | upstream project URL |
 | `license` | yes | SPDX identifier if there is one (`MIT`, `GPL-3.0`, `X11`, ...) |
 | `maintainer` | yes | the upstream project's maintainer, not whoever wrote this package definition — that's already in git history (submitter/last packager) |
-| `dependencies` | no | YAML list of other package slugs in this repo, empty by default |
+| `dependencies` | no | YAML list of other package slugs in this repo, empty by default. **Includes the build toolchain**, not just linked libraries — see below |
 
-Example (`packages/cmatrix/package.yml`):
+The build toolchain (compilers, `make`, `cmake`, `meson`/`ninja`, `cargo`/`rustup`, `go`, `npm`/`pnpm`/`yarn`, `python`, `autoconf`/`automake`, ...) is not assumed to pre-exist on the machine doing the build. If `BUILD_SCRIPT` invokes it, list it as a dependency — the same as any linked library the built binary needs. Most of these toolchains are themselves ordinary packages in this repo (see `packages/cmake`, `packages/go`, `packages/rustup`, `packages/npm`, etc.), so a chain of toolchain dependencies should resolve all the way down without cycles.
+
+Example (`packages/cmatrix/package.yml`) — needs `cmake`+`make` to run its build script, `gcc` to compile it, and `ncurses` as a linked library:
 
 ```yaml
 name: cmatrix
@@ -30,6 +32,9 @@ homepage: https://github.com/abishekvashok/cmatrix
 license: GPL-3.0
 maintainer: abishekvashok
 dependencies:
+  - cmake
+  - gcc
+  - make
   - ncurses
 ```
 
@@ -54,7 +59,7 @@ Example (`packages/cmatrix/package.pak`):
 ```
 CC=gcc
 SRC=https://github.com/abishekvashok/cmatrix
-DEPENDENCIES=(ncurses)
+DEPENDENCIES=(cmake gcc make ncurses)
 BUILDDIR=/tmp/pak/imports/cmatrix
 BIN=./build/cmatrix
 LIB=0

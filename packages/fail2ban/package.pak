@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/fail2ban/fail2ban
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/fail2ban
+BIN=./bin/fail2ban-client
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)

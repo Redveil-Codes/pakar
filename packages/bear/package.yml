@@ -1,0 +1,10 @@
+name: Bear
+slug: bear
+version: 3.1.6
+description: tool to generate compile_commands.json for Clang tooling
+homepage: https://github.com/rizsotto/Bear
+license: GPL-3.0-or-later
+maintainer: Laszlo Nagy
+dependencies:
+  - cmake
+  - gcc

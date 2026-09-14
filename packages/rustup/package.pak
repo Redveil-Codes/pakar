@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/rust-lang/rustup
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/rustup
+BIN=./target/release/rustup-init
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

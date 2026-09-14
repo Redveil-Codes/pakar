@@ -1,0 +1,11 @@
+CC=cc
+SRC=https://github.com/martanne/vis
+DEPENDENCIES=(gcc make)
+BUILDDIR=/tmp/pak/imports/vis
+BIN=./vis
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    make
+)

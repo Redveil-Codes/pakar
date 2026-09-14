@@ -1,0 +1,9 @@
+name: rclone
+slug: rclone
+version: 1.68.1
+description: a command-line program to manage files on cloud storage
+homepage: https://github.com/rclone/rclone
+license: MIT
+maintainer: rclone
+dependencies:
+  - go

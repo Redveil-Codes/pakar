@@ -1,0 +1,12 @@
+name: bind-tools
+slug: bind-tools
+version: 9.20.4
+description: DNS utilities (dig, host, nslookup) from the ISC BIND9 distribution
+homepage: https://gitlab.isc.org/isc-projects/bind9
+license: MPL-2.0
+maintainer: Internet Systems Consortium
+dependencies:
+  - autoconf
+  - automake
+  - gcc
+  - make

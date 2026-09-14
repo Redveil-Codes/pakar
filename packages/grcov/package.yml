@@ -1,0 +1,9 @@
+name: grcov
+slug: grcov
+version: 0.8.19
+description: rust source code coverage tool used by mozilla
+homepage: https://github.com/mozilla/grcov
+license: MIT OR Apache-2.0
+maintainer: mozilla
+dependencies:
+  - rustup

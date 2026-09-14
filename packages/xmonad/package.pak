@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/xmonad/xmonad
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/xmonad
+BIN=./xmonad
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cabal build
+)

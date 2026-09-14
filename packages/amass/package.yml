@@ -1,0 +1,9 @@
+name: amass
+slug: amass
+version: 4.2.0
+description: in-depth attack surface mapping and asset discovery (OWASP Amass)
+homepage: https://github.com/owasp-amass/amass
+license: Apache-2.0
+maintainer: OWASP Amass Project
+dependencies:
+  - go

@@ -6,3 +6,4 @@ homepage: https://github.com/cli/cli
 license: MIT
 maintainer: cli
 dependencies:
+  - make

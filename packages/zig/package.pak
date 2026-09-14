@@ -1,0 +1,14 @@
+CC=
+SRC=https://github.com/ziglang/zig
+DEPENDENCIES=(cmake make)
+BUILDDIR=/tmp/pak/imports/zig
+BIN=./build/stage3/bin/zig
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    mkdir -p build
+    cd build
+    cmake ..
+    make -j16
+)

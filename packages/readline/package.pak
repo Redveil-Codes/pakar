@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://git.savannah.gnu.org/git/readline.git
-DEPENDENCIES=
+DEPENDENCIES=(gcc make)
 BUILDDIR=/tmp/pak/imports/readline
 BIN=./examples/rl
 LIB=./shlib/libreadline.so

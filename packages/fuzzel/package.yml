@@ -1,0 +1,11 @@
+name: fuzzel
+slug: fuzzel
+version: 1.11.0
+description: application launcher for wayland, similar to rofi's drun mode
+homepage: https://codeberg.org/dnkl/fuzzel
+license: MIT
+maintainer: Daniel Eklof
+dependencies:
+  - gcc
+  - meson
+  - ninja

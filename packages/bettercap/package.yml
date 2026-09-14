@@ -1,0 +1,9 @@
+name: bettercap
+slug: bettercap
+version: 2.32.0
+description: a Swiss army knife for network attacks and monitoring
+homepage: https://github.com/bettercap/bettercap
+license: GPL-3.0
+maintainer: Simone Margaritelli
+dependencies:
+  - go

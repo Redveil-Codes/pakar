@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/mgechev/revive
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/revive
+BIN=./revive
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o revive .
+)

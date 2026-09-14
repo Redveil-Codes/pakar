@@ -6,3 +6,4 @@ homepage: https://github.com/sharkdp/bat
 license: MIT OR Apache-2.0
 maintainer: sharkdp
 dependencies:
+  - rustup

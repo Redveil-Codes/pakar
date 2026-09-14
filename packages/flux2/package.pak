@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/fluxcd/flux2
+DEPENDENCIES=(go)
+BUILDDIR=/tmp/pak/imports/flux2
+BIN=./flux
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o flux ./cmd/flux
+)

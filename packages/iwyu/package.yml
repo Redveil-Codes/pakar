@@ -1,0 +1,10 @@
+name: include-what-you-use
+slug: iwyu
+version: 0.22
+description: analysis tool for C/C++
+homepage: https://include-what-you-use.org
+license: NCSA
+maintainer: include-what-you-use team
+dependencies:
+  - clang
+  - cmake

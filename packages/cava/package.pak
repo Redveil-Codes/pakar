@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/karlstav/cava
+DEPENDENCIES=(autoconf automake gcc make)
+BUILDDIR=/tmp/pak/imports/cava
+BIN=./cava
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    autoreconf -fi
+    ./configure
+    make
+)

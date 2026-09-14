@@ -1,0 +1,9 @@
+name: dog
+slug: dog
+version: 0.1.0
+description: a command-line DNS client, styled as a modern alternative to dig
+homepage: https://github.com/ogham/dog
+license: EUPL-1.2
+maintainer: Benjamin Sago
+dependencies:
+  - rustup

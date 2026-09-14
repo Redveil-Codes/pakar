@@ -1,0 +1,9 @@
+name: topgrade
+slug: topgrade
+version: 17.11.0
+description: upgrade all the things, one command for every package manager on the system
+homepage: https://github.com/topgrade-rs/topgrade
+license: GPL-3.0
+maintainer: topgrade-rs
+dependencies:
+  - rustup

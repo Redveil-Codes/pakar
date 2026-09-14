@@ -1,6 +1,6 @@
 CC=gcc
 SRC=https://github.com/polybar/polybar
-DEPENDENCIES=
+DEPENDENCIES=(cmake gcc make)
 BUILDDIR=/tmp/pak/imports/polybar
 BIN=./build/bin/polybar
 LIB=0

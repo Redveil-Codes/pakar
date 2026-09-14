@@ -1,0 +1,10 @@
+name: cmus
+slug: cmus
+version: 2.11.0
+description: small, fast and powerful console music player
+homepage: https://github.com/cmus/cmus
+license: GPL-2.0
+maintainer: cmus
+dependencies:
+  - gcc
+  - make

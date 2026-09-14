@@ -1,0 +1,9 @@
+name: TriliumNext Notes
+slug: trilium
+version: 0.90.4
+description: hierarchical note-taking app with focus on building large knowledge bases
+homepage: https://github.com/TriliumNext/Notes
+license: AGPL-3.0
+maintainer: TriliumNext
+dependencies:
+  - pnpm

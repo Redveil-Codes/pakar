@@ -1,0 +1,10 @@
+name: tcpdump
+slug: tcpdump
+version: 4.99.5
+description: a command-line packet analyzer
+homepage: https://github.com/the-tcpdump-group/tcpdump
+license: BSD-3-Clause
+maintainer: The Tcpdump Group
+dependencies:
+  - gcc
+  - make

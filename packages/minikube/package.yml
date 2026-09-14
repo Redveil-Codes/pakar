@@ -1,0 +1,9 @@
+name: minikube
+slug: minikube
+version: 1.34.0
+description: a tool that runs a local Kubernetes cluster
+homepage: https://minikube.sigs.k8s.io/
+license: Apache-2.0
+maintainer: Kubernetes minikube Contributors
+dependencies:
+  - go

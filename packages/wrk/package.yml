@@ -1,0 +1,10 @@
+name: wrk
+slug: wrk
+version: 4.2.0
+description: a modern HTTP benchmarking tool
+homepage: https://github.com/wg/wrk
+license: Apache-2.0
+maintainer: Will Glozer
+dependencies:
+  - gcc
+  - make

@@ -1,0 +1,9 @@
+name: gitleaks
+slug: gitleaks
+version: 8.21.2
+description: detect hardcoded secrets and credentials in git repos
+homepage: https://github.com/gitleaks/gitleaks
+license: MIT
+maintainer: gitleaks
+dependencies:
+  - go

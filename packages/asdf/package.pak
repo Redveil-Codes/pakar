@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/asdf-vm/asdf
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/asdf
+BIN=./asdf.sh
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    true
+)
