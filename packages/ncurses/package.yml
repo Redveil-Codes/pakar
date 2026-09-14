@@ -4,4 +4,5 @@ version: 6.4
 description: Library for text-based user interfaces
 homepage: https://invisible-island.net/ncurses/
 license: X11
+maintainer: ThomasDickey
 dependencies:
