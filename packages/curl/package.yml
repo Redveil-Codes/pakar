@@ -1,0 +1,8 @@
+name: curl
+slug: curl
+version: 8.11.0
+description: command-line tool and library for transferring data with urls
+homepage: https://github.com/curl/curl
+license: curl
+maintainer: bagder
+dependencies:

@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/dandavison/delta
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/delta
+BIN=./target/release/delta
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    cargo build --release
+)

@@ -1,0 +1,8 @@
+name: vesktop
+slug: vesktop
+version: 1.5.5
+description: cross-platform electron-based discord client with vencord built in
+homepage: https://github.com/Vencord/Vesktop
+license: GPL-3.0
+maintainer: Vencord
+dependencies:

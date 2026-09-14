@@ -1,0 +1,8 @@
+name: vscodium
+slug: vscodium
+version: 1.95.3
+description: binary releases of vs code without ms branding, telemetry, and licensing
+homepage: https://github.com/VSCodium/vscodium
+license: MIT
+maintainer: VSCodium
+dependencies:

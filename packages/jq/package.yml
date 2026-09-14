@@ -1,0 +1,8 @@
+name: jq
+slug: jq
+version: 1.7.1
+description: command-line json processor
+homepage: https://github.com/jqlang/jq
+license: MIT
+maintainer: jqlang
+dependencies:

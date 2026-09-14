@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/Vencord/Vesktop
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/vesktop
+BIN=./dist/vesktop
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    pnpm install
+    pnpm build
+)

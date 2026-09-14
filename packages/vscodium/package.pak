@@ -1,0 +1,12 @@
+CC=
+SRC=https://github.com/VSCodium/vscodium
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/vscodium
+BIN=./VSCode-linux-x64/bin/codium
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    ./get_repo.sh
+    ./build.sh
+)

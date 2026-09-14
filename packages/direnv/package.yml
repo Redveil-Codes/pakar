@@ -1,0 +1,8 @@
+name: direnv
+slug: direnv
+version: 2.35.0
+description: unclutter your .profile, per-directory environment loader
+homepage: https://github.com/direnv/direnv
+license: MIT
+maintainer: direnv
+dependencies:

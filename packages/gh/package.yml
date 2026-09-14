@@ -1,0 +1,8 @@
+name: gh
+slug: gh
+version: 2.62.0
+description: github's official command line tool
+homepage: https://github.com/cli/cli
+license: MIT
+maintainer: cli
+dependencies:

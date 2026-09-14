@@ -1,0 +1,13 @@
+CC=gcc
+SRC=https://github.com/jqlang/jq
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/jq
+BIN=./jq
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    autoreconf -fi
+    ./configure
+    make
+)

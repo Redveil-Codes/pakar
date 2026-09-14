@@ -1,0 +1,8 @@
+name: ranger
+slug: ranger
+version: 1.9.3
+description: vim-inspired filemanager for the console
+homepage: https://github.com/ranger/ranger
+license: GPL-3.0
+maintainer: ranger
+dependencies:

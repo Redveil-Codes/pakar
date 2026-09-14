@@ -1,0 +1,8 @@
+name: delta
+slug: delta
+version: 0.18.2
+description: syntax-highlighting pager for git, diff, and grep output
+homepage: https://github.com/dandavison/delta
+license: MIT
+maintainer: dandavison
+dependencies:

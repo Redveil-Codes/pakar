@@ -1,0 +1,11 @@
+CC=
+SRC=https://github.com/direnv/direnv
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/direnv
+BIN=./direnv
+LIB=0
+INSTALL_BIN=y
+INSTALL_LIB=n
+BUILD_SCRIPT=(
+    go build -o direnv .
+)

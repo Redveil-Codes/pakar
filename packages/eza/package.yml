@@ -1,0 +1,8 @@
+name: eza
+slug: eza
+version: 0.20.0
+description: modern, maintained replacement for ls
+homepage: https://github.com/eza-community/eza
+license: MIT
+maintainer: eza-community
+dependencies:
