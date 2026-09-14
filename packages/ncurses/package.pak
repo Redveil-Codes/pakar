@@ -1,0 +1,12 @@
+CC=gcc
+SRC=https://github.com/mirror/ncurses
+DEPENDENCIES=
+BUILDDIR=/tmp/pak/imports/ncurses
+BIN=./progs/tic
+LIB=./lib
+INSTALL_BIN=y
+INSTALL_LIB=y
+BUILD_SCRIPT=(
+    ./configure --with-shared
+    make -j16
+)

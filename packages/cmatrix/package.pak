@@ -3,6 +3,7 @@ SRC=https://github.com/abishekvashok/cmatrix
 DEPENDENCIES=(ncurses)
 BUILDDIR=/tmp/pak/imports/cmatrix
 BIN=./build/cmatrix
+LIB=0
 INSTALL_BIN=y
 INSTALL_LIB=n
 BUILD_SCRIPT=(

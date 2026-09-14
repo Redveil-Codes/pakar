@@ -3,6 +3,7 @@ SRC=https://github.com/dylanaraps/neofetch
 DEPENDENCIES=
 BUILDDIR=/tmp/pak/imports/neofetch
 BIN=./neofetch
+LIB=0
 INSTALL_BIN=y
 INSTALL_LIB=n
 BUILD_SCRIPT=(
